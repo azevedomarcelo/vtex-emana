@@ -33,7 +33,7 @@
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
-    "emana.store-theme": "https://adjusts--emana.myvtex.com/_v/private/typings/linked/v1/emana.store-theme@0.0.0+build1732642053/public/@types/emana.store-theme",
+    "emana.store-theme": "https://dev--emana.myvtex.com/_v/private/typings/linked/v1/emana.store-theme@0.0.0+build1732194502/public/@types/emana.store-theme",
     "graphql": "^14.6.0",
     "typescript": "3.9.7",
     "vtex.add-to-cart-button": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.add-to-cart-button@0.30.2/public/@types/vtex.add-to-cart-button",
