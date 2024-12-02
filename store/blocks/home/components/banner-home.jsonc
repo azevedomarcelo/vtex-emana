@@ -15,13 +15,13 @@
 			"width": "100%",
 			"images": [
 				{
-					"image": "arquivos/home-banner-principal.png",
-					"mobileImage": "arquivos/home-banner-principal-mobile.png",
+					"image": "arquivos/Emana_Desktop__BF_SEMANA_04_Barrinhas_2.png",
+					"mobileImage": "arquivos/Emana_Mobile__BF_SEMANA_04_Barrinhas.png",
 					"link": "/"
 				},
 				{
-					"image": "arquivos/home-banner-principal.png",
-					"mobileImage": "arquivos/home-banner-principal-mobile.png",
+					"image": "arquivos/Emana_Desktop__BF_SEMANA_04_Barrinhas_proteína.png",
+					"mobileImage": "arquivos/Emana_Mobile__BF_SEMANA_04_Frete_Gratis.png",
 					"link": "/"
 				}
 			]
