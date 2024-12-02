@@ -1,0 +1,69 @@
+{
+    "menu-item#07": {
+        "props": {
+          "id": "menu-item-about-us",
+          "type": "category",
+          "blockClass": [
+            "menu-item"
+          ],
+          "highlight": false,
+          "itemProps": {
+            "categoryId": 20307,
+            "text": "Shots Funcionais"
+          },
+          "iconProps": {
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#07"
+        ]
+    },
+    "vtex.menu@2.x:submenu#07": {
+        "children": [
+            "vtex.menu@2.x:menu#07"
+        ]
+    },
+    "vtex.menu@2.x:menu#07": {
+        "children": [
+            "menu-item#07-01"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    // ============ segundo nível do menu ============
+    "menu-item#07-01": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "category",
+            "blockClass": [
+                "menu-item"
+            ],
+            "highlight": false,
+            "itemProps": {
+                "categoryId": 20311,
+                "text": "Barrinhas"
+            },
+            "iconProps": {
+                
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#07-01"
+        ]
+    },
+    "vtex.menu@2.x:submenu#07-01": {
+        "children": [
+            "vtex.menu@2.x:menu#07-01"
+        ]
+    },
+    "vtex.menu@2.x:menu#07-01": {
+        "children": [
+            "rich-text#teste"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

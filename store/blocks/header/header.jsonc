@@ -1,0 +1,165 @@
+{
+	"header": {
+		"blocks": ["header-layout.desktop", "header-layout.mobile"]
+	},
+	"header.full": {
+		"blocks": ["header-layout.desktop", "header-layout.mobile"]
+	},
+	"header-layout.desktop": {
+		"title": "Header",
+		"children": ["sticky-layout#desktop"]
+	},
+	"sticky-layout#desktop": {
+		"props": {
+			"blockClass": "sticky-header"
+		},
+		"children": ["flex-layout.row#desktop"]
+	},
+	"flex-layout.row#desktop": {
+		"props": {
+			"fullWidth": true
+		},
+		"children": ["flex-layout.col#header"]
+	},
+	"flex-layout.col#header": {
+		"props": {
+			"fullWidth": true,
+			"blockClass": ["header-col"]
+		},
+		"children": [
+			"flex-layout.row#top-bar",
+			"flex-layout.row#middle",
+			"custom-menu"
+		]
+	},
+	"flex-layout.row#middle": {
+		"title": "Row - Header Meio",
+		"children": [
+			"flex-layout.row#logo-desktop",
+			"flex-layout.row#search-bar",
+			"flex-layout.row#right-side-header"
+		],
+		"props": {
+			"blockClass": ["container-middle"]
+		}
+	},
+
+	"flex-layout.row#right-side-header": {
+		"title": "Row - Header lado direito",
+		"children": [
+			"rich-text#prescritores",
+			"flex-layout.col#header-wishlist",
+			"login",
+			"minicart.v2"
+		],
+		"props": {
+			"fullWidth": true,
+			"blockClass": "right-side-header"
+		}
+	},
+
+	"rich-text#prescritores": {
+		"title": "Prescritores",
+		"props": {
+			"text": "[Prescritores](/institucionais/prescritores)",
+			"blockClass": ["prescritores"]
+		}
+	},
+
+	"flex-layout.col#header-wishlist": {
+		"props": {
+			"verticalAlign": "middle",
+			"preventVerticalStretch": true,
+			"preventHorizontalStretch": true
+		},
+		"children": ["menu-item#menu-header-wishlist"]
+	},
+	"menu-item#menu-header-wishlist": {
+		"props": {
+			"id": "menu-header-wishlist",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"blockClass": "header-wishlist",
+			"itemProps": {
+				"type": "internal",
+				"href": "/wishlist",
+				"noFollow": false,
+				"tagTitle": "Wishlist",
+				"text": ""
+			},
+			"iconProps": {
+				"id": "mpa-heart",
+				"size": 0,
+				"viewBox": "0 0 24.5 22"
+			}
+		}
+	},
+	"flex-layout.col#spacer": {
+		"props": {
+			"width": "grow"
+		}
+	},
+	"flex-layout.row#logo-desktop": {
+		"props": {
+			"verticalAlign": "middle",
+			"colSizing": "auto"
+		},
+		"children": ["logo"]
+	},
+	"logo": {
+		"props": {
+			"title": "Logo Emana",
+			"href": "/",
+			"url": "https://emana.vtexassets.com/arquivos/logo-emana.png",
+			"width": "220",
+			"blockClass": "header__logo"
+		}
+	},
+	"flex-layout.row#logo-mobile": {
+		"props": {
+			"verticalAlign": "middle",
+			"horizontalAlign": "center"
+		},
+		"children": ["logo#footer"]
+	},
+	"logo#footer": {
+		"props": {
+			"title": "Logo Emana",
+			"href": "/",
+			"url": "https://emana.vtexassets.com/arquivos/logo-emana.png",
+			"width": "177",
+			"blockClass": "logo-footer"
+		}
+	},
+	"header-layout.mobile": {
+		"children": ["flex-layout.row#top-bar", "sticky-layout#mobile"]
+	},
+	"sticky-layout#mobile": {
+		"children": ["flex-layout.row#mobile"],
+		"props": {
+			"blockClass": "main-header-mobile"
+		}
+	},
+	"flex-layout.row#mobile": {
+		"children": [
+			"logo",
+			"flex-layout.col#spacer",
+			"menu-item#menu-header-wishlist",
+			"minicart.v2",
+			"drawer"
+		],
+		"props": {
+			"blockClass": "main-header-mobile",
+			"preventHorizontalStretch": true,
+			"preserveLayoutOnMobile": true,
+			"fullWidth": true
+		}
+	},
+	"drawer": {
+		"props": {
+			"slideDirection": "rightToLeft"
+		},
+		"children": []
+	}
+}

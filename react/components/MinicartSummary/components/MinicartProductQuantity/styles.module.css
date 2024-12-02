@@ -1,0 +1,31 @@
+.t-minicart-product-quantityContainer {
+  position: fixed;
+  top: 12px;
+  left: 24px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.t-minicart-product-quantityImage {
+  display: flex;
+  align-items: center;
+}
+
+.t-minicart-product-quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16px;
+  width: 16px;
+
+  font-family: 'Albert Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: var(--color-white);
+
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}

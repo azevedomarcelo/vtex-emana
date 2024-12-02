@@ -1,0 +1,126 @@
+{
+  "flex-layout.row#navegue-por-categoria": {
+    "title": "Row - Navegue por categoria",
+    "props": {
+      "fullWidth": true,
+      "blockClass": "navegue-por-categoria-row"
+    },
+    "children": [
+      "flex-layout.col#navegue-por-categoria-col"
+    ]
+  },
+  "flex-layout.col#navegue-por-categoria-col": {
+    "title": "Col - Navegue por categoria",
+    "props": {
+      "blockClass": "navegue-por-categoria-col"
+    },
+    "children": [
+      "rich-text#navegue-por-categoria",
+      "flex-layout.row#cards"
+    ]
+  },
+
+  "rich-text#navegue-por-categoria": {
+    "title": "Titulo - Navegue por categoria",
+    "props": {
+      "text": "NAVEGUE __POR CATEGORIAS__",
+      "blockClass": [
+        "navegue-por-categoria-title"
+      ]
+    }
+  },
+  
+  "flex-layout.row#cards": {
+    "title": "Row - Cards",
+    "props": {
+      "blockClass": "info-card-container"
+    },
+    "children": [
+      "slider-layout#cards"
+    ]
+  },
+
+  "slider-layout#cards": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "mobileOnly",
+      "blockClass": ["home-slider", "home-slider-no-gap"]
+    },
+    "children": ["info-card#1", "info-card#2", "info-card#3", "info-card#4"]
+  },
+
+
+  "info-card#1": {
+    "title": "Info Card 1",
+    "props": {
+      "id": "info-card-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "arquivos/_NUTRIÇÃO%20E%20BEM-ESTAR_.jpg",
+      "headline": "",
+      "callToActionText": "Nutrição e Bem-estar",
+      "callToActionUrl": "/nutricao-e-bem-estar",
+      "blockClass": "info-card-1",
+      "textAlignment": "center",
+      "fetchpriority": "auto",
+      "preload": true
+    }
+  },
+
+  "info-card#2": {
+    "title": "Info Card 2",
+    "props": {
+      "id": "info-card-2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "arquivos/_PERFORMANCE%20E%20ENERGIA_.jpg",
+      "headline": "",
+      "callToActionText": "Performance e Energia",
+      "callToActionUrl": "/performance-e-energia",
+      "blockClass": "info-card-2",
+      "textAlignment": "center",
+      "fetchpriority": "auto",
+      "preload": true
+    }
+  },
+
+  "info-card#3": {
+    "title": "Info Card 3",
+    "props": {
+      "id": "info-card-3",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "arquivos/_RELAXAMENTO%20E%20MENTE_.jpg",
+      "headline": "",
+      "callToActionText": "Relaxamento e Mente",
+      "callToActionUrl": "/relaxamento-e-mente",
+      "blockClass": "info-card-3",
+      "textAlignment": "center",
+      "fetchpriority": "auto",
+      "preload": true
+    }
+  },
+
+  "info-card#4": {
+    "title": "Info Card 4",
+    "props": {
+      "id": "info-card-4",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "arquivos/_PRA%20CADA%20UM_.jpg",
+      "headline": "",
+      "callToActionText": "Para Cada Um",
+      "callToActionUrl": "/para-cada-um",
+      "blockClass": "info-card-4",
+      "textAlignment": "center",
+      "fetchpriority": "auto",
+      "preload": true
+    }
+  }
+}

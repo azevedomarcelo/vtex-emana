@@ -1,0 +1,111 @@
+.headingLevel3--prescritores-title {
+  font-family: Sequel Sans;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;  
+  color: #010101;
+  margin: 112px 100px 40px 100px;
+}
+
+.wrapper--prescritores-description {
+  margin: 0 100px;
+  font-family: Sequel Sans;
+  font-size: 30px;
+  line-height: 35.4px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #5A5555;
+}
+
+.wrapper--login-link,
+.wrapper--login-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph--login-container {
+  font-family: Sequel Sans;
+  font-size: 30px;
+  white-space: nowrap;
+  color: #010101;
+  font-weight: bold;
+  line-height: 35.4px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.paragraph--cadastro-link,
+.paragraph--login-link {
+  width: 279px;
+  height: 47px;
+  border-radius: 40px;
+  font-family: Sequel Sans;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23.6px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-content: center;
+  background-color: #5A5555;
+}
+
+.link--cadastro-link,
+.link--login-link {
+  color: #FFFFAA;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper--cadastro-link,
+  .wrapper--prescritores-title {
+    width: 100%;
+  }
+  
+  .headingLevel3--prescritores-title {
+    font-family: Sequel Sans;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 23.6px;
+    text-align: center;
+    color: #010101;
+    margin: 74px auto 36px;
+  }
+  
+  .wrapper--prescritores-description {
+    margin: 0;
+    color: #5A5555;
+    font-family: Sequel Sans;
+    font-size: 20px;
+    font-weight: 8;
+    line-height: 23.6px;
+    text-align: center;
+  }
+
+  .paragraph--cadastro-link,
+  .paragraph--login-link {
+    width: 100%;
+    height: 29.69px;
+  }
+  
+  .paragraph--cadastro-container,
+  .paragraph--login-container {
+    white-space: unset;
+    font-family: Sequel Sans;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 23.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}

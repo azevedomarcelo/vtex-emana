@@ -1,0 +1,70 @@
+{
+    // ============ primeiro nível do menu ============
+    "menu-item#04": {
+        "props": {
+          "id": "menu-item-about-us",
+          "type": "category",
+          "blockClass": [
+            "menu-item"
+          ],
+          "highlight": false,
+          "itemProps": {
+            "categoryId": 20313,
+            "text": "Gel de Carboidrato"
+          },
+          "iconProps": {
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#04"
+        ]
+    },
+    "vtex.menu@2.x:submenu#04": {
+        "children": [
+            "vtex.menu@2.x:menu#04"
+        ]
+    },
+    "vtex.menu@2.x:menu#04": {
+        "children": [
+          "menu-item#04-01"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    // ============ segundo nível do menu ============
+    "menu-item#04-01": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "category",
+            "blockClass": [
+                "menu-item"
+            ],
+            "highlight": false,
+            "itemProps": {
+                "categoryId": 20311,
+                "text": "Barrinhas"
+            },
+            "iconProps": {
+                
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#04-01"
+        ]
+    },
+    "vtex.menu@2.x:submenu#04-01": {
+        "children": [
+            "vtex.menu@2.x:menu#04-01"
+        ]
+    },
+    "vtex.menu@2.x:menu#04-01": {
+        "children": [
+            "rich-text#teste"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

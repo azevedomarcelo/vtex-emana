@@ -1,0 +1,21 @@
+{
+	"vtex.product-highlights@2.x:product-highlights#collection": {
+		"title": "Coleção de Produtos Destaques",
+		"props": {
+			"type": "collection",
+			"blockClass": "product-card-tags"
+		},
+		"children": ["product-highlight-wrapper"]
+	},
+	"product-highlight-wrapper": {
+		"props": {
+			"blockClass": "collection"
+		},
+		"children": ["product-highlight-text"]
+	},
+	"product-highlight-text": {
+		"props": {
+			"message": "{highlightName}"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+.wrapper--sticky-header {
+  height: auto !important;
+} 
+
+@media screen and (max-width: 768px) {
+  .wrapper--main-header-mobile {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .wrapper--stuck, .wrapper {
+    height: 75px !important;
+    background-color: #EBE6DC;
+    place-content: center;
+  }
+
+  .wrapper--stuck .container {
+    position: unset;
+  }
+}

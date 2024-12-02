@@ -1,0 +1,246 @@
+.paragraph--info-title {
+  font-size: 80px;
+  line-height: 94.4px;
+}
+
+.strong--info-title {
+  font-style: italic;
+}
+
+.link--info-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 219px;
+  height: 39px;
+  border-radius: 52px;
+  background-color: #FFFF5A;
+  color: #010101;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.wrapper--shelf-title {
+  width: 100%;
+}
+
+.headingLevel3--shelf-title {
+  margin-left: 100px;
+  text-align: left;
+}
+
+.paragraph--nossos-selos-de-qualidade-title,
+.paragraph--apaixonados-por-emana-title,
+.paragraph--para-voce-title,
+.paragraph--seu-objetivo,
+.paragraph--navegue-por-categoria-title,
+.paragraph--em-alta {
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.wrapper--newsletter-title {
+  width: 457px;
+}
+.paragraph--newsletter-title {
+  font-size: 30px;
+}
+
+.headingLevel5--newsletter-title {
+  font-size: 18px;
+}
+
+.headingLevel1--404 {
+  position: relative;
+  font-family: Sequel Sans;
+  font-size: 300px;
+  font-weight: 400;
+  line-height: 354px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #5A5555;
+  margin: 0;
+
+  &::before { 
+    content: "ERRO";
+    font-family: Sequel Sans;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: center;
+    position: absolute;
+    right: 45%;
+    letter-spacing: 1px;
+    top: 0;
+  }
+
+  &::after {
+    content: ":(";
+    font-family: Sequel Sans;
+    font-size: 46px;
+    line-height: 54.28px;
+    text-align: center;
+    background-color: #FFFF5A;
+    border-radius: 50px;
+    display: inline-block;
+    width: 67px;
+    height: 67px;
+    letter-spacing: 3px;
+  }
+}
+
+
+@media (min-width: 960px) {
+  .container--seu-objetivo {
+    justify-content: left;
+  }
+
+  .container--navegue-por-categoria-title {
+    padding-left: 8vw;
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .container--info-link {
+    place-content: center;
+    margin-bottom: 35px;
+  }
+
+  .wrapper--shelf-title,
+  .wrapper--qual-seu-objetivo-mobile,
+  .wrapper--nossos-selos-de-qualidade-title,
+  .wrapper--apaixonados-por-emana-title,
+  .wrapper--para-voce-title,
+  .wrapper--seu-objetivo,
+  .wrapper--navegue-por-categoria-title,
+  .wrapper--info-title ,
+  .wrapper--em-alta {
+    width: 100%;
+  }
+  
+  .paragraph--info-title {
+    font-size: 50px;
+    text-align: center;
+    line-height: 59px;
+    width: 342px;
+    margin: 30px auto 24px;
+    color: #000;
+  }
+  
+  .headingLevel3--shelf-title,
+  .paragraph--nossos-selos-de-qualidade-title,
+  .paragraph--apaixonados-por-emana-title,
+  .paragraph--para-voce-title,
+  .paragraph--seu-objetivo,
+  .paragraph--navegue-por-categoria-title,
+  .paragraph--em-alta {
+    font-size: 20px;
+    text-align: center;
+    margin: 70px 0 30px;
+  }
+  .wrapper--qual-seu-objetivo-mobile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .paragraph--qual-seu-objetivo-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    width: 245px;
+    height: 52px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    font-weight: bold;
+  }
+
+  .wrapper--newsletter-title {
+    padding: 24px 70px 4px;
+  }
+
+  .paragraph--newsletter-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .headingLevel5--newsletter-title {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .headingLevel1--404 {
+    position: relative;
+    font-family: Sequel Sans;
+    font-size: 160px;
+    font-weight: 400;
+    line-height: 188px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #5A5555;
+    margin: 0;
+  
+    &::before { 
+      content: "ERRO";
+      font-family: Sequel Sans;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 5px;
+      text-align: center;
+      position: absolute;
+      right: 35%;
+      letter-spacing: 1px;
+      top: 0;
+    }
+  
+    &::after {
+      content: ":(";
+      font-family: Sequel Sans;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      background-color: #FFFF5A;
+      border-radius: 50px;
+      display: inline-block;
+      width: 33px;
+      height: 33px;
+      letter-spacing: 3px;
+    }
+  }
+
+  .headingLevel2--ops-not-found {
+    font-family: Sequel Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35.4px;
+    text-align: center;
+  }
+
+  .paragraph--search-suggestion {
+    font-family: Sequel Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.6px;
+    text-align: center;
+    padding: 0 48px;
+    color: #5A5555;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  
+}
+
+@media screen and (max-width: 1366px) {
+
+}
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1600px) {
+
+}

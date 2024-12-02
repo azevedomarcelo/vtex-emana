@@ -1,0 +1,8 @@
+{
+  "breadcrumb#pdp": {
+    "props": {
+      "homeIconSize": 0,
+      "caretIconSize": 12
+    }
+  }
+}

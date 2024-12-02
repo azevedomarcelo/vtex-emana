@@ -1,0 +1,111 @@
+.flexCol--left-content-block {
+  position: relative;
+}
+
+.flexColChild--left-content-block {
+  :global(.vtex-store-components-3-x-shareContainer) {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+  
+  :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+
+    :global(.vtex-wish-list-1-x-outline) {
+      background: url("data:image/svg+xml,%3Csvg width='24' height='21' viewBox='0 0 24 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11.9547 18.84C8.02414 16.2291 -0.121111 10.0332 1.83944 4.66136C2.52184 2.78934 4.17038 1.44266 6.13497 1.15116C6.4012 1.11151 6.66967 1.09169 6.93859 1.09169C8.62124 1.09169 10.2689 1.87023 11.5551 3.29846C11.7549 3.52013 12.0952 3.53725 12.3161 3.33675C12.3295 3.32459 12.3421 3.31197 12.3542 3.29846C13.8452 1.64315 15.8206 0.860557 17.7744 1.15116C19.739 1.44266 21.3875 2.78934 22.0699 4.66136C24.0305 10.0332 15.8848 16.2291 11.9547 18.84ZM17.9324 0.0815642C16.7674 -0.0860386 15.579 0.0567843 14.4867 0.496516C13.543 0.87993 12.6829 1.44446 11.9547 2.15858C11.2265 1.44446 10.3663 0.87993 9.42261 0.496516C8.33032 0.0567843 7.14196 -0.0860386 5.97694 0.0815642C3.62176 0.431187 1.6455 2.04594 0.827515 4.28966C-0.174087 7.03438 0.868369 10.1503 3.92525 13.5511C6.32173 16.2165 9.45449 18.4963 11.6606 19.9398C11.8393 20.0569 12.0701 20.0569 12.2487 19.9398C14.4549 18.4963 17.5876 16.2165 19.9841 13.5511C23.041 10.1503 24.0834 7.03438 23.0818 4.28966C22.2639 2.04594 20.2876 0.431187 17.9324 0.0815642Z' fill='%235A5555'/%3E%3C/svg%3E%0A") no-repeat center;
+    }
+
+    :global(.vtex-button) {
+      :global(.vtex-wish-list-1-x-fill) {
+        background: url("data:image/svg+xml,%3Csvg width='24' height='21' viewBox='0 0 24 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11.9547 18.84C8.02414 16.2291 -0.121111 10.0332 1.83944 4.66136C2.52184 2.78934 4.17038 1.44266 6.13497 1.15116C6.4012 1.11151 6.66967 1.09169 6.93859 1.09169C8.62124 1.09169 10.2689 1.87023 11.5551 3.29846C11.7549 3.52013 12.0952 3.53725 12.3161 3.33675C12.3295 3.32459 12.3421 3.31197 12.3542 3.29846C13.8452 1.64315 15.8206 0.860557 17.7744 1.15116C19.739 1.44266 21.3875 2.78934 22.0699 4.66136C24.0305 10.0332 15.8848 16.2291 11.9547 18.84ZM17.9324 0.0815642C16.7674 -0.0860386 15.579 0.0567843 14.4867 a0.496516C13.543 0.87993 12.6829 1.44446 11.9547 2.15858C11.2265 1.44446 10.3663 0.87993 9.42261 0.496516C8.33032 0.0567843 7.14196 -0.0860386 5.97694 0.0815642C3.62176 0.431187 1.6455 2.04594 0.827515 4.28966C-0.174087 7.03438 0.868369 10.1503 3.92525 13.5511C6.32173 16.2165 9.45449 18.4963 11.6606 19.9398C11.8393 20.0569 12.0701 20.0569 12.2487 19.9398C14.4549 18.4963 17.5876 16.2165 19.9841 13.5511C23.041 10.1503 24.0834 7.03438 23.0818 4.28966C22.2639 2.04594 20.2876 0.431187 17.9324 0.0815642Z' fill='%235A5555'/%3E%3C/svg%3E%0A") no-repeat center;
+      }
+    }
+  }
+}
+
+.flexCol--col-right {
+  max-width: 435px;
+  margin-right: auto;
+}
+
+.flexRowContent--main-content-block {
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.flexRow--product-description-installments {
+  width: 241px;
+}
+
+.flexRowContent--product-description-installments {
+  align-items: center;
+}
+
+.flexRow--row-qty-btn-banner {
+  margin-top: 18px;
+}
+
+.flexRowContent--row-qty-btn-banner {
+  gap: 16px;
+}
+
+.flexColChild--shelf-buttons,
+.flexColChild--button-container {
+  :global(.vtex-button) {
+    border-radius: 50px;
+    width: 170px;
+    height: 32px;
+  }
+}
+
+.flexCol--button-container {
+  gap: 6px;
+  height: fit-content;
+}
+
+.flexRowContent--add-to-cart {
+  :global(.vtex-button) {
+    background-color: #5A555580;
+    border: 0;
+    color: #EBE6DC;
+  }
+}
+
+.flexRowContent--buy-button {
+  :global(.vtex-button) {
+    background-color: #010101;
+    border: 0;
+    color: #EBE6DC;
+  }
+}
+
+.flexRowContent--buy-button-shelf {
+  :global(.vtex-button) {
+    background-color: #FFFF5A;
+    color: #000;
+    font-weight: bold;
+    border: 0;
+  }
+}
+
+.flexRowContent--add-to-cart-shelf {
+  :global(.vtex-button) {
+    background-color: #EBE6DC;
+    border: 0;
+    color: #5A5555;
+  }
+}
+
+
+.flexRowContent--row-description-disclosure {
+  padding: 0 99px;
+  margin: 60px 0;
+}
+
+.flexCol--col-description-disclosure {
+  gap: 1rem;
+}

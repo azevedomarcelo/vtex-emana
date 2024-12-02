@@ -1,0 +1,88 @@
+{
+    // ============ primeiro nível do menu ============
+    "menu-item#01": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "category",
+            "blockClass": [
+                "menu-item"
+            ],
+            "highlight": false,
+            "itemProps": {
+                "categoryId": 20311,
+                "text": "Barrinhas"
+            },
+            "iconProps": {
+                
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#01"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu#01": {
+        "children": [
+            "vtex.menu@2.x:menu#01"
+        ]
+    },
+    "vtex.menu@2.x:menu#01": {
+        "children": [
+            "menu-item#01-01"
+        ],
+        "props": {
+          "orientation": "vertical",
+          "blockClass": ["submenu"]
+        }
+    },
+
+    // ============ segundo nível do menu ============
+    "menu-item#01-01": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "category",
+            "blockClass": [
+                "subitem"
+            ],
+            "highlight": false,
+            "itemProps": {
+                "categoryId": 20311,
+                "text": "Barrinhas"
+            },
+            "iconProps": {
+                
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#01-01"
+        ]
+    },
+    "vtex.menu@2.x:submenu#01-01": {
+        "children": [
+            "vtex.menu@2.x:menu#01-01"
+        ]
+    },
+    "vtex.menu@2.x:menu#01-01": {
+        "children": [
+            "image#menu-01-left"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "subitem"
+            ]
+        }
+    },
+    "image#menu-01-left": {
+      "props": {
+        "src": "https://emana.vtexassets.com/arquivos/ids/155751/EMN0618231485567_98.jpg?v=638671160198470000",
+        "blockClass": ["menu-image-01"]
+      }
+    },
+    "image#menu-01-right": {
+        "props": {
+            "src": "https://emana.vtexassets.com/arquivos/ids/155751/EMN0618231485567_98.jpg?v=638671160198470000",
+            "blockClass": ["menu-image-02"]
+        }
+    }
+}

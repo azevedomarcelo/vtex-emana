@@ -1,0 +1,28 @@
+{
+	"store.custom#prescritores": {
+		"title": "Prescritores",
+		"blocks": [
+			"responsive-layout.desktop#prescritores",
+			"responsive-layout.mobile#prescritores",
+			"flex-layout.row#newsletter"
+		]
+	},
+
+	"responsive-layout.desktop#prescritores": {
+		"title": "[Desktop]",
+		"children": [
+			"flex-layout.row#banner-prescritores",
+			"flex-layout.row#row-texto-seo-prescritores",
+			"flex-layout.row#login-container-prescritores"
+		]
+	},
+
+	"responsive-layout.mobile#prescritores": {
+		"title": "[Mobile]",
+		"children": [
+			"flex-layout.row#banner-prescritores",
+			"flex-layout.row#row-texto-seo-prescritores",
+			"flex-layout.row#login-container-prescritores-mobile"
+		]
+	}
+}

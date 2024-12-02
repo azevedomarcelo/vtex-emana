@@ -1,0 +1,26 @@
+{
+
+  "vtex.menu@2.x:menu#principal-menu": {
+    "title": "Menu",
+    "children": [
+      "menu-item#01",
+      "menu-item#02",
+      "menu-item#03",
+      "menu-item#04",
+      "menu-item#05",
+      "menu-item#06",
+      "menu-item#07"
+    ],
+    "props": {
+      "blockClass": [
+        "principal-menu"
+      ]
+    }
+  },
+
+  "rich-text#teste": {
+    "props": {
+      "text": "testeee"
+    }
+  }
+}

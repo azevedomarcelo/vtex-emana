@@ -1,0 +1,219 @@
+{
+	"flex-layout.row#qual-seu-objetivo": {
+		"title": "Row - Qual seu objetivo",
+		"children": ["flex-layout.col#qual-seu-objetivo"]
+	},
+
+	"flex-layout.col#qual-seu-objetivo": {
+		"title": "Col - Qual seu objetivo",
+		"children": [
+			"rich-text#qual-seu-objetivo-title",
+			"responsive-layout.mobile#qual-seu-objetivo",
+			"responsive-layout.desktop#qual-seu-objetivo"
+		]
+	},
+
+	"responsive-layout.mobile#qual-seu-objetivo": {
+		"children": ["flex-layout.row#content-seu-objetivo-mobile"]
+	},
+
+	"flex-layout.row#content-seu-objetivo-mobile": {
+		"title": "[Mobile] Container - Qual seu objetivo ",
+		"props": {
+			"blockClass": "container-qual-seu-objetivo"
+		},
+		"children": [
+			"link#respiracao",
+			"link#movimento",
+			"link#alimentacao",
+			"link#sono"
+		]
+	},
+
+	"link#respiracao": {
+		"title": "[Mobile] Texto 1",
+		"props": {
+			"label": "Respiração",
+			"href": "/",
+			"blockClass": ["qual-seu-objetivo-mobile"]
+		}
+	},
+
+	"link#movimento": {
+		"title": "[Mobile] Texto 2",
+		"props": {
+			"label": "Movimento",
+			"href": "/",
+			"blockClass": ["qual-seu-objetivo-mobile"]
+		}
+	},
+
+	"link#alimentacao": {
+		"title": "[Mobile] Texto 3",
+		"props": {
+			"label": "Alimentação",
+			"href": "/",
+			"blockClass": ["qual-seu-objetivo-mobile"]
+		}
+	},
+
+	"link#sono": {
+		"title": "[Mobile] Texto 4",
+		"props": {
+			"label": "Sono",
+			"href": "/",
+			"blockClass": ["qual-seu-objetivo-mobile"]
+		}
+	},
+
+	"responsive-layout.desktop#qual-seu-objetivo": {
+		"children": ["flex-layout.row#content-seu-objetivo"]
+	},
+
+	"rich-text#qual-seu-objetivo-title": {
+		"title": "Titulo - Qual seu objetivo",
+		"props": {
+			"text": "QUAL É O __SEU OBJETIVO?__",
+			"blockClass": "seu-objetivo"
+		}
+	},
+
+	"flex-layout.row#content-seu-objetivo": {
+		"title": "Container - Qual seu objetivo",
+		"children": [
+			"flex-layout.col#content-seu-objetivo1",
+			"flex-layout.col#content-seu-objetivo2",
+			"flex-layout.col#content-seu-objetivo3",
+			"flex-layout.col#content-seu-objetivo4"
+		],
+		"props": {
+			"blockClass": "container-seu-objetivo",
+			"fullWidth": true
+		}
+	},
+
+	// ======== seu objetivo 1 ========
+	"flex-layout.col#content-seu-objetivo1": {
+		"title": "Content - Qual seu objetivo 1",
+		"children": ["image#imagem1", "image#imagem-hover1", "link#link-seu-objetivo1"],
+		"props": {
+			"blockClass": ["content-seu-objetivo", "content-seu-objetivo1"]
+		}
+	},
+	"image#imagem1": {
+		"title": "Imagem - Qual seu objetivo 1",
+		"props": {
+			"src": "arquivos/respiracao.png",
+			"blockClass": "respiracao-imagem"
+		}
+	},
+	"image#imagem-hover1": {
+		"title": "Imagem ao passar o mouse 1",
+		"props": {
+			"src": "arquivos/alimentacao-hover.png",
+			"blockClass": "respiracao-imagem-hover"
+		}
+	},
+	"link#link-seu-objetivo1": {
+		"title": "Link - Qual seu objetivo 1",
+		"props": {
+			"label": "Respiração",
+			"href": "/",
+			"blockClass": ["seu-objetivo"]
+		}
+	},
+
+
+	// ======== seu objetivo 2 ========
+	"flex-layout.col#content-seu-objetivo2": {
+		"title": "Content - Qual seu objetivo 2",
+		"children": ["image#imagem2", "image#imagem-hover2", "link#link-seu-objetivo2"],
+		"props": {
+			"blockClass": ["content-seu-objetivo", "content-seu-objetivo2"]
+		}
+	},
+	"image#imagem2": {
+		"title": "Imagem - Qual seu objetivo 2",
+		"props": {
+			"src": "arquivos/movimento.png",
+			"blockClass": "sono-imagem"
+		}
+	},
+	"image#imagem-hover2": {
+		"title": "Imagem ao passar o mouse 2",
+		"props": {
+			"src": "arquivos/respiracao-hover.png",
+			"blockClass": "sono-imagem-hover"
+		}
+	},
+	"link#link-seu-objetivo2": {
+		"title": "Link - Qual seu objetivo 2",
+		"props": {
+			"label": "Movimento",
+			"href": "/",
+			"blockClass": ["seu-objetivo"]
+		}
+	},
+
+	// ======== seu objetivo 3 ========
+	"flex-layout.col#content-seu-objetivo3": {
+		"title": "Content - Qual seu objetivo 3",
+		"children": ["image#imagem3", "image#imagem-hover3", "link#link-seu-objetivo3"],
+		"props": {
+			"blockClass": ["content-seu-objetivo", "content-seu-objetivo3"]
+		}
+	},
+	"image#imagem3": {
+		"title": "Imagem - Qual seu objetivo 3",
+		"props": {
+			"src": "arquivos/sono.png",
+			"blockClass": "movimento-imagem"
+		}
+	},
+	"image#imagem-hover3": {
+		"title": "Imagem ao passar o mouse 3",
+		"props": {
+			"src": "arquivos/sono-hover.png",
+			"blockClass": "movimento-imagem-hover"
+		}
+	},
+	"link#link-seu-objetivo3": {
+		"title": "Link - Qual seu objetivo 3",
+		"props": {
+			"label": "Sono",
+			"href": "/",
+			"blockClass": ["seu-objetivo"]
+		}
+	},
+
+	// ======== seu objetivo 4 ========
+	"flex-layout.col#content-seu-objetivo4": {
+		"title": "Content - Qual seu objetivo 4",
+		"children": ["image#imagem4", "image#imagem-hover4", "link#link-seu-objetivo4"],
+		"props": {
+			"blockClass": ["content-seu-objetivo", "content-seu-objetivo4"]
+		}
+	},
+	"image#imagem4": {
+		"title": "Imagem - Qual seu objetivo 4",
+		"props": {
+			"src": "arquivos/alimentacao.png",
+			"blockClass": "alimentacao-imagem"
+		}
+	},
+	"image#imagem-hover4": {
+		"title": "Imagem ao passar o mouse 4",
+		"props": {
+			"src": "arquivos/movimento-hover.png",
+			"blockClass": "alimentacao-imagem-hover"
+		}
+	},
+	"link#link-seu-objetivo4": {
+		"title": "Link - Qual seu objetivo 4",
+		"props": {
+			"label": "Alimentação",
+			"href": "/",
+			"blockClass": ["seu-objetivo"]
+		}
+	}
+}

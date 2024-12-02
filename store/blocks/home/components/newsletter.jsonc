@@ -1,0 +1,39 @@
+{
+	"flex-layout.row#newsletter": {
+		"title": "Row - Newsletter",
+		"children": ["rich-text#newsletter-title", "newsletter-form"],
+		"props": {
+			"blockClass": ["newsletter"],
+			"fullWidth": true,
+			"preserveLayoutOnMobile": true
+		}
+	},
+	"rich-text#newsletter-title": {
+		"title": "Título da Seção",
+		"props": {
+			"text": " __EMANE__ COM A GENTE \n  ##### Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada sed tortor id ornare.",
+			"blockClass": "newsletter-title"
+		}
+	},
+	"newsletter-form": {
+		"title": "Formulário da Newsletter",
+		"children": [
+			"newsletter-input-email"
+			// "newsletter-input-name",
+			// "newsletter-input-phone",
+			// "newsletter-checkbox-confirmation",
+			// "newsletter-hidden-field",
+			// "newsletter-submit"
+		]
+	},
+	"newsletter-input-email": {
+		"props": {
+			"placeholderText": "Digite seu e-mail aqui"
+		}
+	},
+	"newsletter-submit": {
+		"props": {
+			"submitButtonLabel": "Enviar"
+		}
+	}
+}

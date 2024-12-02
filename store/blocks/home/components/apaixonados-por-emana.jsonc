@@ -1,0 +1,134 @@
+{
+  "flex-layout.row#apaixonados-por-emana": {
+    "title": "Row - Apaixonados por emana",
+    "children": [
+      "flex-layout.col#apaixonados-por-emana"
+    ],
+    "props": {
+      "blockClass": [
+        "apaixonados-por-emana-container"
+      ]
+    }
+  },
+  "flex-layout.col#apaixonados-por-emana": {
+    "title": "Col - Apaixonados por emana",
+    "children": [
+      "rich-text#apaixonados-por-emana",
+      "flex-layout.row#apaixonados-por-emana-content"
+    ]
+  },
+  "flex-layout.row#apaixonados-por-emana-content": {
+    "title": "Conteudo - Apaixonados por emana",
+    "props": {
+      "blockClass": "info-card-container"
+    },
+    "children": [
+      "slider-layout#home-apaixonados-por-emana-slider"
+    ]
+  },
+  "slider-layout#home-apaixonados-por-emana-slider": {
+    "title": "Slider - Apaixonados por emana",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 5000
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
+      "fullWidth": true,
+      "blockClass": [
+        "home-slider",
+        "home-apaixonados-por-emana-slider",
+        "home-slider-no-gap"
+      ]
+    },
+    "children": [
+      "info-card#card1",
+      "info-card#card2",
+      "info-card#card3",
+      "info-card#card2",
+      "info-card#card3",
+      "info-card#card4"
+    ]
+  },
+  
+  "rich-text#apaixonados-por-emana": {
+    "title": "Titulo - Apaixonados por emana",
+    "props": {
+      "text": "__APAIXONADOS__ POR EMANA",
+      "blockClass": "apaixonados-por-emana-title"
+    }
+  },
+  "info-card#card1": {
+    "title": "Info Card 1",
+    "props": {
+      "id": "info-card-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "arquivos/evebombonatto.jpg",
+      "headline": "",
+      "callToActionText": "@nickname",
+      "callToActionUrl": "",
+      "blockClass": "info-card-apaixonado-por-emana",
+      "textAlignment": "center",
+      "fetchpriority": "auto",
+      "preload": true
+    }
+  },
+
+  "info-card#card2": {
+    "title": "Info Card 2",
+    "props": {
+      "id": "info-card-2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "arquivos/gabiguther.jpg",
+      "headline": "",
+      "callToActionText": "@nickname",
+      "callToActionUrl": "",
+      "blockClass": "info-card-apaixonado-por-emana",
+      "textAlignment": "center",
+      "fetchpriority": "auto",
+      "preload": true
+    }
+  },
+
+  "info-card#card3": {
+    "title": "Info Card 3",
+    "props": {
+      "id": "info-card-3",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "arquivos/gabrielabez.jpg",
+      "headline": "",
+      "callToActionText": "@nickname",
+      "callToActionUrl": "/relaxamento-e-mente",
+      "blockClass": "info-card-apaixonado-por-emana",
+      "textAlignment": "center",
+      "fetchpriority": "auto",
+      "preload": true
+    }
+  },
+
+  "info-card#card4": {
+    "title": "Info Card 4",
+    "props": {
+      "id": "info-card-4",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "arquivos/millamonteiro.jpg",
+      "headline": "",
+      "callToActionText": "@nickname",
+      "callToActionUrl": "",
+      "blockClass": "info-card-apaixonado-por-emana",
+      "textAlignment": "center",
+      "fetchpriority": "auto",
+      "preload": true
+    }
+  }
+}

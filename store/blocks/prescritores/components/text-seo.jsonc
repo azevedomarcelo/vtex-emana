@@ -1,0 +1,37 @@
+{
+	"flex-layout.row#row-texto-seo-prescritores": {
+		"title": "Row - Texto Prescritores Container",
+		"children": ["flex-layout.col#col-text-seo-prescritores"]
+	},
+	"flex-layout.col#col-text-seo-prescritores": {
+		"title": "Col - Texto Prescritores Container",
+		"props": {
+			"blockClass": "col-text-seo-prescritores",
+			"colSizing": "auto",
+			"fullWidth": false,
+			"horizontalAlign": "left",
+			"preserveLayoutOnMobile": false,
+			"preventHorizontalStretch": false,
+			"preventVerticalStretch": false
+		},
+		"children": [
+			"rich-text#prescritores-title",
+			"rich-text#prescritores-description"
+		]
+	},
+
+	"rich-text#prescritores-title": {
+		"props": {
+			"blockClass": "prescritores-title",
+			"text": "### PRESCRITORES",
+			"textAlignment": "LEFT"
+		}
+	},
+	"rich-text#prescritores-description": {
+		"props": {
+			"blockClass": "prescritores-description",
+			"text": "Lorem ipsum dolor sit amet consectetur. Nunc pellentesque erat eget porttitor fermentum imperdiet. Vitae vel a lacus venenatis enim ut interdum donec. \n\n Morbi libero etiam netus elementum. Egestas egestas sed donec tellus sagittis adipiscing. Nisi dis pharetra proin massa maecenas integer sit vel scelerisque. Libero dignissim posuere massa pulvinar faucibus etiam ridiculus. ",
+			"textAlignment": "CENTER"
+		}
+	}
+}

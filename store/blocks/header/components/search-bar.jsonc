@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#search-bar": {
+    "title": "Row - Search",
+    "props": {
+      "blockClass": "search-bar-container"
+    },
+    "children": [
+      "search-bar"
+    ]
+  }
+}

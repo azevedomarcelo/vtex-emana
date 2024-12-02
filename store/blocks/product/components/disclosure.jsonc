@@ -1,0 +1,216 @@
+{
+	"flex-layout.row#description-disclosure": {
+		"title": "Row Accordion - Description",
+		"props": {
+			"blockClass": ["row-description-disclosure"]
+		},
+		"children": ["flex-layout.col#description-disclosure"]
+	},
+	"flex-layout.col#description-disclosure": {
+		"title": "Col Accordion - Description",
+		"props": {
+			"blockClass": ["col-description-disclosure"]
+		},
+		"children": [
+			// "disclosure-layout#info-nutricional",
+			// "disclosure-layout#modo-preparo",
+			// "disclosure-layout#ref-bibliografica",
+			"flex-layout.col#about-product",
+			"flex-layout.col#faq"
+		]
+	},
+
+	"disclosure-layout#info-nutricional": {
+		"props": {
+			"blockClass": ["accordion-container"]
+		},
+		"children": [
+			"disclosure-trigger#info-nutricional",
+			"disclosure-content#info-nutricional"
+		]
+	},
+	"disclosure-trigger#info-nutricional": {
+		"children": [
+			"rich-text#question-info-nutricional",
+			"disclosure-state-indicator"
+		]
+	},
+	"disclosure-content#info-nutricional": {
+		"children": ["rich-text#answer-info-nutricional"]
+	},
+	"rich-text#question-info-nutricional": {
+		"props": {
+			"text": "__Informação Nutricional__",
+			"blockClass": ["accordion-info"]
+		}
+	},
+	"rich-text#answer-info-nutricional": {
+		"props": {
+			"text": "Informação Nutricional"
+		}
+	},
+
+	"disclosure-layout#modo-preparo": {
+		"props": {
+			"blockClass": ["accordion-container"]
+		},
+		"children": [
+			"disclosure-trigger#modo-preparo",
+			"disclosure-content#modo-preparo"
+		]
+	},
+	"disclosure-trigger#modo-preparo": {
+		"children": [
+			"rich-text#question-modo-preparo",
+			"disclosure-state-indicator"
+		]
+	},
+	"disclosure-content#modo-preparo": {
+		"children": [
+			"rich-text#answer-modo-preparo",
+			"flex-layout.row#modo-preparo-imagens"
+		]
+	},
+	"rich-text#question-modo-preparo": {
+		"props": {
+			"text": "__Modo de Preparo__",
+			"blockClass": ["accordion-info"]
+		}
+	},
+	"rich-text#answer-modo-preparo": {
+		"props": {
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non venenatis felis, et malesuada risus. Donec sed nibh metus. Praesent at orci sit amet magna maximus sollicitudin sit amet quis risus. Donec scelerisque leo ut aliquam interdum. Etiam ullamcorper consectetur libero, malesuada pharetra quam vulputate non. Donec mattis quam sapien, sed ornare nulla molestie sit amet. Donec gravida sed sem eget gravida. Proin ac urna magna. Curabitur pulvinar quis felis tincidunt congue. In rutrum massa in lacus commodo euismod."
+		}
+	},
+	"flex-layout.row#modo-preparo-imagens": {
+		"title": "Row - Modo de preparo imagens",
+		"props": {
+			"blockClass": "modo-preparo-imagens-container"
+		},
+		"children": [
+			"image#preparo1",
+			"image#preparo2",
+			"image#preparo3",
+			"image#preparo4"
+		]
+	},
+	"image#preparo1": {
+		"title": "Imagem - Modo de preparo 1",
+		"props": {
+			"src": "assets/img/icons/selos.svg",
+			"blockClass": ["imagem-modo-preparo"]
+		}
+	},
+	"image#preparo2": {
+		"title": "Imagem - Modo de preparo 2",
+		"props": {
+			"src": "assets/img/icons/selos.svg",
+			"blockClass": ["imagem-modo-preparo"]
+		}
+	},
+	"image#preparo3": {
+		"title": "Imagem - Modo de preparo 3",
+		"props": {
+			"src": "assets/img/icons/selos.svg",
+			"blockClass": ["imagem-modo-preparo"]
+		}
+	},
+	"image#preparo4": {
+		"title": "Imagem - Modo de preparo 4",
+		"props": {
+			"src": "assets/img/icons/selos.svg",
+			"blockClass": ["imagem-modo-preparo"]
+		}
+	},
+
+	"disclosure-layout#ref-bibliografica": {
+		"props": {
+			"blockClass": ["accordion-container"]
+		},
+		"children": [
+			"disclosure-trigger#ref-bibliografica",
+			"disclosure-content#ref-bibliografica"
+		]
+	},
+	"disclosure-trigger#ref-bibliografica": {
+		"children": [
+			"rich-text#question-ref-bibliografica",
+			"disclosure-state-indicator"
+		]
+	},
+	"disclosure-content#ref-bibliografica": {
+		"children": ["rich-text#answer-ref-bibliografica"]
+	},
+	"rich-text#question-ref-bibliografica": {
+		"props": {
+			"text": "__Referências Bibliograficas__",
+			"blockClass": ["accordion-info"]
+		}
+	},
+	"rich-text#answer-ref-bibliografica": {
+		"props": {
+			"text": "Lorem ipsum dolor elit metus aliquam consectetur"
+		}
+	},
+
+	"disclosure-layout#faq": {
+		"props": {
+			"blockClass": ["accordion-container"]
+		},
+		"children": ["disclosure-trigger#faq", "disclosure-content#faq"]
+	},
+	"disclosure-trigger#faq": {
+		"children": ["rich-text#question-faq", "disclosure-state-indicator"]
+	},
+	"disclosure-content#faq": {
+		"children": [
+			"disclosure-layout#faq-1",
+			"disclosure-layout#faq-2",
+			"disclosure-layout#faq-3",
+			"disclosure-layout#faq-4"
+		]
+	},
+
+	"flex-layout.col#about-product": {
+		"children": [
+			"disclosure-layout#about-product-1",
+			"disclosure-layout#about-product-2",
+			"disclosure-layout#about-product-3"
+		]
+	},
+
+	"flex-layout.col#faq": {
+		"children": [
+			"rich-text#question-faq",
+			"disclosure-layout#faq-1",
+			"disclosure-layout#faq-2",
+			"disclosure-layout#faq-3",
+			"disclosure-layout#faq-4"
+		]
+	},
+
+	"rich-text#question-faq": {
+		"props": {
+			"text": "## DUVIDAS? **TE AJUDAMOS**",
+			"blockClass": ["faq-title"]
+		}
+	},
+
+	"disclosure-state-indicator": {
+		"props": {
+			"Show": "image#arrow-down",
+			"Hide": "image#arrow-up"
+		}
+	},
+	"image#arrow-up": {
+		"props": {
+			"src": "assets/img/icons/up.svg"
+		}
+	},
+
+	"image#arrow-down": {
+		"props": {
+			"src": "assets/img/icons/down.svg"
+		}
+	}
+}

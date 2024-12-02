@@ -1,0 +1,73 @@
+.sliderLayoutContainer--home-slider {
+  padding: 0 64px;
+}
+
+.sliderTrack--home-slider {
+  gap: 35px;
+}
+
+.sliderTrack--home-slider-no-gap {
+  gap: 0;
+}
+
+.paginationDotsContainer--home-main-banner-slider,
+.paginationDotsContainer--home-slider {
+  bottom: -35px
+}
+
+.paginationDot--home-main-banner-slider--isActive,
+.paginationDot--home-slider--isActive {
+  border: 1px solid #5A5555;
+  background-color: #5A5555 !important;
+}
+
+.paginationDot--home-main-banner-slider,
+.paginationDot--home-slider {
+  border: 1px solid #5A5555;
+  background-color: white;
+}
+
+.sliderLayoutContainer--home-apaixonados-por-emana-slider {
+  padding: 0;
+}
+.slideChildrenContainer--home-apaixonados-por-emana-slider {
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.slide--slider-shelf {
+  max-width: 184px;
+  max-height: 450px;
+}
+
+.slide--home-apaixonados-por-emana-slider {
+  padding: 6px 15px;
+}
+
+.slide--home-apaixonados-por-emana-slider {
+  padding: 6px 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .sliderTrack--home-slider {
+    
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .sliderLayoutContainer--home-slider {
+    padding: 0 16px;
+  }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1600px) {
+
+}

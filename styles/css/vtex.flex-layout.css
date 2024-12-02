@@ -1,0 +1,10 @@
+.flexRow--descricao-quem-somos-container {
+  background-color: #efefef;
+}
+
+.flexRowContent--descricao-quem-somos-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}

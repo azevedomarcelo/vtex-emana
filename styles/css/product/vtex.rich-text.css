@@ -1,0 +1,8 @@
+.heading--faq-title {
+    font-size: 30px;
+    font-weight: 400;
+
+    span, strong {
+        font-weight: 700;
+    }
+}

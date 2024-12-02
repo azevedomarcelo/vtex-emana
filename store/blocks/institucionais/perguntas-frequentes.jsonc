@@ -1,0 +1,150 @@
+{
+	"store.custom#perguntas-frequentes": {
+		"blocks": [
+			"rich-text#perguntas-frequentes-title",
+			"accordion-institucional"
+		]
+	},
+	"rich-text#perguntas-frequentes-title": {
+		"title": "Title - Perguntas frequentes",
+		"props": {
+			"text": "### PERGUNTAS FREQUENTES",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+
+	"accordion-institucional": {
+		"props": {
+			"topic": [
+				{
+					"title": "COMO COMPRAR",
+					"items": [
+						{
+							"question": "Como faço para realizar um pedido?",
+							"answer": "Escolha seus produtos e adicione-os no carrinho de compras. Após revisar suas escolhas, clique em “finalizar pedido”. Insira seu e-mail e senha se já for cadastrado ou faça um novo cadastro se ainda não tiver feito um. Em seguida confirme o endereço de entrega e selecione uma forma de envio e clique em “continuar”. Em seguida selecione e preencha os dados de pagamento da sua compra. Por último revise com atenção o seu pedido e clique em “finalizar compra”. Um e-mail de confirmação com os dados da sua compra será enviado para o seu e-mail."
+						},
+						{
+							"question": "Como alterar um produto do meu carrinho de compras?",
+							"answer": "Para alterar um produto você precisa excluir aquele que deseja retirar do seu carrinho e inserir um novo em seguida. Primeiro, vá até o seu carrinho clicando no ícone no menu superior. Clique no ícone de uma lixeira em cima da foto do produto que deseja trocar. Assim você estará excluindo o produto do seu carrinho. Em seguida, navegue pelo nosso site e adicione o item que deseja inserir ao seu carrinho de compras. Pronto!"
+						},
+						{
+							"question": "Como saber o prazo de entrega do meu pedido e o valor do frete?",
+							"answer": "No processo de finalização da sua compra, todas essas informações serão mostradas quando você for selecionar uma forma de envio. Detalhe: o preço muda para cada região do país. Como nosso depósito central está em São Paulo, quanto mais longe for o seu estado mais alto é o valor do frete. Por isso, aproveite o frete grátis para compras a partir de R$ 300,00 reais. E lembre-se: após o pedido finalizado, um e-mail de confirmação com todos os dados da sua compra será enviado no seu email de cadastro."
+						},
+						{
+							"question": "Como consigo ter frete grátis?",
+							"answer": "Você ganha frete grátis para todo o Brasil nas compras acima de R$300,00."
+						},
+						{
+							"question": "Quais são as formas de pagamento no site da Emana?",
+							"answer": "Trabalhamos com Cartão de Crédito e PIX. Aceitamos as bandeiras Visa, Mastercard, ELO, American Express e Hipercard."
+						},
+						{
+							"question": "É seguro pagar com cartão?",
+							"answer": "Sim, pode comprar em nosso site com tranquilidade pois todas as páginas são encriptadas e seguras, isso é indicado pelo cadeado ao lado da URL."
+						},
+						{
+							"question": "Posso pagar com PIX?",
+							"answer": "Sim. Ao selecionar essa opção, você receberá um código de pagamento. Basta acessar o aplicativo do seu banco na opção Pix e escanear ou copiar o código de pagamento."
+						},
+						{
+							"question": "Posso usar mais de uma forma de pagamento no meu pedido?",
+							"answer": "Não. Sua compra deve ser paga com cartão ou pix, não sendo possível usar mais de uma forma de pagamento na mesma compra."
+						},
+						{
+							"question": "Como usar um cupom de desconto?",
+							"answer": "Você deve inserir seu cupom de desconto no momento em que for escolher a forma de pagamento. Clique no link “valide seu cupom de desconto aqui” e preencha com o código do cupom de desconto."
+						},
+						{
+							"question": "Tenho um cupom de desconto mas não consigo aplicar, o que pode ser?",
+							"answer": "Primeiro verifique se está digitando o cupom corretamente. Às vezes é preciso diferenciar letras maiúsculas e minúsculas, podem haver símbolos como # ou @, etc. Também é preciso verificar as regras de uso do cupom, como validade e limitação de uso por pessoa. Alguns cupons também não são aplicados em cima de kits e determinados produtos que já estejam na promoção. Veja quais são as regras específicas do cupom. \n\n Também pode ocorrer alguma instabilidade no site. Acesse novamente e faça uma nova tentativa. Se mesmo assim você não conseguir utilizar o cupom de desconto, entre em contato com a nossa Central de Atendimento por whatsapp no (11) 3813-0500 ou pelo e-mail contato@souemana.com.br que nossa equipe vai te ajudar."
+						},
+						{
+							"question": "A Emana entrega em todo o Brasil?",
+							"answer": "Sim, atendemos todo o Brasil, com prazos de entrega que variam de acordo com o CEP da região informada."
+						}
+					]
+				},
+				{
+					"title": "SOBRE O MEU PEDIDO",
+					"items": [
+						{
+							"question": "Como acompanhar a entrega do meu pedido?",
+							"answer": "Acompanhar o status do seu pedido é bem simples. Dentro do nosso site, faça o login da sua conta e vá na aba “Minhas Compras”. Em seguida na opção “Meus pedidos”. Escolha o pedido que deseja consultar e confira todas as informações referentes à sua encomenda."
+						},
+						{
+							"question": "É possível alterar o endereço de entrega após o fechamento do meu pedido?",
+							"answer": "Por questões operacionais e de segurança, não é possível fazer a alteração do endereço de entrega após o fechamento do pedido. Nesse caso você pode cancelar o seu pedido e fazer um novo ou, caso a encomenda já esteja em rota de entrega, será necessário que você recuse o pedido no momento da tentativa de entrega para que ele volte para nossa central e o cancelamento seja feito. \n\n Para qualquer dúvida ou dificuldade nesse processo, por favor entre em contato com a nossa Central de Atendimento pelo e-mail contato@souemana.com.br que nossa equipe irá te ajudar no que for preciso."
+						},
+						{
+							"question": "Como faço para cancelar meu pedido?",
+							"answer": "Após a confirmação do pagamento, não é possível cancelar seu pedido por questões operacionais e de segurança. Neste caso, você deve aguardar e quando o pedido chegar poderá recusar o recebimento. Após o retorno do produto em nossos estoques, enviaremos um e-mail para efetuar a devolução do valor pago. Caso tenha alguma dúvida sobre Troca e Devolução, acesse aqui. \n\n Para qualquer dúvida ou dificuldade nesse processo, por favor entre em contato com a nossa Central de Atendimento pelo e-mail contato@souemana.com.br que nossa equipe irá te ajudar no que for preciso."
+						},
+						{
+							"question": "Posso alterar (incluir / excluir produtos) de um pedido que eu já fiz?",
+							"answer": "Infelizmente não é possível alterar um pedido após sua finalização por questões operacionais e de segurança. Mas não se preocupe! Assim que receber seus produtos você poderá iniciar o processo de troca e devolução sem custo."
+						},
+						{
+							"question": "O que significa pedido “processando”?",
+							"answer": "Significa que seu pedido já foi aprovado e está em processo de envio, ou seja, em preparação para postagem."
+						},
+						{
+							"question": "Meu cartão não foi autorizado. O que eu faço?",
+							"answer": "Se o seu cartão não foi autorizado pode ter ocorrido alguma divergência cadastral ou informações não condizentes. Uma empresa parceira é quem faz a validação dos dados cadastrais e aprova ou não o pedido. Se necessário, são realizadas tentativas de contato por telefone para realizar as confirmações e, caso não haja sucesso, o pedido é cancelado para sua proteção. Nestes casos, você pode realizar um novo pedido utilizando outro cartão ou realizando o pagamento via Pix."
+						},
+						{
+							"question": "Por que minha compra ainda está com status “pendente” se meu cartão já confirmou o pagamento?",
+							"answer": "Para todo pedido com pagamento por cartão de crédito são realizadas análises de dados cadastrais, para sua segurança e proteção. Estas análises podem durar de 24 até 48 horas para ocorrer. É fundamental que você mantenha seus dados cadastrais atualizados para facilitar e agilizar o contato e a liberação do seu pedido. Tão logo o pedido for aprovado, você receberá por e-mail a confirmação do pagamento. Caso o prazo máximo de análise já tenha passado, por favor entre em contato com a nossa Central de Atendimento pelo e-mail contato@souemana.com.br."
+						},
+						{
+							"question": "Ainda não recebi o meu pedido.",
+							"answer": "O que eu faço? Antes de mais nada, verifique se a data está dentro do prazo previsto para a entrega. Você pode confirmar essa e outras informações sobre o seu pedido no nosso site, na aba “Meus Pedidos” em “Minhas Compras”. \n\n Caso você não tenha recebido o seu pedido e o prazo de entrega já tenha expirado, verifique se o pagamento foi realmente confirmado pela administradora de seu cartão de crédito. Confirme também se o endereço informado para entrega está correto. \n\n Se ainda assim encontrar dificuldades no recebimento de seu pedido, temos uma equipe prontamente preparada para atendê-lo pelo e-mail contato@souemana.com.br e solucionar qualquer problema que possa comprometer o prazo de entrega informado no momento da compra. \n\n Lembre-se: Alguns fatores climáticos ou situações adversas como greve dos Correios podem interferir na entrega de seus pedidos."
+						},
+						{
+							"question": "Em quais casos posso recusar a entrega do produto?",
+							"answer": "A entrega do produto deve ser recusada sempre que se constatar as seguintes situações: \n\n Estiver com a embalagem aberta; \n\n Produto avariado no transporte; \n\n Itens faltantes; \n\n Produto em desacordo com o pedido. \n\n Para saber mais sobre nossa política de TROCAS E DEVOLUÇÕES clique aqui."
+						},
+						{
+							"question": "Recebi meu pedido, mas gostaria de solicitar a troca. Como faço?",
+							"answer": "Para solicitar uma Troca ou Devolução, você tem um prazo de até 07 (sete) dias úteis a partir da data de entrega. Entre em contato conosco através do e-mail contato@souemana.com.br para iniciar seu processo de troca. Nossa equipe irá informar um código de postagem via correio. A partir disso, é só levar o produto em uma filial dos Correios mais próxima na embalagem original, fechado, sem indícios de uso e acompanhado da DANFE. Após o recebimento e checagem do pedido será feita a restituição do valor pago por meio da mesma modalidade de pagamento utilizado no fechamento do pedido. \n\n Para mais detalhes sobre a nossa política de TROCAS E DEVOLUÇÕES clique aqui."
+						},
+						{
+							"question": "Quais são as opções em caso de troca de produto?",
+							"answer": "A EMANA garante três opções de troca: \n\n Troca por outro produto de mesmo valor. \n\n Troca por outro produto de maior valor: descontaremos o valor do pedido anterior e faremos uma nova cobrança no valor correto do produto a ser trocado. \n\n Troca por outro produto de menor valor: faremos o envio do produto escolhido e oferecemos um cupom de crédito para futuras compras na EMANA no valor da diferença. \n\n Para mais detalhes sobre a nossa política de TROCAS E DEVOLUÇÕES clique aqui."
+						},
+						{
+							"question": "Recebi o pedido mas me arrependi da compra. É possivel fazer a devolução?",
+							"answer": "Sim. A desistência de compra por arrependimento ou insatisfação é um direito do consumidor e pode ser solicitada até sete dias após o recebimento do produto. O cliente deverá solicitar a devolução através do e-mail contato@souemana.com.br. O produto deverá ser devolvido em embalagem original, fechado, sem indícios de uso, sem violação ou modificação e acompanhado da DANFE (Documento Auxiliar da Nota Fiscal Eletrônica). \n\n Para mais detalhes sobre a nossa política de TROCAS E DEVOLUÇÕES clique aqui."
+						}
+					]
+				},
+				{
+					"title": "MINHA CONTA",
+					"items": [
+						{
+							"question": "Como criar minha conta?",
+							"answer": "Em nosso site, clique no ícone “Minha Conta” na parte superior direita. Em seguida clique em “Cadastre-se” e preencha o formulário com os seus dados. Por fim, clique em “Avançar” para validar seu cadastro. Você receberá um e-mail de confirmação."
+						},
+						{
+							"question": "Como faço para recuperar ou redefinir minha senha?",
+							"answer": "Basta tentar acessar sua conta indicando o e-mail cadastrado. Abaixo do campo da senha, clique em “Esqueci ou não tenho senha”. Um código será enviado para o seu e-mail. Você deve copiá-lo e inserir no campo indicado em nosso site, juntamente com a nova senha escolhida."
+						},
+						{
+							"question": "Como faço para alterar meu endereço de entrega?",
+							"answer": "Basta você acessar sua conta em nosso site e ir no campo de “Endereços”. Em cima do seu endereço você verá a opção “editar”, clique nesse botão e faça as alterações necessárias. A mudança será válida para as próximas compras."
+						},
+						{
+							"question": "Meus dados estão seguros?",
+							"answer": "Sim, todas as páginas do nosso site são encriptadas e seguras, isso é indicado pelo cadeado ao lado da URL (um cadeado no canto superior esquerdo da tela). Isso quer dizer que todos os seus dados, do cartão de crédito ao endereço de entrega estão seguros."
+						},
+						{
+							"question": "Sou prescritor, como faço para me cadastrar?",
+							"answer": "Acesse o menu superior do nosso site e clique em “Prescritores”. Em seguida, clique em “Cadastre-se”. Preencha todos os campos solicitados e clique em cadastrar. Pronto! Você receberá um e-mail de confirmação e já poderá aproveitar dos benefícios de ser Emana."
+						}
+					]
+				}
+			]
+		}
+	}
+}

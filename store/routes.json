@@ -1,0 +1,30 @@
+{
+  "store.custom#prescritores": {
+    "path": "/institucionais/prescritores",
+    "title": "Prescritores | Emana"
+  },
+  "store.custom#perguntas-frequentes": {
+    "path": "/institucionais/perguntas-frequentes",
+    "title": "Perguntas Frequentes | Emana"
+  },
+  "store.custom#quem-somos": {
+    "path": "/institucionais/quem-somos",
+    "title": "Quem somos | Emana"
+  },
+  "store.custom#politicas-de-devolucao": {
+    "path": "/institucionais/politicas-de-devolucao",
+    "title": "Políticas de Devolução | Emana"
+  },
+  "store.custom#politica-de-privacidade": {
+    "path": "/institucionais/politica-de-privacidade",
+    "title": "Políticas de Privacidade | Emana"
+  },
+  "store.custom#politica-de-cookies": {
+    "path": "/institucionais/politica-de-cookies",
+    "title": "Política de Cookies | Emana"
+  },
+  "store.custom#politica-seguranca-informacao": {
+    "path": "/institucionais/politica-seguranca-informacao",
+    "title": "Política de Segurança da Informação | Emana"
+  }
+}

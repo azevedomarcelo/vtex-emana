@@ -1,0 +1,14 @@
+.trigger {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  width: 100%;
+  border-bottom: 1px solid #E1DCD2;
+  background-color: #fff;
+}
+
+.trigger--visible {
+  border-bottom: 0;
+}

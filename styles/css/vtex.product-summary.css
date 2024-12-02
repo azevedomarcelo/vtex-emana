@@ -1,0 +1,7 @@
+.containerNormal--listLayout {
+  max-width: unset !important;
+}
+
+.container {
+  width: fit-content;
+}

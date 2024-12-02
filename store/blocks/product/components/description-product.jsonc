@@ -1,0 +1,33 @@
+{
+	"flex-layout.row#description-product": {
+		"children": ["flex-layout.col#ingredientes-container"]
+	},
+
+	"flex-layout.col#ingredientes-container": {
+		"title": "Row - Ingredientes Container",
+		"props": {
+			"blockClass": "",
+			"colSizing": "equal"
+		},
+		"children": [
+			"rich-text#ingredientes-title",
+			"rich-text#ingredientes-descricao"
+		]
+	},
+	"rich-text#ingredientes-title": {
+		"title": "Titulo",
+		"props": {
+			"text": "## Ingredientes",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+	"rich-text#ingredientes-descricao": {
+		"title": "Descricao",
+		"props": {
+			"text": "Óleo de girassol, bitartarato de colina, ascorbato de cálcio, taurina, água purificada, cafeína, inositol, lecitina de soja com alto teor de fosfatidilserina, bisglicinato de zinco, acetato de DL-alfa-tocoferol, cloridrato de piridoxina, D-pantotenato cálcio, bisglicinato de manganês, mononitrato de tiamina, picolinato de cromo, L-metilfolato de cálcio, cianocobalamina, gelificante gelatina, umectante glicerol, emulsificante lecitina, estabilizante cera de abelha e corante óxido de ferro preto e sais de potássio e sódio de clorofilina cúprica.",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	}
+}

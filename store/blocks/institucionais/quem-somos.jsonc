@@ -1,0 +1,118 @@
+{
+	"store.custom#quem-somos": {
+		"blocks": [
+			"flex-layout.row#video-container",
+			"rich-text#quem-somos-title",
+			"rich-text#quem-somos-box",
+			"rich-text#quem-somos-paragrafo",
+			"flex-layout.row#descricao-quem-somos-container",
+			"rich-text#description-footer"
+		]
+	},
+	"flex-layout.row#video-container": {
+		"props": {
+			"fullWidth": true
+		},
+		"children": ["iframe-component"]
+	},
+	"iframe-component": {
+		"props": {
+			"title": "MANIFESTO RODRIGO HILBERT",
+			"link": "https://player.vimeo.com/video/778450558?h=cecfe63b27&autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1&controls=1"
+		}
+	},
+
+	"rich-text#quem-somos-title": {
+		"title": "Title - Quem somos",
+		"props": {
+			"text": "### QUEM SOMOS NÓS ### \n\n Emana não é só uma marca de produto. \n\n É a __marca que queremos deixar no mundo.__",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+
+	"rich-text#quem-somos-box": {
+		"title": "Box - Sobre",
+		"props": {
+			"text": "__Um mundo que precisa__ de pessoas abertas, prontas para ouvir, para mudar ou para mostrar novos caminhos. \n\n __Um mundo de quem__ se cuida, se ama, se respeita e que pede licença para entrar no mundo do outro. \n\n __Um mundo de gente__ com sorriso no rosto e a alma leve. Gente que valoriza o simples. O funcional. O autêntico. O real.",
+			"textAlignment": "LEFT",
+			"textPosition": "CENTER",
+			"blockClass": "box-quem-somos"
+		}
+	},
+
+	"rich-text#quem-somos-paragrafo": {
+		"title": "Paragrafo - Quem somos",
+		"props": {
+			"text": "Para alcançar esse mundo ideal, nos apegamos nos pilares do estilo de vida para garantir o melhor para você e para o meio ambiente.",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"blockClass": "quem-somos-paragrafo"
+		}
+	},
+
+	"flex-layout.row#descricao-quem-somos-container": {
+		"props": {
+			"blockClass": "descricao-quem-somos-container",
+			"colSizing": "auto"
+		},
+		"children": [
+			"rich-text#quem-somos-1",
+			"rich-text#quem-somos-2",
+			"rich-text#quem-somos-3",
+			"rich-text#quem-somos-4",
+			"rich-text#quem-somos-5",
+			"rich-text#quem-somos-6"
+		]
+	},
+	"rich-text#quem-somos-1": {
+		"props": {
+			"text": "<img src='https://images.tcdn.com.br/img/editor/up/1062013/iconesustentavel.png'> <span> Alimentação \n __segura e sustentável.__</span> ",
+			"blockClass": "quem-somos-texto-imagem"
+		}
+	},
+
+	"rich-text#quem-somos-2": {
+		"props": {
+			"text": "<img src='https://images.tcdn.com.br/img/editor/up/1062013/iconcerebro.png'> <span> Manejo do __estresse__ \n e da __saúde mental.__</span> ",
+			"blockClass": "quem-somos-texto-imagem"
+		}
+	},
+
+	"rich-text#quem-somos-3": {
+		"props": {
+			"text": "<img src='https://images.tcdn.com.br/img/editor/up/1062013/exerciciofisico.png'> <span> Prática regular \n de __exercício físico.__</span> ",
+			"blockClass": "quem-somos-texto-imagem"
+		}
+	},
+
+	"rich-text#quem-somos-4": {
+		"props": {
+			"text": "<img src='https://images.tcdn.com.br/img/editor/up/1062013/iconesemtoxinas.png'> <span> Controle do \n __consumo de toxinas.__</span> ",
+			"blockClass": "quem-somos-texto-imagem"
+		}
+	},
+
+	"rich-text#quem-somos-5": {
+		"props": {
+			"text": "<img src='https://images.tcdn.com.br/img/editor/up/1062013/iconesono.png'> <span> Manutenção e \n qualidade do __sono.__</span> ",
+			"blockClass": "quem-somos-texto-imagem"
+		}
+	},
+
+	"rich-text#quem-somos-6": {
+		"props": {
+			"text": "<img src='https://images.tcdn.com.br/img/editor/up/1062013/iconenutricional.png'> <span> Suplementação \n __nutricional integrada.__</span> ",
+			"blockClass": "quem-somos-texto-imagem"
+		}
+	},
+
+	"rich-text#description-footer": {
+		"props": {
+			"text": "Emanamos __alto astral, generosidade, energia e bem-estar.__ \n\n Assim, como quem não quer nada, nos aproximamos e construímos laços que vão muito além das funcionalidades dos produtos e dos valores das tabelas nutricionais.\n\n Construimos __valores humanos.__ Assim, atraímos gente do bem. Gente como a gente. \n\n Gente que dá valor às coisas certas. \n\n Que muda o que precisa mudar. Que acerta e também pode errar. \n\n Mas que sempre, sempre mesmo, está aí para __emanar só coisas boas.__ \n\n __Venha EMANAR com a gente!__ \n\n\n <img src='https://images.tcdn.com.br/img/editor/up/1062013/logoemanasloganabout.png'>.",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"blockClass": "footer-description"
+		}
+	}
+}

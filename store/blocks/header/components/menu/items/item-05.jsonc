@@ -1,0 +1,70 @@
+{
+    // ============ primeiro nível do menu ============
+    "menu-item#05": {
+        "props": {
+          "id": "menu-item-about-us",
+          "type": "category",
+          "blockClass": [
+            "menu-item"
+          ],
+          "highlight": false,
+          "itemProps": {
+            "categoryId": 20308,
+            "text": "Gomas"
+          },
+          "iconProps": {
+          }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#05"
+        ]
+    },
+    "vtex.menu@2.x:submenu#05": {
+        "children": [
+            "vtex.menu@2.x:menu#05"
+        ]
+    },
+    "vtex.menu@2.x:menu#05": {
+        "children": [
+            "menu-item#05-01"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    // ============ segundo nível do menu ============
+    "menu-item#05-01": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "category",
+            "blockClass": [
+                "menu-item"
+            ],
+            "highlight": false,
+            "itemProps": {
+                "categoryId": 20311,
+                "text": "Barrinhas"
+            },
+            "iconProps": {
+                
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#05-01"
+        ]
+    },
+    "vtex.menu@2.x:submenu#05-01": {
+        "children": [
+            "vtex.menu@2.x:menu#05-01"
+        ]
+    },
+    "vtex.menu@2.x:menu#05-01": {
+        "children": [
+            "rich-text#teste"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

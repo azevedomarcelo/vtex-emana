@@ -1,0 +1,25 @@
+.wrapper--box-quem-somos {
+  margin: 0 auto;
+  border-left: 9px solid #515151;
+  background: #efefef;
+  padding: 45px 45px 30px;
+  font-size: 18px;
+  text-transform: unset !important;
+  margin-bottom: 30px;
+}
+
+.paragraph--quem-somos-paragrafo {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.paragraph--quem-somos-texto-imagem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wrapper--footer-description {
+  font-size: 18px;
+  line-height: 1.3;
+}

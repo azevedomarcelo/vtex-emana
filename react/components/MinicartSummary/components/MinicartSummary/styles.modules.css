@@ -1,0 +1,39 @@
+.t-minicartSummary {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.t-minicartSummary-discounts p,
+.t-minicartSummary-freight p {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  color: #6f6f6f;
+}
+
+.t-minicartSummary-discounts p span,
+.t-minicartSummary-freight p span {
+  text-align: right;
+}
+
+.t-minicartSummary-discounts p span {
+  color: #333;
+}
+
+.t-minicartSummary-total p {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 12px;
+  color: #6f6f6f;
+}

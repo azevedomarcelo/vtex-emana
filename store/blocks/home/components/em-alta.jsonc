@@ -1,0 +1,249 @@
+{
+	"flex-layout.row#em-alta": {
+		"title": "Row - Em alta",
+		"children": ["flex-layout.col#em-alta"]
+	},
+	"flex-layout.col#em-alta": {
+		"children": [
+			"rich-text#em-alta-title",
+			"slider-layout#home-em-alta-slider"
+		],
+		"props": {
+			"blockClass": ["em-alta-col"]
+		}
+	},
+	"rich-text#em-alta-title": {
+		"title": "Titulo - Em alta",
+		"props": {
+			"text": "__EM ALTA__ NA EMANA",
+			"blockClass": ["em-alta"]
+		}
+	},
+
+	"slider-layout#home-em-alta-slider": {
+		"title": "Slider - Em alta",
+		"props": {
+			"itemsPerPage": {
+				"desktop": 3,
+				"tablet": 1,
+				"phone": 1
+			},
+			"infinite": true,
+			"showNavigationArrows": "never",
+			"blockClass": ["home-slider", "home-em-alta-slider"]
+		},
+		"children": [
+			// "em-alta-emana"
+			"em-alta-emana#card1",
+			"em-alta-emana#card2",
+			"em-alta-emana#card3",
+			"em-alta-emana#card4",
+			"em-alta-emana#card5",
+			"em-alta-emana#card6",
+			"em-alta-emana#card7"
+		]
+	},
+
+	"em-alta-emana#card1": {
+		"title": "Card - Em Alta na Emana",
+		"children": ["add-to-cart-button-custom"],
+		"props": {
+			"productId": "20651",
+			"backgroundCard": "#D9D9D9",
+			"addToCartButton": {
+				"backgroundColor": "#5A5555",
+				"iconColor": "#FFF",
+				"backgroundIconColor": "#FFFF5A"
+			},
+			"tagHeader": "Performance e Energia",
+			"tagFooter": [
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Cafeina"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Sem corante artificial"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Vitaminas e minerais"
+				}
+			]
+		}
+	},
+
+	"em-alta-emana#card2": {
+		"title": "Card - Em Alta na Emana",
+		"children": ["add-to-cart-button-custom"],
+		"props": {
+			"productId": "20656",
+			"backgroundCard": "#D9D9D9",
+			"addToCartButton": {
+				"backgroundColor": "#5A5555",
+				"iconColor": "#FFF",
+				"backgroundIconColor": "#FFFF5A"
+			},
+			"tagHeader": "Performance e Energia",
+			"tagFooter": [
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Cafeina"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Sem corante artificial"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Vitaminas e minerais"
+				}
+			]
+		}
+	},
+
+	"em-alta-emana#card3": {
+		"title": "Card - Em Alta na Emana",
+		"children": ["add-to-cart-button-custom"],
+		"props": {
+			"productId": "20658",
+			"backgroundCard": "#D9D9D9",
+			"addToCartButton": {
+				"backgroundColor": "#5A5555",
+				"iconColor": "#FFF",
+				"backgroundIconColor": "#FFFF5A"
+			},
+			"tagHeader": "Performance e Energia",
+			"tagFooter": [
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Cafeina"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Sem corante artificial"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Vitaminas e minerais"
+				}
+			]
+		}
+	},
+
+	"em-alta-emana#card4": {
+		"title": "Card - Em Alta na Emana",
+		"children": ["add-to-cart-button-custom"],
+		"props": {
+			"productId": "20654",
+			"backgroundCard": "#D9D9D9",
+			"addToCartButton": {
+				"backgroundColor": "#5A5555",
+				"iconColor": "#FFF",
+				"backgroundIconColor": "#FFFF5A"
+			},
+			"tagHeader": "Performance e Energia",
+			"tagFooter": [
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Cafeina"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Sem corante artificial"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Vitaminas e minerais"
+				}
+			]
+		}
+	},
+
+	"em-alta-emana#card5": {
+		"title": "Card - Em Alta na Emana",
+		"children": ["add-to-cart-button-custom"],
+		"props": {
+			"productId": "20678",
+			"backgroundCard": "#D9D9D9",
+			"addToCartButton": {
+				"backgroundColor": "#5A5555",
+				"iconColor": "#FFF",
+				"backgroundIconColor": "#FFFF5A"
+			},
+			"tagHeader": "Performance e Energia",
+			"tagFooter": [
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Cafeina"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Sem corante artificial"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Vitaminas e minerais"
+				}
+			]
+		}
+	},
+
+	"em-alta-emana#card6": {
+		"title": "Card - Em Alta na Emana",
+		"children": ["add-to-cart-button-custom"],
+		"props": {
+			"productId": "20814",
+			"backgroundCard": "#D9D9D9",
+			"addToCartButton": {
+				"backgroundColor": "#5A5555",
+				"iconColor": "#FFF",
+				"backgroundIconColor": "#FFFF5A"
+			},
+			"tagHeader": "Performance e Energia",
+			"tagFooter": [
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Cafeina"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Sem corante artificial"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Vitaminas e minerais"
+				}
+			]
+		}
+	},
+
+	"em-alta-emana#card7": {
+		"title": "Card - Em Alta na Emana",
+		"children": ["add-to-cart-button-custom"],
+		"props": {
+			"productId": "20755",
+			"backgroundCard": "#D9D9D9",
+			"addToCartButton": {
+				"backgroundColor": "#5A5555",
+				"iconColor": "#FFF",
+				"backgroundIconColor": "#FFFF5A"
+			},
+			"tagHeader": "Performance e Energia",
+			"tagFooter": [
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Cafeina"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Sem corante artificial"
+				},
+				{
+					"iconTag": "assets/img/icons/selos.svg",
+					"nameTag": "Vitaminas e minerais"
+				}
+			]
+		}
+	}
+}

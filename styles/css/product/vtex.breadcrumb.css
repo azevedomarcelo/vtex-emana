@@ -1,0 +1,18 @@
+.container {
+  padding: 40px 100px;
+}
+
+.link--1,
+.termArrow,
+.arrow--1 {
+  color: #000;
+}
+.arrow--1 {
+  .caretIcon {
+    display: none;
+  }
+}
+
+.link--1 {
+  color: #000 !important;
+}

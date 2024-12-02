@@ -1,0 +1,21 @@
+{
+  "linter": {
+    "rules": {
+      "suspicious": {
+        "noDebugger": "off",
+        "noConsoleLog": "warn",
+        "noExplicitAny": "warn",
+        "noDoubleEquals": "off"
+      },
+      "correctness": {
+        "useExhaustiveDependencies": "off",
+        "noChildrenProp": "off"
+      },
+      "style": {
+        "noShoutyConstants": "warn",
+        "useNamingConvention": "error",
+        "useImportType": "off"
+      }
+    }
+  }
+}

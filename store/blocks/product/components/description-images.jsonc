@@ -1,0 +1,64 @@
+{
+	"flex-layout.row#description-images": {
+		"title": "Row - Images Container",
+		"props": {
+			"fullWidth": true,
+			"blockClass": ["row-container-images"]
+		},
+		"children": ["flex-layout.col#description-images"]
+	},
+
+	"flex-layout.col#description-images": {
+		"title": "Col - Images Container",
+		"props": {
+			"blockClass": ["col-container-images"]
+		},
+		"children": [
+			"image#descricao1",
+			"image#descricao2",
+			"image#descricao3",
+			"image#descricao4",
+			"image#descricao5"
+		]
+	},
+
+	"image#descricao1": {
+		"title": "Imagem 1",
+		"props": {
+			"src": "/arquivos/pdp-image-description-1.png",
+			"blockClass": ["pdp-image-description"]
+		}
+	},
+
+	"image#descricao2": {
+		"title": "Imagem 2",
+		"props": {
+			"src": "/arquivos/pdp-image-description-2.png",
+			"blockClass": ["pdp-image-description"]
+		}
+	},
+
+	"image#descricao3": {
+		"title": "Imagem 3",
+		"props": {
+			"src": "/arquivos/pdp-image-description-3.png",
+			"blockClass": ["pdp-image-description"]
+		}
+	},
+
+	"image#descricao4": {
+		"title": "Imagem 4",
+		"props": {
+			"src": "/arquivos/pdp-image-description-4.png",
+			"blockClass": ["pdp-image-description"]
+		}
+	},
+
+	"image#descricao5": {
+		"title": "Imagem 5",
+		"props": {
+			"src": "/arquivos/pdp-image-description-5.png",
+			"blockClass": ["pdp-image-description"]
+		}
+	}
+}

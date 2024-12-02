@@ -1,0 +1,83 @@
+{
+	"flex-layout.row#nossos-selos-de-qualidades": {
+		"title": "Row - Nossos selos de qualidades",
+		"children": ["flex-layout.col#nossos-selos-de-qualidade"],
+		"props": {
+			"fullWidth": true,
+			"blockClass": ["nossos-selos-de-qualidade"]
+		}
+	},
+	"flex-layout.col#nossos-selos-de-qualidade": {
+		"title": "Col - Nossos selos de qualidade",
+		"children": [
+			"rich-text#nossos-selos-de-qualidade-title",
+			"flex-layout.row#nossos-selos-de-qualidade-content"
+		]
+	},
+
+	"rich-text#nossos-selos-de-qualidade-title": {
+		"title": "Titulo - Nossos selos de qualidades",
+		"props": {
+			"text": "NOSSOS __SELOS DE QUALIDADE__",
+			"blockClass": "nossos-selos-de-qualidade-title"
+		}
+	},
+
+	"flex-layout.row#nossos-selos-de-qualidade-content": {
+		"title": "Content - Nossos selos de qualidades",
+		"children": ["slider-layout#nossos-selos-de-qualidade-content"]
+	},
+
+	"slider-layout#nossos-selos-de-qualidade-content": {
+		"title": "Slider - Nossos selos de qualidades",
+		"props": {
+			"itemsPerPage": {
+				"desktop": 4,
+				"tablet": 2,
+				"phone": 2
+			},
+			"infinite": true,
+			"fullWidth": true,
+			"autoplay": {
+				"timeout": 1000
+			},
+			"showNavigationArrows": "never",
+			"showPaginationDots": "never",
+			"blockClass": ["home-slider", "nossos-selos-de-qualidade-content"]
+		},
+		"children": [
+			"image#selo-qualidade1",
+			"image#selo-qualidade2",
+			"image#selo-qualidade3",
+			"image#selo-qualidade4"
+		]
+	},
+
+	"image#selo-qualidade1": {
+		"title": "Imagem - Selo de qualidade 1",
+		"props": {
+			"src": "arquivos/selo1.png"
+		}
+	},
+
+	"image#selo-qualidade2": {
+		"title": "Imagem - Selo de qualidade 2",
+		"props": {
+			"src": "arquivos/selo2.png"
+		}
+	},
+
+	"image#selo-qualidade3": {
+		"title": "Imagem - Selo de qualidade 3",
+		"props": {
+			"src": "arquivos/selo3.png"
+		}
+	},
+
+	"image#selo-qualidade4": {
+		"title": "Imagem - Selo de qualidade 4",
+		"props": {
+			"src": "arquivos/selo4.png"
+		}
+	}
+}

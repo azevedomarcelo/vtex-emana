@@ -1,0 +1,14 @@
+.MinicartSummary {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 8px;
+}
+
+.MinicartSummary hr {
+  height: 1px;
+  width: 100%;
+
+  background-color: #ebebeb;
+  border: 0;
+}

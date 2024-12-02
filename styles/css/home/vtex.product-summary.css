@@ -1,0 +1,43 @@
+.price_installmentContainer {
+  font-family: Sequel Sans;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14.16px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  color: #5A5555; 
+}
+
+.nameContainer {
+  padding: 0;
+}
+
+.brandName {
+  display: block;
+  font-family: 'Sequel Sans';
+  width: 180px;
+  font-size: 16px;
+  line-height: 18.88px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration-skip-ink: none;
+  color: #010101;
+}
+
+.currencyContainer {
+  font-family: Sequel Sans;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18.88px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+}
+
+.element {
+  align-items: center;
+}
+
+.imageStackContainer {
+  width: 131.15px;
+  height: 162.18px;
+}

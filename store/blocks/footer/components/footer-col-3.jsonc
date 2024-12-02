@@ -1,0 +1,98 @@
+{
+	"flex-layout.col#footer-col-3": {
+		"title": "Seção de Links 3",
+		"children": [
+			"rich-text#footer-col-3-title",
+			"vtex.menu@2.x:menu#footer-menu3",
+			"rich-text#footer-col-3-contact",
+			"flex-layout.row#footer-col-3-social-media"
+		],
+		"props": {
+			"blockClass": ["footer-col"],
+			"preventVerticalStretch": true
+		}
+	},
+
+	"rich-text#footer-col-3-title": {
+		"title": "Título da Seção",
+		"props": {
+			"blockClass": "footer-col-title",
+			"text": "##### Contato"
+		}
+	},
+
+	"vtex.menu@2.x:menu#footer-menu3": {
+		"props": {
+			"items": [
+				{
+					"id": "sac",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "#",
+						"noFollow": false,
+						"tagTitle": "sac@souemana.com.br",
+						"text": "sac@souemana.com.br"
+					}
+				},
+				{
+					"id": "telefone",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "external",
+						"href": "#",
+						"noFollow": false,
+						"tagTitle": "(11) 3813-0500",
+						"text": "(11) 3813-0500"
+					}
+				}
+			],
+			"blockClass": ["footer-menu"],
+			"orientation": "vertical"
+		}
+	},
+	"rich-text#footer-col-3-contact": {
+		"props": {
+			"text": "__Siga-nos nas redes__",
+			"blockClass": "contact-title"
+		}
+	},
+	"flex-layout.row#footer-col-3-social-media": {
+		"props": {
+			"blockClass": "social-media-content"
+		},
+		"children": [
+			"image#youtube",
+			"image#tiktok",
+			"image#facebook",
+			"image#whatsapp"
+		]
+	},
+
+	"image#facebook": {
+		"title": "Icone - Facebook",
+		"props": {
+			"src": "assets/img/icons/facebook.svg"
+		}
+	},
+	"image#tiktok": {
+		"title": "Icone - Tiktok",
+		"props": {
+			"src": "assets/img/icons/tiktok.svg"
+		}
+	},
+	"image#whatsapp": {
+		"title": "Icone - Whatsapp",
+		"props": {
+			"src": "assets/img/icons/whatsapp.svg"
+		}
+	},
+	"image#youtube": {
+		"title": "Icone - Youtube",
+		"props": {
+			"src": "assets/img/icons/youtube.svg"
+		}
+	}
+}

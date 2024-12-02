@@ -1,0 +1,24 @@
+{
+	"flex-layout.row#sugestao": {
+		"children": ["flex-layout.col#sugestao"]
+	},
+	"flex-layout.col#sugestao": {
+		"children": ["rich-text#sugestao-title", "rich-text#quantidade-capsula"]
+	},
+	"rich-text#sugestao-title": {
+		"title": "Sugestao",
+		"props": {
+			"text": "### SUGESTAO DE USO ## \n Consumir 2 cápsulas ao dia.",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+	"rich-text#quantidade-capsula": {
+		"title": "Info adicional",
+		"props": {
+			"text": "__CONTÉM:__ 60 CÁPSULAS.",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	}
+}

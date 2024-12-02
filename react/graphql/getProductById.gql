@@ -1,0 +1,23 @@
+query productsByIdentifier($field:ProductUniqueIdentifierField!, $values:[ID!]){
+  productsByIdentifier(field:$field, values:$values) @context(provider: "vtex.search-graphql"){
+    link,
+    linkText,
+    description,
+    items {
+			name,
+      itemId,
+      images{
+				imageUrl,
+        imageText
+      }
+      sellers{
+				sellerId,
+        commertialOffer{
+					Price,
+          ListPrice,
+          AvailableQuantity
+        }
+      }
+    }
+  }
+}

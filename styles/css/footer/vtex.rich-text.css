@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
+
+.paragraph--endereco-loja {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: right;
+  width: 680px;
+}
+
+.headingLevel5--footer-col-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .paragraph--endereco-loja {
+    text-align: center;
+    width: 250px;
+  }
+  
+  .container--footer-col-title {
+    place-content: center;
+  }
+
+  .headingLevel5--footer-col-title {
+    font-size: 18px;
+  }
+
+  .wrapper--contact-title {
+    width: 100%;
+  }
+
+  .paragraph--contact-title {
+    text-align: center;
+  }
+}

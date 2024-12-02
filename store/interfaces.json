@@ -1,0 +1,40 @@
+{
+  "card-para-voce": {
+    "component": "CardParaVoce",
+    "composition": "children"
+  },
+  "em-alta-emana": {
+    "component": "EmAltaCard",
+    "composition": "children"
+  },
+  "add-to-cart-button-custom": {
+    "component": "AddToCartButtonCustom"
+  },
+  "custom-add-to-cart-button-shelf": {
+    "component": "AddToCartButtonShelf"
+  },
+  "custom-minicart-summary": {
+    "component": "MinicartSummary"
+  },
+  "buy-together": {
+    "component": "BuyTogether"
+  },
+  "accordion-institucional": {
+    "component": "Accordion"
+  },
+  "iframe-component": {
+    "component": "IframeComponent"
+  },
+  "politica-de-privacidade": {
+    "component": "PoliticaPrivacidade"
+  },
+  "politica-de-cookies": {
+    "component": "PoliticaCookies"
+  },
+  "custom-menu": {
+    "component": "Menu"
+  },
+  "image-custom": {
+    "component": "ImageCustom"
+  }
+}

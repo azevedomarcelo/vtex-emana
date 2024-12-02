@@ -1,0 +1,40 @@
+{
+	"flex-layout.row#banner-prescritores": {
+		"title": "Banner Prescritores",
+		"props": {
+			"fullWidth": true
+		},
+		"children": ["list-context.image-list#prescritores-main-banner-slider"]
+	},
+
+	"list-context.image-list#prescritores-main-banner-slider": {
+		"title": "Main banner slider",
+		"children": ["slider-layout#prescritores-main-banner-slider"],
+		"props": {
+			"height": "100%",
+			"width": "100%",
+			"images": [
+				{
+					"image": "https://emana.vteximg.com.br/arquivos/banner-prescritores.png",
+					"mobileImage": "/arquivos/home-banner-principal-mobile.png",
+					"link": {
+						"url": "/"
+					}
+				}
+			]
+		}
+	},
+	"slider-layout#prescritores-main-banner-slider": {
+		"title": "Prescritores Slider Banner",
+		"props": {
+			"itemsPerPage": {
+				"desktop": 1,
+				"tablet": 1,
+				"phone": 1
+			},
+			"infinite": true,
+			"showNavigationArrows": "desktopOnly",
+			"blockClass": ["home-main-banner-slider"]
+		}
+	}
+}

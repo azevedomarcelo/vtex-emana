@@ -1,0 +1,10 @@
+.button {
+  border-radius: 50px;
+}
+
+.buttonText--button-shelf,
+.buttonText--button-pdp {
+  font-size: 14px;
+  text-transform: none;
+  white-space: nowrap;
+}

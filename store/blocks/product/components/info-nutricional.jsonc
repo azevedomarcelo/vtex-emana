@@ -1,0 +1,18 @@
+{
+	"flex-layout.row#info-nutricional": {
+		"title": "Row - Info Nutricional",
+		"children": ["image-custom"]
+	},
+	"image-custom": {
+		"props": {
+			"src": "https://images.tcdn.com.br/img/editor/up/1062013/TABELA_NUTRICIONAL_CONCENTRA_.png",
+			"alt": "info-nutricional"
+		}
+	},
+
+	"image#info-nutricional": {
+		"props": {
+			"src": "https://images.tcdn.com.br/img/editor/up/1062013/TABELA_NUTRICIONAL_CONCENTRA_.png"
+		}
+	}
+}

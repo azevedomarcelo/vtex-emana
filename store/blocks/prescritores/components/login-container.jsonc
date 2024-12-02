@@ -1,0 +1,141 @@
+{
+	"flex-layout.row#login-container-prescritores": {
+		"title": "Login Container",
+		"props": {
+			"blockClass": "login-container-prescritores"
+		},
+		"children": ["responsive-layout.desktop#prescritores-container"]
+	},
+	"flex-layout.row#login-container-prescritores-mobile": {
+		"title": "Login Container",
+		"props": {
+			"blockClass": "login-container-prescritores"
+		},
+		"children": ["responsive-layout.mobile#prescritores-container"]
+	},
+
+	"responsive-layout.desktop#prescritores-container": {
+		"title": "[Desktop]",
+		"children": ["flex-layout.col#col-login", "flex-layout.col#col-cadastrar"]
+	},
+
+	"responsive-layout.mobile#prescritores-container": {
+		"title": "[Mobile]",
+		"children": ["flex-layout.col#prescritores-container-mobile"]
+	},
+	"flex-layout.col#prescritores-container-mobile": {
+		"children": [
+			"flex-layout.col#col-login",
+			"flex-layout.row#cadastro-container"
+		]
+	},
+
+	"flex-layout.col#col-login": {
+		"title": "Col - Login Container",
+		"props": {
+			"blockClass": "col-login",
+			"colSizing": "auto",
+			"fullWidth": false,
+			"horizontalAlign": "left"
+		},
+		"children": [
+			"flex-layout.row#login-container",
+			"flex-layout.row#image-container"
+		]
+	},
+
+	"flex-layout.row#login-container": {
+		"title": "Row - Login Container",
+		"props": {
+			"blockClass": "login-container"
+		},
+		"children": ["rich-text#login-container", "rich-text#login-link"]
+	},
+
+	"flex-layout.row#image-container": {
+		"title": "Row - Image Container",
+		"props": {
+			"blockClass": "image-container"
+		},
+		"children": ["image#image-login"]
+	},
+
+	"rich-text#login-container": {
+		"title": "Title - Ja sou cadastrado",
+		"props": {
+			"blockClass": "login-container",
+			"text": "JÁ SOU CADASTRADO",
+			"textAlignment": "CENTER"
+		}
+	},
+
+	"rich-text#login-link": {
+		"title": "Link - Login",
+		"props": {
+			"blockClass": "login-link",
+			"preventVerticalStretch": false,
+			"text": "[Login](/)",
+			"textAlignment": "CENTER"
+		}
+	},
+
+	"image#image-login": {
+		"title": "Image - Login",
+		"props": {
+			"src": "https://emana.vteximg.com.br/arquivos/login-image.png"
+		}
+	},
+
+	"flex-layout.col#col-cadastrar": {
+		"title": "Col - Cadastrar Container",
+		"props": {
+			"blockClass": "col-cadastrar",
+			"colSizing": "auto",
+			"fullWidth": false,
+			"horizontalAlign": "left"
+		},
+		"children": [
+			"flex-layout.row#image-cadastro",
+			"flex-layout.row#cadastro-container"
+		]
+	},
+
+	"flex-layout.row#cadastro-container": {
+		"title": "Row - Cadastro Container",
+		"props": {
+			"blockClass": "cadastro-container"
+		},
+		"children": ["rich-text#cadastro-container", "rich-text#cadastro-link"]
+	},
+
+	"flex-layout.row#image-cadastro": {
+		"title": "Image - Cadastro Container",
+		"children": ["image#image-cadastro"]
+	},
+
+	"rich-text#cadastro-container": {
+		"title": "Title - Quero me cadastrar",
+		"props": {
+			"blockClass": "login-container",
+			"text": "QUERO ME CADASTRAR",
+			"textAlignment": "CENTER"
+		}
+	},
+
+	"rich-text#cadastro-link": {
+		"title": "Link - Cadastro",
+		"props": {
+			"blockClass": "cadastro-link",
+			"preventVerticalStretch": false,
+			"text": "[Cadastrar](/)",
+			"textAlignment": "CENTER"
+		}
+	},
+
+	"image#image-cadastro": {
+		"title": "Image - Cadastro",
+		"props": {
+			"src": "https://emana.vteximg.com.br/arquivos/cadastro-image.png"
+		}
+	}
+}

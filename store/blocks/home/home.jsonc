@@ -1,0 +1,38 @@
+{
+	"store.home": {
+		"blocks": [
+			"responsive-layout.mobile#home",
+			"responsive-layout.desktop#home"
+		]
+	},
+	"responsive-layout.desktop#home": {
+		"title": "[Desktop]",
+		"children": [
+			"flex-layout.row#banner-home",
+			"flex-layout.row#em-alta",
+			"flex-layout.row#movimento-bem-estar",
+			"flex-layout.row#navegue-por-categoria",
+			"flex-layout.row#qual-seu-objetivo",
+			"flex-layout.row#shelf-1",
+			"flex-layout.row#para-voce",
+			"flex-layout.row#apaixonados-por-emana",
+			"flex-layout.row#nossos-selos-de-qualidades",
+			"flex-layout.row#newsletter"
+		]
+	},
+	"responsive-layout.mobile#home": {
+		"title": "[Mobile]",
+		"children": [
+			"flex-layout.row#banner-home",
+			"flex-layout.row#em-alta",
+			"flex-layout.row#movimento-bem-estar",
+			"flex-layout.row#navegue-por-categoria",
+			"flex-layout.row#qual-seu-objetivo",
+			"flex-layout.row#shelf-1",
+			"flex-layout.row#para-voce",
+			"flex-layout.row#apaixonados-por-emana",
+			"flex-layout.row#nossos-selos-de-qualidades",
+			"flex-layout.row#newsletter"
+		]
+	}
+}

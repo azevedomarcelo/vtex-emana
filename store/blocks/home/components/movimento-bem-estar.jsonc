@@ -1,0 +1,71 @@
+{
+  "flex-layout.row#movimento-bem-estar": {
+    "title": "Row - Movimento bem estar",
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "movimento-bem-estar"
+      ]
+    },
+    "children": [
+      "flex-layout.row#imagem-esquerda",
+      "flex-layout.col#texto-meio",
+      "flex-layout.row#imagem-direita"
+    ]
+  },
+
+  "flex-layout.row#imagem-esquerda": {
+    "title": "Row - Imagem lado esquerdo",
+    "children": [
+      "image#info-banner-esquerda"
+    ]
+  },
+  "image#info-banner-esquerda": {
+    "title": "Imagem - banner esquerdo",
+    "props": {
+      "src": "arquivos/info-banner-esquerda.png"
+    }
+  },
+
+  "flex-layout.col#texto-meio": {
+    "title": "Col - Informacao Container",
+    "children": [
+      "rich-text#info-title",
+      "rich-text#info-link"
+    ]
+  },
+
+  "rich-text#info-title": {
+    "title": "Titulo - Movimento bem estar",
+    "props": {
+      "text": "O __Movimento__ pelo seu bem-estar.",
+      "blockClass": [
+        "info-title"
+      ]
+    }
+  },
+
+  "rich-text#info-link": {
+    "title": "Link - Informacao",
+    "props": {
+      "text": "[Quem somos](/institucional/quem-somos)",
+      "blockClass": [
+        "info-link"
+      ]
+    }
+  },
+
+  "flex-layout.row#imagem-direita": {
+    "title": "Row - Imagem lado direito",
+    "children": [
+      "image#info-banner-direita"
+    ]
+  },
+
+  "image#info-banner-direita": {
+    "title": "Imagem - banner direito",
+    "props": {
+      "src": "arquivos/info-banner-direita.png"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+.flexRow--endereco-loja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 61px;
+  @media (max-width: 768px) {
+    margin-bottom: 70px;
+    margin-top: 0px;
+  }
+}
+
+.flexRow--bandeira-de-cartoes {
+  margin-top: 38px;
+}
+
+.flexRowContent--endereco-loja {
+  width: 69.1rem;
+  @media (max-width: 768px) {
+    width: 250px;
+  }
+}
+
+.flexCol--footer-col {
+  width: 162px !important;
+}
+
+.flexRowContent--footer-desktop {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.flexRowContent--footer-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .flexRowContent--bandeira-de-cartoes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .flexRowContent--endereco-loja {
+    display: flex;
+    flex-direction: column;
+    max-width: 285.64px;
+  }
+
+  .flexCol--footer-col {
+    display: flex;
+    align-items: center;
+    place-content: center;
+    width: 100% !important;
+    line-height: 21.24px;
+  }
+
+  .flexRow--footer-mobile {
+    background-color: #EBE6DC;
+    padding-top: 40px;
+  }
+
+  .flexRowContent--content-bandeira-de-cartoes,
+  .flexRowContent--content-selos-do-site {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .flexRow--social-media-content {
+    max-width: 270px;
+  }
+
+  .flexRowContent--social-media-content {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+  }
+}

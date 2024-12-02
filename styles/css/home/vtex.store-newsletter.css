@@ -1,0 +1,47 @@
+.newsletterForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailInputContainer :global(.vtex-input-prefix__group) {
+  width: 530px;
+  height: 50px;
+  border-radius: 50px;
+  padding: 15px 36px;
+  background-color: #EBE6DC;
+  border: 0;
+
+  :global(.vtex-styleguide-9-x-input) {
+    background-color: #EBE6DC;
+    color: #5A5555;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .emailInputContainer :global(.vtex-input-prefix__group) {
+    width: 275px;
+    height: 38px;
+    border-radius: 50px;
+    padding: 15px 36px;
+    background-color: #EBE6DC;
+    border: 0;
+  }    
+}
+
+@media screen and (max-width: 1280px) {
+  
+}
+
+@media screen and (max-width: 1366px) {
+
+}
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1600px) {
+
+}

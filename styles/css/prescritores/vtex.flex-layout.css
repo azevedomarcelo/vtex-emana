@@ -1,0 +1,49 @@
+.flexRow--login-container-prescritores {
+  margin: 40px auto 140px;
+}
+
+.flexRowContent--cadastro-container,
+.flexRowContent--login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 570px;
+  padding: 89px 0;
+  border-radius: 20px;
+}
+
+.flexRowContent--login-container {
+  background-color: #FFFFAA;
+  margin: 0 auto 68px;
+}
+
+.flexRowContent--cadastro-container {
+  margin: 68px auto 0;
+  background-color: #EBE6DC;
+}
+
+@media screen and (max-width: 768px) {
+  .flexRow--login-container-prescritores {
+    padding: 0 34px;
+  }
+  
+  .flexRowContent--cadastro-container,
+  .flexRowContent--login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 570px;
+    padding: 35px 45px;
+    border-radius: 20px;
+  }
+
+  .flexRowContent--cadastro-container {
+    margin: 35px auto 0;
+  }
+  
+  .flexRowContent--login-container {
+    margin: 0 auto 35px;
+  }
+}

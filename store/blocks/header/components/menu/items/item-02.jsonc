@@ -1,0 +1,71 @@
+{
+    // ============ primeiro nível do menu ============
+    "menu-item#02": {
+        "props": {
+            "id": "menu-item-about-us",
+            "type": "category",
+            "blockClass": [
+                "menu-item"
+            ],
+            "highlight": false,
+            "itemProps": {
+                "categoryId": 20312,
+                "text": "Desempenho"
+            },
+            "iconProps": {
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#02"
+        ]
+    },
+    "vtex.menu@2.x:submenu#02": {
+        "children": [
+            "vtex.menu@2.x:menu#02"
+        ]
+    },
+    "vtex.menu@2.x:menu#02": {
+        "children": [
+            "menu-item#02-01"
+        ],
+        "props": {
+          "orientation": "vertical"
+        }
+    },
+
+    // ============ segundo nível do menu ============
+    "menu-item#02-01": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "category",
+            "blockClass": [
+                "menu-item"
+            ],
+            "highlight": false,
+            "itemProps": {
+                "categoryId": 20311,
+                "text": "Barrinhas"
+            },
+            "iconProps": {
+                
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#02-01"
+        ]
+    },
+    "vtex.menu@2.x:submenu#02-01": {
+        "children": [
+            "vtex.menu@2.x:menu#02-01"
+        ]
+    },
+
+    "vtex.menu@2.x:menu#02-01": {
+        "children": [
+            "rich-text#teste"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

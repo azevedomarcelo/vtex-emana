@@ -1,0 +1,16 @@
+.styledLinkContainer--footer-menu {
+  margin: 0;
+}
+
+.styledLinkContent--footer-menu {
+  white-space: break-spaces;
+  font-size: 14px;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .styledLinkContent--footer-menu {
+    place-content: center;
+    font-size: 18px;
+  }
+}

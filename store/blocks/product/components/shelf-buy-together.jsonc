@@ -1,0 +1,12 @@
+{
+	"flex-layout.row#shelf-buy-together": {
+		"title": "[Product]: Container de Compre Junto",
+		"children": ["flex-layout.col#shelf-container-buy-together"]
+	},
+	"flex-layout.col#shelf-container-buy-together": {
+		"children": ["buy-together"],
+		"props": {
+			"blockClass": ["buy-together"]
+		}
+	}
+}

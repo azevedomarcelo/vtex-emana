@@ -1,0 +1,51 @@
+.quantitySelectorContainer--quantidade {
+  margin: 0 !important;
+
+  .quantitySelectorStepper--quantidade {
+    height: max-content;
+  
+    :global(.vtex-numeric-stepper-wrapper) {
+      :global(.vtex-numeric-stepper-container) {
+        flex-direction: column-reverse;
+        background-color: #EBE6DC;
+        width: fit-content;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        padding: 5px 0;
+  
+        :global(.vtex-numeric-stepper__input) {
+          width: 35px;
+          height: 37px;
+          border-left-width: 0px;
+          border-right-width: 0px;
+          color: #010101;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          background-color: transparent;
+        }
+  
+        :global(.vtex-numeric-stepper__plus-button-container) {
+          :global(.vtex-numeric-stepper__plus-button) {
+            width: 23.22px !important;
+            height: 23.22px !important;
+            color: #EBE6DC;
+            background-color: #5A555580;
+            border-radius: 50px !important;
+          }
+        }
+        
+        :global(.vtex-numeric-stepper__minus-button-container) {
+          :global(.vtex-numeric-stepper__minus-button) {
+            width: 23.22px !important;
+            height: 23.22px !important;
+            color: #EBE6DC;
+            background-color: #5A555580;
+            border-radius: 50px !important;
+          }
+        }
+      }
+    }
+  }
+}

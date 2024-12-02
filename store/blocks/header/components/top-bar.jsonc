@@ -1,0 +1,66 @@
+{
+	"flex-layout.row#top-bar": {
+		"title": "Top Bar",
+		"props": {
+			"fullWidth": true,
+			"blockClass": ["top-bar-container"]
+		},
+		"children": ["slider-layout#top-bar"]
+	},
+
+	"slider-layout#top-bar": {
+		"children": [
+			"rich-text#frete-gratis",
+			"rich-text#entrega-todo-brasil",
+			"rich-text#assine-recorrencia",
+			"rich-text#parcele"
+		],
+		"props": {
+			"blockClass": "slider-top-bar",
+			"itemsPerPage": {
+				"desktop": 4,
+				"tablet": 1,
+				"phone": 1
+			},
+			"infinite": true,
+			"fullWidth": true,
+			"autoplay": {
+				"timeout": 1000
+			},
+			"showNavigationArrows": "never",
+			"showPaginationDots": "never"
+		}
+	},
+
+	"rich-text#frete-gratis": {
+		"title": "Top Bar - Titulo 1",
+		"props": {
+			"text": "Frete Grátis em compras acima de R$250",
+			"blockClass": ["top-bar-title", "frete-gratis"]
+		}
+	},
+
+	"rich-text#entrega-todo-brasil": {
+		"title": "Top Bar - Titulo 2",
+		"props": {
+			"text": "Entrega em todo o Brasil",
+			"blockClass": ["top-bar-title", "entrega-brasil"]
+		}
+	},
+
+	"rich-text#assine-recorrencia": {
+		"title": "Top Bar - Titulo 3",
+		"props": {
+			"text": "Assine com recorrência",
+			"blockClass": ["top-bar-title", "assine-recorrencia"]
+		}
+	},
+
+	"rich-text#parcele": {
+		"title": "Top Bar - Titulo 4",
+		"props": {
+			"text": "Parcele em até 6x sem juros",
+			"blockClass": ["top-bar-title", "parcele"]
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#endereco-loja": {
+    "title": "Row - Endereco loja",
+    "children": [
+      "rich-text#endereco-loja",
+      "image#grupo-piracanjuba"
+    ],
+    "props": {
+      "blockClass": [
+        "endereco-loja"
+      ]
+    }
+  },
+  
+  "rich-text#endereco-loja": {
+    "props": {
+      "text": "A Loja Emana é operada pela iStoque Distribuidora e Logística LTDA CNPJ 37.264.663/0001-23 -Rua Kanebo, 175, Distrito Industrial, Jundiaí - SP, 13.213-090 © 2024 - Laticínios Bela Vista S.A. Todos os direitos reservados.",
+      "blockClass": "endereco-loja"
+    }
+  },
+  
+  "image#grupo-piracanjuba": {
+    "title": "Imagem - Grupo Piracanjuba",
+    "props": {
+      "src": "/arquivos/grupo-piracanjuba.png",
+      "blockClass": "grupo-piracanjuba-imagem"
+    }
+  }
+
+}

@@ -1,0 +1,74 @@
+{
+	"store.orderplaced": {
+		"blocks": ["order-placed"]
+	},
+
+	"store.account": {
+		"blocks": ["my-account"],
+		"parent": {
+			"challenge": "challenge.profile"
+		}
+	},
+
+	"store.login": {
+		"blocks": ["login-content#default"]
+	},
+
+	"login-content#default": {
+		"props": {
+			"isInitialScreenOptionOnly": false,
+			"defaultOption": 1,
+			"showPasswordVerificationIntoTooltip": true
+		}
+	},
+
+	"product-summary.shelf": {
+		"children": [
+			"product-summary-add-to-list-button",
+			"stack-layout#product-card-image",
+			"product-summary-name",
+			"product-summary-price",
+			"flex-layout.col#add-and-buy-button-shelf"
+		]
+	},
+
+	"flex-layout.col#add-and-buy-button-shelf": {
+		"children": [
+			"flex-layout.row#buy-button-shelf",
+			"flex-layout.row#add-to-cart-shelf"
+		],
+		"props": {
+			"width": "45%",
+			"blockClass": ["button-container"]
+		}
+	},
+	"flex-layout.row#add-to-cart-shelf": {
+		"props": {
+			"blockClass": "add-to-cart-shelf"
+		},
+		"children": ["custom-add-to-cart-button-shelf" ]
+	},
+	"flex-layout.row#buy-button-shelf": {
+		"props": {
+			"blockClass": "buy-button-shelf"
+		},
+		"children": ["add-to-cart-button#buy-button-shelf"]
+	},
+	// "add-to-cart-button#add-to-cart-shelf": {
+	// 	"props": {
+	// 		"text": "Adicionar ao carrinho",
+	// 		"onClickBehavior": "add-to-cart",
+	// 		"customPixelEventId": "openMinicart",
+	// 		// "addToCartFeedback": "customEvent",
+	// 		"blockClass": ["button-pdp", "button-add-to-cart"]
+	// 	}
+	// },
+	"add-to-cart-button#buy-button-shelf": {
+		"props": {
+			"text": "Comprar",
+			"customOneClickBuyLink": "/checkout/#/cart",
+			"isOneClickBuy": true,
+			"blockClass": ["button-pdp", "button-buy"]
+		}
+	}
+}

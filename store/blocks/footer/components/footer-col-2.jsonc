@@ -1,0 +1,90 @@
+{
+	"flex-layout.col#footer-col-2": {
+		"title": "Seção de Links 2",
+		"children": [
+			"rich-text#footer-col-2-title",
+			"vtex.menu@2.x:menu#footer-menu2"
+		],
+		"props": {
+			"blockClass": ["footer-col"],
+			"preventVerticalStretch": true
+		}
+	},
+
+	"rich-text#footer-col-2-title": {
+		"title": "Título da Seção",
+		"props": {
+			"blockClass": "footer-col-title",
+			"text": "##### Links Úteis"
+		}
+	},
+
+	"vtex.menu@2.x:menu#footer-menu2": {
+		"props": {
+			"items": [
+				{
+					"id": "politicas-de-devolucao",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/institucionais/politicas-de-devolucao",
+						"noFollow": false,
+						"tagTitle": "Políticas de Devolução",
+						"text": "Políticas de Devolução"
+					}
+				},
+				{
+					"id": "politica-de-privacidade",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/institucionais/politica-de-privacidade",
+						"noFollow": false,
+						"tagTitle": "Políticas de Privacidade",
+						"text": "Políticas de Privacidade"
+					}
+				},
+				{
+					"id": "politica-de-cookies",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/institucionais/politica-de-cookies",
+						"noFollow": false,
+						"tagTitle": "Política de Cookies",
+						"text": "Política de Cookies"
+					}
+				},
+				{
+					"id": "politica-seguranca-informacao",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/institucionais/politica-seguranca-informacao",
+						"noFollow": false,
+						"tagTitle": "Política de Segurança da Informação",
+						"text": "Política de Segurança da Informação"
+					}
+				},
+				{
+					"id": "gerencie-seus-dados",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "external",
+						"href": "https://privacyportal-br.onetrust.com/webform/15f79320-a2e4-44c8-8de4-04aa835036e0/00a5d227-8efb-47ae-879a-fb7a461214a9",
+						"noFollow": false,
+						"tagTitle": "Gerencie seus Dados",
+						"text": "Gerencie seus Dados"
+					}
+				}
+			],
+			"blockClass": ["footer-menu"],
+			"orientation": "vertical"
+		}
+	}
+}

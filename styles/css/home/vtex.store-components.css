@@ -1,0 +1,140 @@
+.infoCardContainer--info-card-1,
+.infoCardContainer--info-card-2,
+.infoCardContainer--info-card-3, 
+.infoCardContainer--info-card-4 {
+  width: 316px;
+  height: 465px;
+  background-size: contain !important;
+  object-fit: contain;
+}
+
+.infoCardContainer--info-card-apaixonado-por-emana {
+  width: 316px;
+  height: 410px;
+  background-size: contain !important;
+  object-fit: contain;
+}
+
+.infoCardTextContainer--info-card-1, 
+.infoCardTextContainer--info-card-2, 
+.infoCardTextContainer--info-card-3, 
+.infoCardTextContainer--info-card-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 23px;
+  place-self: end;
+}
+
+.infoCardTextContainer--info-card-apaixonado-por-emana {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 0 12px;
+  place-self: end;
+  
+}
+
+.infoCardCallActionContainer--info-card-1 :global(.vtex-button),
+.infoCardCallActionContainer--info-card-2 :global(.vtex-button),
+.infoCardCallActionContainer--info-card-3 :global(.vtex-button),
+.infoCardCallActionContainer--info-card-4 :global(.vtex-button) {
+  border-radius: 100px;
+  border: none;
+}
+
+.infoCardCallActionContainer--info-card-apaixonado-por-emana :global(.vtex-button) {
+  width: 202px;
+  background-color: #FFFF5A;
+  color: #000000;
+  border-radius: 0px 100px 100px 0;
+  border: none;
+  opacity: 0.7;
+  text-transform: lowercase;
+}
+
+.infoCardCallActionContainer--info-card-1 :global(.vtex-button) {
+  background-color: #FFFF5A;
+  color: #000000;
+}
+
+.infoCardCallActionContainer--info-card-2 :global(.vtex-button) {
+  background-color: #5A5555;
+  color: #FFFF5A;
+}
+
+.infoCardCallActionContainer--info-card-3 :global(.vtex-button) {
+  background-color: #FFFFAA;
+  color: #5A5555;
+}
+
+.infoCardCallActionContainer--info-card-4 :global(.vtex-button) {
+  background-color: #010101;
+  color: #FFFFAA;
+}
+
+.infoCardCallActionContainer--info-card-1 :global(.vtex-button) :global(.vtex-button__label) {
+  text-transform: none;
+}
+
+.infoCardCallActionContainer--info-card-2 :global(.vtex-button) :global(.vtex-button__label) {
+  text-transform: none;
+}
+
+.infoCardCallActionContainer--info-card-3 :global(.vtex-button) :global(.vtex-button__label) {
+  text-transform: none;
+}
+
+.infoCardCallActionContainer--info-card-4 :global(.vtex-button) :global(.vtex-button__label) {
+  text-transform: none;
+}
+
+.imageElement--movimento-imagem,
+.imageElement--alimentacao-imagem,
+.imageElement--sono-imagem,
+.imageElement--respiracao-imagem {
+  width: 282.96px;
+  height: 282px;
+}
+
+.imageElement--movimento-imagem-hover,
+.imageElement--sono-imagem-hover,
+.imageElement--respiracao-imagem-hover {
+  width: 282.96px;
+  height: 282px;
+}
+
+.imageElement--respiracao-imagem-hover {
+  width: 290px;
+  height: 295px;
+}
+
+.imageElement--sono-imagem-hover {
+  height: 298px;
+  width: 295px;
+}
+.imageElement--alimentacao-imagem-hover {
+  width: 285.96px;
+  height: 298px;
+}
+.imageElement--movimento-imagem-hover {
+  width: 282.96px;
+  height: 292px;
+}
+
+@media screen and (max-width: 1280px) {
+  
+}
+
+@media screen and (max-width: 1366px) {
+
+}
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1600px) {
+
+}

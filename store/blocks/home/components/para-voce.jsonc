@@ -1,0 +1,95 @@
+{
+  "flex-layout.row#para-voce": {
+    "title": "Row - Para voce",
+    "children": [
+      "flex-layout.col#para-voce-col"
+    ],
+    "props": {
+      "blockClass": [
+        "para-voce-container"
+      ]
+    }
+  },
+  "flex-layout.col#para-voce-col": {
+    "title": "Col - Para voce",
+    "children": [
+      "rich-text#para-voce-title",
+      "flex-layout.row#para-voce-cards"
+    ]
+  },
+  
+  "rich-text#para-voce-title": {
+    "title": "Titulo - Para voce",
+    "props": {
+      "text": "PARA __VOCÊ__",
+      "blockClass": "para-voce-title"
+    }
+  },
+  
+  "flex-layout.row#para-voce-cards": {
+    "title": "Row - Cards Para Voce",
+    "children": ["slider-layout#home-para-voce-slider"]
+  },
+
+  "slider-layout#home-para-voce-slider": {
+    "title": "Slider - Para voce",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
+      "fullWidth": true,
+      "blockClass": [
+        "home-slider",
+        "home-para-voce-slider"
+      ]
+    },
+    "children": [
+      "card-para-voce#exercicios",
+      "card-para-voce#nutricao",
+      "card-para-voce#energia",
+      "card-para-voce#nutricao"
+    ]
+  },
+  "card-para-voce#exercicios": {
+    "title": "Card Para Voce 1",
+    "props": {
+      "image": "arquivos/exercicios.png",
+      "altImage": "Imagem saudavel",
+      "tags": "Hábitos saudáveis, Exercícios",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ipsum dolor sit dolor anore dorime",
+      "datePost": "10/10/2024",
+      "linkText": "Leia mais",
+      "linkUrl": "/exercicios"
+    }
+  },
+  "card-para-voce#nutricao": {
+    "title": "Card Para Voce 2",
+    "props": {
+      "image": "arquivos/nutricao.png",
+      "altImage": "Imagem saudavel",
+      "tags": "Hábitos saudáveis, Nutrição",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ipsum dolor sit dolor anore dorime",
+      "datePost": "10/10/2024",
+      "linkText": "Leia mais",
+      "linkUrl": "/nutricao"
+    }
+  },
+
+  "card-para-voce#energia": {
+    "title": "Card Para Voce 3",
+    "props": {
+      "image": "arquivos/energia.png",
+      "altImage": "Imagem saudavel",
+      "tags": "Hábitos saudáveis, Energia",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  ipsum dolor sit dolor anore dorime",
+      "datePost": "10/10/2024",
+      "linkText": "Leia mais",
+      "linkUrl": "/energia"
+    }
+  }
+}

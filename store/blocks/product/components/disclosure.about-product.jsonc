@@ -1,0 +1,76 @@
+{
+	// ============ ABOUT PRODUCT 1 ============
+	"disclosure-layout#about-product-1": {
+		"props": {
+			"blockClass": ["accordion-container"]
+		},
+		"children": ["disclosure-trigger#about-product-1", "disclosure-content#about-product-1"]
+	},
+	"disclosure-trigger#about-product-1": {
+		"children": ["rich-text#question-about-product-1", "disclosure-state-indicator"]
+	},
+	"rich-text#question-about-product-1": {
+		"props": {
+			"text": "__Informação Nutricional__",
+			"blockClass": ["accordion-info"]
+		}
+	},
+	"disclosure-content#about-product-1": {
+		"children": ["rich-text#answer-about-product-1"]
+	},
+	"rich-text#answer-about-product-1": {
+		"props": {
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum ante, vehicula ac justo ut, pulvinar venenatis nulla. Etiam gravida lectus, ut gravida leo. Sed mauris dui, malesuada eget rhoncus quis, vulputate vel dui. Sed est eros, tincidunt vitaemetus id, condimentum vulputate ex. Phasellus non laoreet ex. Suspisse at egestas diam, at aliquet risus. Donec interdum eget magna ut laoreet. Quisque tortor velit, luctus at vehicula commodo, posuere ac felis. Quisque ac arcu vitae enim lacinia posuere a sit amet urna. Nulla eros ex, congue sit amet massa suscipit, malesuada vulputate est. Donec quis ex eget velit sagittis feugiat. Donec est purus, pulvinar a orci nec, blandit iaculis ligula. Nam facilisis id magna sed auctor. Duis velit risus, condimentum vitae dolor et, efficitur aliquam turpis. Pellentesque ac elementum velit."
+		}
+	},
+	
+	// ============ ABOUT PRODUCT 2 ============
+	"disclosure-layout#about-product-2": {
+		"props": {
+			"blockClass": ["accordion-container"]
+		},
+		"children": ["disclosure-trigger#about-product-2", "disclosure-content#about-product-2"]
+	},
+	"disclosure-trigger#about-product-2": {
+		"children": ["rich-text#question-about-product-2", "disclosure-state-indicator"]
+	},
+	"rich-text#question-about-product-2": {
+		"props": {
+			"text": "__Modo de Preparo__",
+			"blockClass": ["accordion-info"]
+		}
+	},
+	"disclosure-content#about-product-2": {
+		"children": ["rich-text#answer-about-product-2"]
+	},
+	"rich-text#answer-about-product-2": {
+		"props": {
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum ante, vehicula ac justo ut, pulvinar venenatis nulla. Etiam gravida lectus, ut gravida leo. Sed mauris dui, malesuada eget rhoncus quis, vulputate vel dui. Sed est eros, tincidunt vitaemetus id, condimentum vulputate ex. Phasellus non laoreet ex. Suspisse at egestas diam, at aliquet risus. Donec interdum eget magna ut laoreet. Quisque tortor velit, luctus at vehicula commodo, posuere ac felis. Quisque ac arcu vitae enim lacinia posuere a sit amet urna. Nulla eros ex, congue sit amet massa suscipit, malesuada vulputate est. Donec quis ex eget velit sagittis feugiat. Donec est purus, pulvinar a orci nec, blandit iaculis ligula. Nam facilisis id magna sed auctor. Duis velit risus, condimentum vitae dolor et, efficitur aliquam turpis. Pellentesque ac elementum velit."
+		}
+	},
+
+	// ============ ABOUT PRODUCT 3 ============
+	"disclosure-layout#about-product-3": {
+		"props": {
+			"blockClass": ["accordion-container"]
+		},
+		"children": ["disclosure-trigger#about-product-3", "disclosure-content#about-product-3"]
+	},
+	"disclosure-trigger#about-product-3": {
+		"children": ["rich-text#question-about-product-3", "disclosure-state-indicator"]
+	},
+	"rich-text#question-about-product-3": {
+		"props": {
+			"text": "__Referências Bibliográficas__",
+			"blockClass": ["accordion-info"]
+		}
+	},
+	"disclosure-content#about-product-3": {
+		"children": ["rich-text#answer-about-product-3"]
+	},
+	"rich-text#answer-about-product-3": {
+		"props": {
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum ante, vehicula ac justo ut, pulvinar venenatis nulla. Etiam gravida lectus, ut gravida leo. Sed mauris dui, malesuada eget rhoncus quis, vulputate vel dui. Sed est eros, tincidunt vitaemetus id, condimentum vulputate ex. Phasellus non laoreet ex. Suspisse at egestas diam, at aliquet risus. Donec interdum eget magna ut laoreet. Quisque tortor velit, luctus at vehicula commodo, posuere ac felis. Quisque ac arcu vitae enim lacinia posuere a sit amet urna. Nulla eros ex, congue sit amet massa suscipit, malesuada vulputate est. Donec quis ex eget velit sagittis feugiat. Donec est purus, pulvinar a orci nec, blandit iaculis ligula. Nam facilisis id magna sed auctor. Duis velit risus, condimentum vitae dolor et, efficitur aliquam turpis. Pellentesque ac elementum velit."
+		}
+	}
+}

@@ -1,0 +1,114 @@
+{
+	"flex-layout.col#footer-col-1": {
+		"title": "Seção de Links 1",
+		"children": [
+			"rich-text#footer-col-1-title",
+			"vtex.menu@2.x:menu#footer-menu1"
+		],
+		"props": {
+			"blockClass": ["footer-col"],
+			"preventVerticalStretch": true
+		}
+	},
+
+	"rich-text#footer-col-1-title": {
+		"title": "Título da Seção",
+		"props": {
+			"blockClass": "footer-col-title",
+			"text": "##### Institucional"
+		}
+	},
+
+	"vtex.menu@2.x:menu#footer-menu1": {
+		"props": {
+			"items": [
+				{
+					"id": "quem-somos",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/institucionais/quem-somos",
+						"noFollow": false,
+						"tagTitle": "Quem Somos",
+						"text": "Quem Somos"
+					}
+				},
+				{
+					"id": "conteudos",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "external",
+						"href": "https://blog.souemana.com.br/",
+						"noFollow": false,
+						"tagTitle": "Conteúdos",
+						"text": "Conteúdos"
+					}
+				},
+				{
+					"id": "produtos",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/produtos",
+						"noFollow": false,
+						"tagTitle": "Produtos",
+						"text": "Produtos"
+					}
+				},
+				{
+					"id": "perguntas-frequentes",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/institucionais/perguntas-frequentes",
+						"noFollow": false,
+						"tagTitle": "Perguntas Frequentes",
+						"text": "Perguntas Frequentes"
+					}
+				},
+				{
+					"id": "onde-encontrar",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/institucionais/onde-encontrar",
+						"noFollow": false,
+						"tagTitle": "Onde encontrar",
+						"text": "Onde encontrar"
+					}
+				},
+				// {
+				// 	"id": "clube-emana",
+				// 	"type": "custom",
+				// 	"highlight": false,
+				// 	"itemProps": {
+				// 		"type": "internal",
+				// 		"href": "#",
+				// 		"noFollow": false,
+				// 		"tagTitle": "Clube Emana",
+				// 		"text": "Clube Emana"
+				// 	}
+				// },
+				{
+					"id": "prescritores",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/institucionais/prescritores",
+						"noFollow": false,
+						"tagTitle": "Prescritores",
+						"text": "Prescritores"
+					}
+				}
+			],
+			"blockClass": ["footer-menu"],
+			"orientation": "vertical"
+		}
+	}
+}

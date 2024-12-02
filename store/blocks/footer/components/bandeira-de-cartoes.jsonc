@@ -1,0 +1,92 @@
+{
+	"flex-layout.row#bandeira-de-cartoes": {
+		"title": "Row - Bandeira de cartoes",
+		"children": [
+			"flex-layout.row#bandeira-de-cartoes-content",
+			"flex-layout.row#selos-do-site-content"
+		],
+		"props": {
+			"fullWidth": true,
+			"blockClass": "bandeira-de-cartoes"
+		}
+	},
+
+	"flex-layout.row#bandeira-de-cartoes-content": {
+		"title": "[Footer] Bandeira de Cartoes",
+		"children": [
+			"image#bandeira1",
+			"image#bandeira2",
+			"image#bandeira3",
+			"image#bandeira4"
+		],
+		"props": {
+			"blockClass": "content-bandeira-de-cartoes"
+		}
+	},
+
+	"flex-layout.row#selos-do-site-content": {
+		"title": "[Footer] Selos do site",
+		"children": [
+			"image#selos-site1",
+			"image#selos-site2",
+			"image#selos-site3",
+			"image#selos-site4"
+		],
+		"props": {
+			"blockClass": "content-selos-do-site"
+		}
+	},
+
+	"image#bandeira1": {
+		"title": "Imagem - Bandeira 1",
+		"props": {
+			"src": "assets/img/icons/bandeiras.svg"
+		}
+	},
+
+	"image#bandeira2": {
+		"title": "Imagem - Bandeira 2",
+		"props": {
+			"src": "assets/img/icons/bandeiras.svg"
+		}
+	},
+
+	"image#bandeira3": {
+		"title": "Imagem - Bandeira 3",
+		"props": {
+			"src": "assets/img/icons/bandeiras.svg"
+		}
+	},
+
+	"image#bandeira4": {
+		"title": "Imagem - Bandeira 4",
+		"props": {
+			"src": "assets/img/icons/bandeiras.svg"
+		}
+	},
+
+	"image#selos-site1": {
+		"title": "Imagem - Selos do site 1",
+		"props": {
+			"src": "assets/img/icons/selos.svg"
+		}
+	},
+	"image#selos-site2": {
+		"title": "Imagem - Selos do site 2",
+		"props": {
+			"src": "assets/img/icons/selos.svg"
+		}
+	},
+	"image#selos-site3": {
+		"title": "Imagem - Selos do site 3",
+		"props": {
+			"src": "assets/img/icons/selos.svg"
+		}
+	},
+	"image#selos-site4": {
+		"title": "Imagem - Selos do site 4",
+		"props": {
+			"src": "assets/img/icons/selos.svg"
+		}
+	}
+}

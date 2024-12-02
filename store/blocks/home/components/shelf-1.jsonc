@@ -1,0 +1,45 @@
+{
+	"flex-layout.row#shelf-1": {
+		"children": ["flex-layout.col#shelf1"]
+	},
+	"flex-layout.col#shelf1": {
+		"props": {
+			"blockClass": ["shelf", "shelf-1"]
+		},
+		"children": ["rich-text#shelf1-title", "list-context.product-list#shelf1"]
+	},
+	"rich-text#shelf1-title": {
+		"title": "Texto",
+		"props": {
+			"blockClass": "shelf-title",
+			"font": "t-body",
+			"text": "### OFERTAS",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+	"list-context.product-list#shelf1": {
+		"title": "Carrossel de Produtos",
+		"props": {
+			"blockClass": ["product-shelf-list"]
+		},
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#shelf1"]
+	},
+	"slider-layout#shelf1": {
+		"title": "Layout do Slider",
+		"props": {
+			"itemsPerPage": {
+				"desktop": 5,
+				"tablet": 3,
+				"phone": 1
+			},
+			"infinite": true,
+			"fullWidth": true,
+			"showNavigationArrows": "never",
+			"showPaginationDots": "always",
+			"blockClass": ["home-slider", "slider-shelf"],
+			"arrowSize": 36
+		}
+	}
+}

@@ -1,0 +1,171 @@
+{
+	"store.product": {
+		"children": [
+			"breadcrumb#pdp",
+			"flex-layout.row#main",
+			"flex-layout.row#shelf-buy-together",
+			"flex-layout.row#row-product-description",
+			"flex-layout.row#description-disclosure",
+			"flex-layout.row#newsletter"
+		]
+	},
+	"flex-layout.row#row-product-description": {
+		"title": "Row - Descricao Produto",
+		"props": {
+			"fullWidth": false,
+			"horizontalAlign": "center"
+		},
+		"children": [
+			"product-description"
+		]
+	},
+
+	"product-description": {
+		"props": {
+			"collapseContent": false
+		}
+	},
+	"flex-layout.row#main": {
+		"props": {
+			"marginTop": 6,
+			"blockClass": "main-content-block"
+		},
+		"children": ["flex-layout.col#left", "flex-layout.col#right"]
+	},
+
+	"flex-layout.col#left": {
+		"children": ["product-images", "add-to-list-btn", "share"],
+		"props": {
+			"blockClass": ["left-content-block"]
+		}
+	},
+
+	"share": {
+		"props": {
+			"social": {
+				"Telegram": true,
+				"Twitter": true,
+				"Facebook": true,
+				"WhatsApp": true
+			}
+		}
+	},
+
+	"flex-layout.col#right": {
+		"props": {
+			"verticalAlign": "top",
+			"preventVerticalStretch": true,
+			"blockClass": ["col-right"]
+		},
+		"children": [
+			"product-name",
+			"product-rating-summary",
+			"rich-text#product-description",
+			"flex-layout.row#product-description-installments",
+			"flex-layout.row#qty-sku",
+			"flex-layout.row#qty-btn-banner"
+		]
+	},
+	"rich-text#product-description": {
+		"title": "Product Description",
+		"props": {
+			"text": "Com colágeno hidrolisado Verisol® associado ao famoso ácido hialurônico e silício orgânico, contém ainda biotina, vitaminas antioxidantes, zinco e selênio que contribuem para a manutenção da sua pele, cabelo e unhas. E tudo isso com um delicioso sabor de laranja com acerola feito com polpa de fruta!",
+			"font": "t-body"
+		}
+	},
+
+	"flex-layout.row#product-description-installments": {
+		"props": {
+			"width": "10%",
+			"blockClass": ["product-description-installments"]
+		},
+		"children": ["product-price", "product-installments"]
+	},
+
+	"product-installments": {
+		"props": {
+			"message": "Até {installmentsNumber}x sem juros"
+		}
+	},
+
+	"flex-layout.row#qty-btn-banner": {
+		"children": [
+			"flex-layout.col#product-quantity",
+			"flex-layout.col#add-and-buy-button"
+			// "image#banner-assinatura"
+		],
+		"props": {
+			"blockClass": ["row-qty-btn-banner"]
+		}
+	},
+	"flex-layout.col#product-quantity": {
+		"children": ["product-quantity"],
+		"props": {
+			"width": "10%",
+			"blockClass": ["button-container"]
+		}
+	},
+	"flex-layout.col#add-and-buy-button": {
+		"children": ["flex-layout.row#add-to-cart", "flex-layout.row#buy-button"],
+		"props": {
+			"width": "45%",
+			"blockClass": ["button-container"]
+		}
+	},
+	"flex-layout.row#add-to-cart": {
+		"props": {
+			"blockClass": "add-to-cart"
+		},
+		"children": ["add-to-cart-button#add-to-cart"]
+	},
+	"flex-layout.row#buy-button": {
+		"props": {
+			"blockClass": "buy-button"
+		},
+		"children": ["add-to-cart-button#buy-button"]
+	},
+
+	"add-to-cart-button#add-to-cart": {
+		"props": {
+			"text": "Adicionar ao carrinho",
+			"onClickBehavior": "add-to-cart",
+			// "customPixelEventId": "openMinicart",
+			// "addToCartFeedback": "customEvent",
+			"blockClass": ["button-pdp", "button-add-to-cart"]
+		}
+	},
+	"add-to-cart-button#buy-button": {
+		"props": {
+			"text": "Comprar",
+			"customOneClickBuyLink": "/checkout/#/cart",
+			"isOneClickBuy": true,
+			"blockClass": ["button-pdp", "button-buy"]
+		}
+	},
+
+	"image#banner-assinatura": {
+		"props": {
+			"src": "/arquivos/banner-principal.png"
+		}
+	},
+	"flex-layout.row#qty-sku": {
+		"children": ["sku-selector"]
+	},
+	"product-price": {
+		"props": {
+			"showSavings": true,
+			"showListPrice": true
+		}
+	},
+	"product-quantity": {
+		"props": {
+			"showLabel": false,
+			"blockClass": ["quantidade"]
+		}
+	},
+	"sku-selector": {
+		"props": {
+			"hideImpossibleCombinations": false
+		}
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"disclosure-layout#faq-1": {
+		"props": {
+			"blockClass": ["accordion-container"]
+		},
+		"children": ["disclosure-trigger#faq-1", "disclosure-content#faq-1"]
+	},
+	"disclosure-trigger#faq-1": {
+		"children": ["rich-text#question-faq-1", "disclosure-state-indicator"]
+	},
+	"disclosure-content#faq-1": {
+		"children": ["rich-text#answer-faq-1"]
+	},
+	"rich-text#question-faq-1": {
+		"props": {
+			"text": "__Lorem ipsum dolor sit amet consectetur adipiscing elit__",
+			"blockClass": ["accordion-info"]
+		}
+	},
+	"rich-text#answer-faq-1": {
+		"props": {
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum ante, vehicula ac justo ut, pulvinar venenatis nulla. Etiam gravida lectus, ut gravida leo. Sed mauris dui, malesuada eget rhoncus quis, vulputate vel dui. Sed est eros, tincidunt vitaemetus id, condimentum vulputate ex. Phasellus non laoreet ex. Suspisse at egestas diam, at aliquet risus. Donec interdum eget magna ut laoreet. Quisque tortor velit, luctus at vehicula commodo, posuere ac felis. Quisque ac arcu vitae enim lacinia posuere a sit amet urna. Nulla eros ex, congue sit amet massa suscipit, malesuada vulputate est. Donec quis ex eget velit sagittis feugiat. Donec est purus, pulvinar a orci nec, blandit iaculis ligula. Nam facilisis id magna sed auctor. Duis velit risus, condimentum vitae dolor et, efficitur aliquam turpis. Pellentesque ac elementum velit."
+		}
+	},
+	"disclosure-layout#faq-2": {
+		"props": {
+			"blockClass": ["accordion-container"]
+		},
+		"children": ["disclosure-trigger#faq-2", "disclosure-content#faq-2"]
+	},
+	"disclosure-trigger#faq-2": {
+		"children": ["rich-text#question-faq-2", "disclosure-state-indicator"]
+	},
+	"disclosure-content#faq-2": {
+		"children": ["rich-text#answer-faq-2"]
+	},
+	"rich-text#question-faq-2": {
+		"props": {
+			"text": "__Lorem ipsum dolor sit amet consectetur adipiscing elit__",
+			"blockClass": ["accordion-info"]
+		}
+	},
+	"rich-text#answer-faq-2": {
+		"props": {
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum ante, vehicula ac justo ut, pulvinar venenatis nulla. Etiam gravida lectus, ut gravida leo. Sed mauris dui, malesuada eget rhoncus quis, vulputate vel dui. Sed est eros, tincidunt vitaemetus id, condimentum vulputate ex. Phasellus non laoreet ex. Suspisse at egestas diam, at aliquet risus. Donec interdum eget magna ut laoreet. Quisque tortor velit, luctus at vehicula commodo, posuere ac felis. Quisque ac arcu vitae enim lacinia posuere a sit amet urna. Nulla eros ex, congue sit amet massa suscipit, malesuada vulputate est. Donec quis ex eget velit sagittis feugiat. Donec est purus, pulvinar a orci nec, blandit iaculis ligula. Nam facilisis id magna sed auctor. Duis velit risus, condimentum vitae dolor et, efficitur aliquam turpis. Pellentesque ac elementum velit."
+		}
+	},
+	"disclosure-layout#faq-3": {
+		"props": {
+			"blockClass": ["accordion-container"]
+		},
+		"children": ["disclosure-trigger#faq3", "disclosure-content#faq3"]
+	},
+	"disclosure-trigger#faq3": {
+		"children": ["rich-text#question-faq3", "disclosure-state-indicator"]
+	},
+	"disclosure-content#faq3": {
+		"children": ["rich-text#answer-faq3"]
+	},
+	"rich-text#question-faq3": {
+		"props": {
+			"text": "__Lorem ipsum dolor sit amet consectetur adipiscing elit__",
+			"blockClass": ["accordion-info"]
+		}
+	},
+	"rich-text#answer-faq3": {
+		"props": {
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum ante, vehicula ac justo ut, pulvinar venenatis nulla. Etiam gravida lectus, ut gravida leo. Sed mauris dui, malesuada eget rhoncus quis, vulputate vel dui. Sed est eros, tincidunt vitaemetus id, condimentum vulputate ex. Phasellus non laoreet ex. Suspisse at egestas diam, at aliquet risus. Donec interdum eget magna ut laoreet. Quisque tortor velit, luctus at vehicula commodo, posuere ac felis. Quisque ac arcu vitae enim lacinia posuere a sit amet urna. Nulla eros ex, congue sit amet massa suscipit, malesuada vulputate est. Donec quis ex eget velit sagittis feugiat. Donec est purus, pulvinar a orci nec, blandit iaculis ligula. Nam facilisis id magna sed auctor. Duis velit risus, condimentum vitae dolor et, efficitur aliquam turpis. Pellentesque ac elementum velit."
+		}
+	},
+	"disclosure-layout#faq-4": {
+		"props": {
+			"blockClass": ["accordion-container"]
+		},
+		"children": ["disclosure-trigger#faq-4", "disclosure-content#faq-4"]
+	},
+	"disclosure-trigger#faq-4": {
+		"children": ["rich-text#question-faq-4", "disclosure-state-indicator"]
+	},
+	"disclosure-content#faq-4": {
+		"children": ["rich-text#answer-faq-4"]
+	},
+	"rich-text#question-faq-4": {
+		"props": {
+			"text": "__Lorem ipsum dolor sit amet consectetur adipiscing elit__",
+			"blockClass": ["accordion-info"]
+		}
+	},
+	"rich-text#answer-faq-4": {
+		"props": {
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum ante, vehicula ac justo ut, pulvinar venenatis nulla. Etiam gravida lectus, ut gravida leo. Sed mauris dui, malesuada eget rhoncus quis, vulputate vel dui. Sed est eros, tincidunt vitaemetus id, condimentum vulputate ex. Phasellus non laoreet ex. Suspisse at egestas diam, at aliquet risus. Donec interdum eget magna ut laoreet. Quisque tortor velit, luctus at vehicula commodo, posuere ac felis. Quisque ac arcu vitae enim lacinia posuere a sit amet urna. Nulla eros ex, congue sit amet massa suscipit, malesuada vulputate est. Donec quis ex eget velit sagittis feugiat. Donec est purus, pulvinar a orci nec, blandit iaculis ligula. Nam facilisis id magna sed auctor. Duis velit risus, condimentum vitae dolor et, efficitur aliquam turpis. Pellentesque ac elementum velit."
+		}
+	}
+}
