@@ -2929,9 +2929,9 @@ electron-to-chromium@^1.5.28:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.39.tgz#5cbe5200b43dff7b7c2bcb6bdacf65d514c76bb2"
   integrity sha512-4xkpSR6CjuiaNyvwiWDI85N9AxsvbPawB8xc7yzLPonYTuP19BVgYweKyUMFtHEZgIcHWMt1ks5Cqx2m+6/Grg==
 
-"emana.store-theme@https://adjusts--emana.myvtex.com/_v/private/typings/linked/v1/emana.store-theme@0.0.0+build1732642053/public/@types/emana.store-theme":
+"emana.store-theme@https://dev--emana.myvtex.com/_v/private/typings/linked/v1/emana.store-theme@0.0.0+build1732194502/public/@types/emana.store-theme":
   version "0.0.0"
-  resolved "https://adjusts--emana.myvtex.com/_v/private/typings/linked/v1/emana.store-theme@0.0.0+build1732642053/public/@types/emana.store-theme#214966585177342c7b3cc1f7bd98b1a8ce3cc1be"
+  resolved "https://dev--emana.myvtex.com/_v/private/typings/linked/v1/emana.store-theme@0.0.0+build1732194502/public/@types/emana.store-theme#5a67f2ef09d58116958f343a399afade1bb0c898"
 
 emoji-regex@^8.0.0:
   version "8.0.0"
