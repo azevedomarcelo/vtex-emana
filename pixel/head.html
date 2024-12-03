@@ -1,5 +1,4 @@
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
 <style>
     h3.vtex-product-summary-2-x-productNameContainer.mv0.vtex-product-summary-2-x-nameWrapper.overflow-hidden.c-on-base.f5 {
         display: -webkit-box;
@@ -329,6 +328,35 @@
         font-size: 36px;
     }
 
+    .y-whatsapp img {
+        height: 42px;
+        position: relative;
+        top: 9px;
+    }
+
+    .y-whatsapp img {
+        height: 42px;
+        position: relative;
+        top: 9px;
+    }
+
+    .y-whatsapp {
+        position: fixed;
+        bottom: 50px;
+        right: 30px;
+        background-color: #ffff5a;
+        z-index: 99999;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+    }
+
+    .y-whatsapp a {
+        cursor: pointer;
+        display: block;
+    }
+
     @media(min-width:768px) {
 
         .vtex-flex-layout-0-x-flexRowContent--endereco-loja {
@@ -398,21 +426,42 @@
             position: relative;
             top: 2px;
         }
+
+        .y-whatsapp {
+            right: 10px;
+        }
     }
 </style>
 
 <script>
     setTimeout(() => {
+        const targetElement = document.querySelector(
+            '.vtex-flex-layout-0-x-flexRow.vtex-flex-layout-0-x-flexRow--apaixonados-por-emana-container');
 
-        let linkElement = document.querySelector(
-            '.vtex-flex-layout-0-x-flexRow.vtex-flex-layout-0-x-flexRow--movimento-bem-estar a.vtex-rich-text-0-x-link.vtex-rich-text-0-x-link--info-link'
-        );
+        if (targetElement) {
+            const whatsappDiv = document.createElement('div');
+            whatsappDiv.className = 'y-whatsapp';
 
-        if (linkElement) {
-
-            linkElement.href = 'https://adjusts--emana.myvtex.com/institucionais/quem-somos';
+            whatsappDiv.innerHTML = `
+    <a aria-label="WhatsApp" class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=5562999526336" target="_blank">
+      <img 
+        title="" 
+        sizes="" 
+        srcset="" 
+        alt="" 
+        class="vtex-store-components-3-x-imageElement vtex-render-runtime-8-x-lazyload" 
+        loading="eager" 
+        fetchpriority="auto" 
+        crossorigin="anonymous" 
+        data-src="https://emana.vtexassets.com/assets/vtex/assets-builder/emana.store-theme/0.1.2/img/icons/whatsapp___dcf9dd1eb38359470e951651823aa326.svg" 
+        src="https://emana.vtexassets.com/assets/vtex/assets-builder/emana.store-theme/0.1.2/img/icons/whatsapp___dcf9dd1eb38359470e951651823aa326.svg"
+      >
+    </a>
+  `;
+            targetElement.insertAdjacentElement('afterend', whatsappDiv);
         } else {
-            console.log('Elemento não encontrado');
+            console.error('Elemento alvo não encontrado.');
         }
+
     }, 1000);
 </script>

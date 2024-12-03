@@ -8,20 +8,30 @@
 	},
 
 	"list-context.image-list#home-main-banner-slider": {
-		"title": "Main banner slider (Phone)",
+		"title": "Main banner slider",
 		"children": ["slider-layout#home-main-banner-slider"],
 		"props": {
 			"height": "100%",
 			"width": "100%",
 			"images": [
 				{
-					"image": "arquivos/Emana_Desktop__BF_SEMANA_04_Barrinhas_2.png",
-					"mobileImage": "arquivos/Emana_Mobile__BF_SEMANA_04_Barrinhas.png",
-					"link": "/"
+					"image": "arquivos/Desktop_Barrinha_Proteica.png",
+					"mobileImage": "arquivos/Mobile_Barrinha_Proteica.png",
+					"link": "https://emana.myvtex.com/caixa%2012%20barras%20de%20prote%C3%ADna?map=ft"
 				},
 				{
-					"image": "arquivos/Emana_Desktop__BF_SEMANA_04_Barrinhas_proteína.png",
-					"mobileImage": "arquivos/Emana_Mobile__BF_SEMANA_04_Frete_Gratis.png",
+					"image": "arquivos/Desktop_Bebida Emana_Protein.png",
+					"mobileImage": "arquivos/Mobile_Bebida_Emana_Protein.png",
+					"link": "https://emana.myvtex.com/bebida?_q=bebida&map=ft"
+				},
+				{
+					"image": "arquivos/Desktop_Gummy_de_Vinagre_de_Maça.png",
+					"mobileImage": "arquivos/Mobile_Gummy_de_Vinagre_de_Maça.png",
+					"link": "https://emana.myvtex.com/gummy%20de%20vinagre?_q=gummy%20de%20vinagre&map=ft"
+				},
+				{
+					"image": "arquivos/Desktop_Institucional_3.png",
+					"mobileImage": "arquivos/Mobile_Institucional_3.png",
 					"link": "/"
 				}
 			]
