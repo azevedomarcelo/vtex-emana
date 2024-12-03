@@ -35,7 +35,7 @@
 	"rich-text#frete-gratis": {
 		"title": "Top Bar - Titulo 1",
 		"props": {
-			"text": "Frete Grátis em compras acima de R$250",
+			"text": "Frete Grátis em compras acima de R$249,90",
 			"blockClass": ["top-bar-title", "frete-gratis"]
 		}
 	},
