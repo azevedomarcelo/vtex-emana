@@ -26,5 +26,21 @@
   "store.custom#politica-seguranca-informacao": {
     "path": "/institucionais/politica-seguranca-informacao",
     "title": "Política de Segurança da Informação | Emana"
+  },
+  "store.custom#collection-respiracao": {
+    "path": "/respiracao",
+    "title": "Respiração | Emana"
+  },
+  "store.custom#collection-movimento": {
+    "path": "/movimento",
+    "title": "Movimento | Emana"
+  },
+  "store.custom#collection-alimentacao": {
+    "path": "/alimentacao",
+    "title": "Alimentação | Emana"
+  },
+  "store.custom#collection-sono": {
+    "path": "/sono",
+    "title": "Sono | Emana"
   }
 }

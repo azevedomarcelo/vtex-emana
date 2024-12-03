@@ -2,25 +2,38 @@
 	"flex-layout.row#bandeira-de-cartoes": {
 		"title": "Row - Bandeira de cartoes",
 		"children": [
-			"flex-layout.row#bandeira-de-cartoes-content",
-			"flex-layout.row#selos-do-site-content"
+			"flex-layout.row#bandeira-de-cartoes-content"
+			// "flex-layout.row#selos-do-site-content"
 		],
 		"props": {
 			"fullWidth": true,
-			"blockClass": "bandeira-de-cartoes"
+			"blockClass": "bandeira-de-cartoes",
+			"horizontalAlign": "center"
 		}
 	},
 
 	"flex-layout.row#bandeira-de-cartoes-content": {
 		"title": "[Footer] Bandeira de Cartoes",
-		"children": [
-			"image#bandeira1",
-			"image#bandeira2",
-			"image#bandeira3",
-			"image#bandeira4"
-		],
+		"children": ["accepted-payment-methods-custom"],
 		"props": {
-			"blockClass": "content-bandeira-de-cartoes"
+			"blockClass": "content-bandeira-de-cartoes",
+			"horizontalAlign": "center"
+		}
+	},
+
+	"accepted-payment-methods-custom": {
+		"props": {
+			"paymentMethods": [
+				"Boleto",
+				"Pix",
+				"Visa",
+				"Dinners Club",
+				"American Express",
+				"Hipercard",
+				"Hiper",
+				"MasterCard",
+				"Elo"
+			]
 		}
 	},
 

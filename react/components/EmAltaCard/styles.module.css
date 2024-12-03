@@ -29,6 +29,7 @@
   font-size: 16px;
   font-weight: bold;
   line-height: 18.88px;
+  background-color: #ffff5a
 }
 
 .em-alta-card-button {
@@ -101,8 +102,8 @@
 }
 
 .em-alta-card-footer-icon {
-  width: 54px;
-  height: 54px;
+  width: auto;
+  height: 75px;
 }
 
 .em-alta-card-footer-tag {

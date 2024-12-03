@@ -1,4 +1,14 @@
 {
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": false,
+    "ignore": [],
+    "attributePosition": "auto",
+    "indentStyle": "tab",
+    "indentWidth": 1,
+    "lineWidth": 80,
+    "lineEnding": "lf"
+  },
   "linter": {
     "rules": {
       "suspicious": {
@@ -9,7 +19,8 @@
       },
       "correctness": {
         "useExhaustiveDependencies": "off",
-        "noChildrenProp": "off"
+        "noChildrenProp": "off",
+        ""
       },
       "style": {
         "noShoutyConstants": "warn",

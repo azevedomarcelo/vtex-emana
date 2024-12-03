@@ -36,5 +36,8 @@
   },
   "image-custom": {
     "component": "ImageCustom"
+  },
+  "accepted-payment-methods-custom": {
+    "component": "AcceptedPaymentMethods"
   }
 }

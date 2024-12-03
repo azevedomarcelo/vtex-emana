@@ -32,6 +32,9 @@
 			"custom-menu"
 		]
 	},
+	"custom-menu": {
+		"title": "[Header] - Menu"
+	},
 	"flex-layout.row#middle": {
 		"title": "Row - Header Meio",
 		"children": [
