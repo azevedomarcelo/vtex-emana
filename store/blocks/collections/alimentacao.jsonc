@@ -1,0 +1,17 @@
+{
+	"store.custom#collection-alimentacao": {
+		"blocks": ["search-result-layout.customQuery#collection-alimentacao"]
+	},
+	"search-result-layout.customQuery#collection-alimentacao": {
+		"blocks": ["search-result-layout.desktop", "search-result-layout.mobile"],
+		"props": {
+			"querySchema": {
+				"skusFilter": "ALL",
+				"simulationBehavior": "skip",
+				"queryField": "143",
+				"mapField": "productClusterIds",
+				"maxItemsPerPage": 12
+			}
+		}
+	}
+}

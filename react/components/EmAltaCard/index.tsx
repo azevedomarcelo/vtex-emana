@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import type { QueryResult } from "react-apollo";
 import { useQuery } from "react-apollo";
+import { useOrderItems } from "vtex.order-items/OrderItems";
 import { Link } from "vtex.render-runtime";
-import { useOrderItems } from 'vtex.order-items/OrderItems'
 import GET_PRODUCT from "../../graphql/getProductById.gql";
 import type {
 	Product,
@@ -38,13 +38,15 @@ export function EmAltaCard(props: EmAltaCardProps) {
 			values: props.productId,
 		},
 	});
-	const { addItems } = useOrderItems()
+	const { addItems } = useOrderItems();
 
 	const openMiniCart = () => {
-		const button = document.querySelector('.vtex-minicart-2-x-openIconContainer') as HTMLButtonElement
+		const button = document.querySelector(
+			".vtex-minicart-2-x-openIconContainer",
+		) as HTMLButtonElement;
 
-		if(button) button.click()
-	}
+		if (button) button.click();
+	};
 
 	useEffect(() => {
 		if (data && data.productsByIdentifier[0].items.length >= 1) {
@@ -53,19 +55,19 @@ export function EmAltaCard(props: EmAltaCardProps) {
 	}, [data]);
 
 	const handleAddToCart = async () => {
-		if(!product) return
-		console.log(product)
-		const items = product.items.map(item => ({
+		if (!product) return;
+		console.log(product);
+		const items = product.items.map((item) => ({
 			quantity: 1,
 			name: item.name,
 			seller: item.sellers[0].sellerId,
 			id: item.itemId,
-			__typename: item.__typename
-		}))
+			__typename: item.__typename,
+		}));
 
-		console.log(items)
-		addItems(items)
-		openMiniCart()
+		console.log(items);
+		addItems(items);
+		openMiniCart();
 	};
 
 	return (
@@ -125,7 +127,7 @@ export function EmAltaCard(props: EmAltaCardProps) {
 							src={tag.iconTag}
 							alt={tag.nameTag}
 						/>
-						<p className={styles["em-alta-card-footer-tag"]}>{tag.nameTag}</p>
+						{/* <p className={styles["em-alta-card-footer-tag"]}>{tag.nameTag}</p> */}
 					</div>
 				))}
 			</footer>

@@ -1,0 +1,17 @@
+{
+	"store.custom#collection-movimento": {
+		"blocks": ["search-result-layout.customQuery#collection-movimento"]
+	},
+	"search-result-layout.customQuery#collection-movimento": {
+		"blocks": ["search-result-layout.desktop", "search-result-layout.mobile"],
+		"props": {
+			"querySchema": {
+				"skusFilter": "ALL",
+				"simulationBehavior": "skip",
+				"queryField": "140",
+				"mapField": "productClusterIds",
+				"maxItemsPerPage": 12
+			}
+		}
+	}
+}

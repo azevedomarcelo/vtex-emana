@@ -34,7 +34,7 @@
 		"title": "[Mobile] Texto 1",
 		"props": {
 			"label": "Respiração",
-			"href": "/",
+			"href": "/respiracao",
 			"blockClass": ["qual-seu-objetivo-mobile"]
 		}
 	},
@@ -43,7 +43,7 @@
 		"title": "[Mobile] Texto 2",
 		"props": {
 			"label": "Movimento",
-			"href": "/",
+			"href": "/movimento",
 			"blockClass": ["qual-seu-objetivo-mobile"]
 		}
 	},
@@ -52,7 +52,7 @@
 		"title": "[Mobile] Texto 3",
 		"props": {
 			"label": "Alimentação",
-			"href": "/",
+			"href": "/alimentacao",
 			"blockClass": ["qual-seu-objetivo-mobile"]
 		}
 	},
@@ -61,7 +61,7 @@
 		"title": "[Mobile] Texto 4",
 		"props": {
 			"label": "Sono",
-			"href": "/",
+			"href": "/sono",
 			"blockClass": ["qual-seu-objetivo-mobile"]
 		}
 	},
@@ -95,7 +95,11 @@
 	// ======== seu objetivo 1 ========
 	"flex-layout.col#content-seu-objetivo1": {
 		"title": "Content - Qual seu objetivo 1",
-		"children": ["image#imagem1", "image#imagem-hover1", "link#link-seu-objetivo1"],
+		"children": [
+			"image#imagem1",
+			"image#imagem-hover1",
+			"link#link-seu-objetivo1"
+		],
 		"props": {
 			"blockClass": ["content-seu-objetivo", "content-seu-objetivo1"]
 		}
@@ -118,16 +122,19 @@
 		"title": "Link - Qual seu objetivo 1",
 		"props": {
 			"label": "Respiração",
-			"href": "/",
+			"href": "/respiracao",
 			"blockClass": ["seu-objetivo"]
 		}
 	},
 
-
 	// ======== seu objetivo 2 ========
 	"flex-layout.col#content-seu-objetivo2": {
 		"title": "Content - Qual seu objetivo 2",
-		"children": ["image#imagem2", "image#imagem-hover2", "link#link-seu-objetivo2"],
+		"children": [
+			"image#imagem2",
+			"image#imagem-hover2",
+			"link#link-seu-objetivo2"
+		],
 		"props": {
 			"blockClass": ["content-seu-objetivo", "content-seu-objetivo2"]
 		}
@@ -150,7 +157,7 @@
 		"title": "Link - Qual seu objetivo 2",
 		"props": {
 			"label": "Movimento",
-			"href": "/",
+			"href": "/movimento",
 			"blockClass": ["seu-objetivo"]
 		}
 	},
@@ -158,7 +165,11 @@
 	// ======== seu objetivo 3 ========
 	"flex-layout.col#content-seu-objetivo3": {
 		"title": "Content - Qual seu objetivo 3",
-		"children": ["image#imagem3", "image#imagem-hover3", "link#link-seu-objetivo3"],
+		"children": [
+			"image#imagem3",
+			"image#imagem-hover3",
+			"link#link-seu-objetivo3"
+		],
 		"props": {
 			"blockClass": ["content-seu-objetivo", "content-seu-objetivo3"]
 		}
@@ -181,7 +192,7 @@
 		"title": "Link - Qual seu objetivo 3",
 		"props": {
 			"label": "Sono",
-			"href": "/",
+			"href": "/sono",
 			"blockClass": ["seu-objetivo"]
 		}
 	},
@@ -189,7 +200,11 @@
 	// ======== seu objetivo 4 ========
 	"flex-layout.col#content-seu-objetivo4": {
 		"title": "Content - Qual seu objetivo 4",
-		"children": ["image#imagem4", "image#imagem-hover4", "link#link-seu-objetivo4"],
+		"children": [
+			"image#imagem4",
+			"image#imagem-hover4",
+			"link#link-seu-objetivo4"
+		],
 		"props": {
 			"blockClass": ["content-seu-objetivo", "content-seu-objetivo4"]
 		}
@@ -212,7 +227,7 @@
 		"title": "Link - Qual seu objetivo 4",
 		"props": {
 			"label": "Alimentação",
-			"href": "/",
+			"href": "/alimentacao",
 			"blockClass": ["seu-objetivo"]
 		}
 	}

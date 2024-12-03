@@ -1,0 +1,17 @@
+{
+	"store.custom#collection-respiracao": {
+		"blocks": ["search-result-layout.customQuery#collection-respiracao"]
+	},
+	"search-result-layout.customQuery#collection-respiracao": {
+		"blocks": ["search-result-layout.desktop", "search-result-layout.mobile"],
+		"props": {
+			"querySchema": {
+				"skusFilter": "ALL",
+				"simulationBehavior": "skip",
+				"queryField": "142",
+				"mapField": "productClusterIds",
+				"maxItemsPerPage": 12
+			}
+		}
+	}
+}

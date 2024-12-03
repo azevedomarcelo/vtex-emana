@@ -1,6 +1,13 @@
 .wrapper--sticky-header {
   height: auto !important;
+  position: sticky !important;
+  top: 0;
+  z-index: 999;
 } 
+
+.container--sticky-header {
+  position: sticky;
+}
 
 @media screen and (max-width: 768px) {
   .wrapper--main-header-mobile {
