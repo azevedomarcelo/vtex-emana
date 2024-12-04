@@ -9,12 +9,10 @@ export interface MenuItemI {
 	name: string;
 	href: string;
 	imageUrl?: string;
-	imageUrlMobile?: string;
 	subitems: {
 		name: string;
 		href: string;
 		imageUrl?: string;
-		imageUrlMobile?: string;
 		subitems: MenuItemI["subitems"];
 	}[];
 }
@@ -54,7 +52,6 @@ export function Menu() {
 								<FirstSubmenu
 									items={item.subitems}
 									imageUrl={item.imageUrl}
-									imageUrlMobile={item.imageUrlMobile}
 								/>
 							) : null}
 						</li>
