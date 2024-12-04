@@ -20,6 +20,11 @@ export const FirstSubmenu = ({
 				[styles["first-submenu"]]: true,
 			})}
 		>
+			<img
+				className={`${styles["second-submenu__image"]}`}
+				src={imageUrl}
+				alt=""
+			/>
 			<ul className={styles["first-submenu__list"]}>
 				{items.map((item: any) => {
 					return (
@@ -52,11 +57,6 @@ export const FirstSubmenu = ({
 					);
 				})}
 			</ul>
-			<img
-				className={`${styles["second-submenu__image"]}`}
-				src={imageUrl}
-				alt=""
-			/>
 		</nav>
 	)
 };
