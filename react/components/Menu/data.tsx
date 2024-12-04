@@ -7,7 +7,7 @@ export const data = [
 	},
 	{
 		name: "Nutrição e Bem-Estar",
-		href: "",
+		href: "/Nutrição-e-Bem-Estar",
 		imageUrl: "https://emana.vteximg.com.br/arquivos/_NUTRI%C3%87%C3%83O%20E%20BEM-ESTAR_.jpg",
 		subitems: [
 			{
@@ -39,7 +39,7 @@ export const data = [
 	},
 	{
 		name: "Performance e Energia",
-		href: "",
+		href: "/Performance-e-Energia",
 		imageUrl: "https://emana.myvtex.com/arquivos/_PERFORMANCE%20E%20ENERGIA_.jpg",
 		subitems: [
 			{
@@ -96,7 +96,7 @@ export const data = [
 	},
 	{
 		name: "Relaxamento e Mente",
-		href: "",
+		href: "/Relaxamento-e-Mente",
 		imageUrl: "https://emana.myvtex.com/arquivos/_RELAXAMENTO%20E%20MENTE_.jpg",
 		subitems: [{
 			name: "Encapsulados",
@@ -117,7 +117,7 @@ export const data = [
 	},
 	{
 		name: "Para Cada Um",
-		href: "",
+		href: "/Para-Cada-Um",
 		imageUrl: "https://emana.myvtex.com/arquivos/_PRA%20CADA%20UM_.jpg",
 		subitems: [{
 			name: "Mulheres",
