@@ -163,6 +163,8 @@
 		"props": {
 			"slideDirection": "rightToLeft"
 		},
-		"children": []
+		"children": [
+			"menu-mobile"
+		]
 	}
 }

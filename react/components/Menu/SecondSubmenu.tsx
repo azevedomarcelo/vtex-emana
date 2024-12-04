@@ -1,37 +1,19 @@
 import clsx from "clsx";
 import React from "react";
-import { useDevice } from "vtex.device-detector";
 import { MenuItemI } from ".";
 import styles from "./styles.module.css";
 
 interface SecondSubmenuProps {
 	items: MenuItemI["subitems"];
 	imageUrl?: string;
-	imageUrlMobile?: string;
 }
 
 export function SecondSubmenu({
 	items,
-	imageUrl,
-	imageUrlMobile,
+	imageUrl
 }: SecondSubmenuProps) {
-	const { isMobile } = useDevice();
 	return (
 		<div className={styles["second-submenu-wrapper"]}>
-			{!isMobile ? (
-				<img
-					className={styles["second-submenu__image"]}
-					src={imageUrlMobile}
-					alt=""
-				/>
-			) : (
-				<img
-					className={styles["second-submenu__image"]}
-					src={imageUrl}
-					alt=""
-				/>
-			)}
-
 			<ul
 				className={clsx({
 					[styles["second-submenu"]]: true,
@@ -39,28 +21,36 @@ export function SecondSubmenu({
 			>
 				{items.map((item) => {
 					return (
-						<li className={styles["second-submenu__item"]}>
-							<a className={styles["second-submenu__link"]} href={item.href}>
-								{item.name}
-							</a>
-							<ul className={styles["second-submenu__list"]}>
-								{item.subitems.map((subitem: any) => {
-									return (
-										<li>
-											<a
-												className={styles["second-submenu__list__link"]}
-												href={subitem.href}
-											>
-												{subitem.name}
-											</a>
-										</li>
-									);
-								})}
-							</ul>
-						</li>
+						<>
+							<li className={styles["second-submenu__item"]}>
+								<a className={styles["second-submenu__link"]} href={item.href}>
+									{item.name}
+								</a>
+								<ul className={styles["second-submenu__list"]}>
+									{item.subitems.map((subitem: any) => {
+										return (
+											<li>
+												<a
+													className={styles["second-submenu__list__link"]}
+													href={subitem.href}
+												>
+													{subitem.name}
+												</a>
+											</li>
+										);
+									})}
+								</ul>
+							</li>
+						</>
 					);
 				})}
+				<img
+					className={`${styles["second-submenu__image"]}`}
+					src={imageUrl}
+					alt=""
+				/>
 			</ul>
+
 		</div>
 	);
 }

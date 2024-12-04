@@ -39,5 +39,8 @@
   },
   "accepted-payment-methods-custom": {
     "component": "AcceptedPaymentMethods"
+  },
+  "menu-mobile": {
+    "component": "MenuMobile"
   }
 }

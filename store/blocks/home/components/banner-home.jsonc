@@ -11,12 +11,12 @@
 		"title": "Main banner slider",
 		"children": ["slider-layout#home-main-banner-slider"],
 		"props": {
-			"height": "100%",
 			"width": "100%",
 			"images": [
 				{
 					"image": "arquivos/Desktop_Barrinha_Proteica.png",
 					"mobileImage": "arquivos/Mobile_Barrinha_Proteica.png",
+					"width": "100%",
 					"link": "https://emana.myvtex.com/caixa%2012%20barras%20de%20prote%C3%ADna?map=ft"
 				},
 				{
