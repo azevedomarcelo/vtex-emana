@@ -31,6 +31,10 @@
   width: min-content !important;
 }
 
+.flexRowContent--main-header-mobile {
+  align-items: center;
+}
+
 @media (min-width: 1030px) {
   .flexRowContent--container-middle {
     justify-content: center;

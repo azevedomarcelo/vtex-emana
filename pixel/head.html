@@ -418,12 +418,10 @@
 
         .vtex-menu-2-x-styledLinkIcon--header-wishlist {
             position: relative !important;
-            top: 9px !important;
         }
 
         .items-stretch .pa4.pointer.vtex-store-drawer-0-x-openIconContainer {
             position: relative;
-            top: 13px;
         }
 
         #menu-header-wishlist {
@@ -436,7 +434,7 @@
         }
 
         .vtex-slider-layout-0-x-sliderTrack--home-slider {
-            gap: 60px!important;
+            gap: 60px !important;
         }
     }
 
@@ -449,48 +447,39 @@
         }
 
         a.vtex-store-components-3-x-logoLink.vtex-store-components-3-x-logoLink--header__logo img {
-            max-width: 75%;
+
         }
 
 
         .vtex-menu-2-x-styledLinkContent--header-wishlist.flex.justify-between.nowrap {
             position: relative;
-            bottom: 8px;
         }
     }
 </style>
 
 <script>
-    setTimeout(() => {
-        const targetElement = document.querySelector(
-            '.vtex-store-footer-2-x-footerLayout');
+    setInterval(() => {
+        const existingElement = document.querySelector('.y-whatsapp');
+        if (!existingElement) {
+            const targetElement = document.querySelector('.vtex-store-footer-2-x-footerLayout');
+            if (targetElement) {
+                const whatsappDiv = document.createElement('div');
+                whatsappDiv.className = 'y-whatsapp';
 
-        if (targetElement) {
-            const whatsappDiv = document.createElement('div');
-            whatsappDiv.className = 'y-whatsapp';
-
-            whatsappDiv.innerHTML = `
-    <a aria-label="WhatsApp" class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=5562999526336" target="_blank">
-      <img 
-        title="" 
-        sizes="" 
-        srcset="" 
-        alt="" 
-        class="vtex-store-components-3-x-imageElement vtex-render-runtime-8-x-lazyload" 
-        loading="eager" 
-        fetchpriority="auto" 
-        crossorigin="anonymous" 
-        data-src="https://emana.vtexassets.com/assets/vtex/assets-builder/emana.store-theme/0.1.2/img/icons/whatsapp___dcf9dd1eb38359470e951651823aa326.svg" 
-        src="https://emana.vtexassets.com/assets/vtex/assets-builder/emana.store-theme/0.1.2/img/icons/whatsapp___dcf9dd1eb38359470e951651823aa326.svg"
-      >
-    </a>
-  `;
-            targetElement.insertAdjacentElement('afterend', whatsappDiv);
-        } else {
-            console.error('Elemento alvo não encontrado.');
+                whatsappDiv.innerHTML = `
+                <a aria-label="WhatsApp" class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=5562999526336" target="_blank">
+                  <img 
+                    title="" 
+                    src="https://emana.vtexassets.com/assets/vtex/assets-builder/emana.store-theme/0.1.2/img/icons/whatsapp___dcf9dd1eb38359470e951651823aa326.svg" 
+                    alt="WhatsApp"
+                  >
+                </a>
+            `;
+                targetElement.insertAdjacentElement('afterend', whatsappDiv);
+            }
         }
+    }, 3000); // Verifica a cada 3 segundos
 
-    }, 2000);
 
     setTimeout(() => {
         // Verificar se a URL contém '/Nutrição-e-Bem-Estar'
@@ -502,38 +491,6 @@
             imgElement.srcset = '';
             imgElement.src =
                 'https://emana.vtexassets.com/arquivos/DESKTOP_BF_OFERTA_NUTRI%C3%87%C3%83O%20E%20BEM_ESTAR.png';
-            imgElement.alt = '';
-            imgElement.style.maxWidth = '1340px';
-            imgElement.style.maxHeight = '430px';
-            imgElement.loading = 'eager';
-            imgElement.fetchpriority = 'auto';
-            imgElement.crossOrigin = 'anonymous';
-
-            if (window.innerWidth > 768) {
-                var targetElement = document.querySelector(
-                    '.render-route-store-search-department > div > div.vtex-store__template.bg-base > div > div:nth-child(3) > div > div > section > div.relative.justify-center.flex > div > div:nth-child(1) > div > div > img'
-                );
-
-                if (targetElement) {
-                    targetElement.parentNode.insertBefore(imgElement, targetElement.nextSibling);
-                } else {
-                    console.error('Elemento alvo não encontrado');
-                }
-            }
-        }
-    }, 1500);
-
-
-    setTimeout(() => {
-        // Verificar se a URL contém 'Performance-e-Energia'
-        if (window.location.pathname.includes('Performance-e-Energia')) {
-            var imgElement = document.createElement('img');
-            imgElement.classList.add('banner-nutricao', 'vtex-store-components-3-x-imageElement');
-            imgElement.title = '';
-            imgElement.sizes = '';
-            imgElement.srcset = '';
-            imgElement.src =
-                'https://emana.vtexassets.com/arquivos/DESKTOP_BF_OFERTA_PRA%20CADA%20UM.png';
             imgElement.alt = '';
             imgElement.style.maxWidth = '1340px';
             imgElement.style.maxHeight = '430px';

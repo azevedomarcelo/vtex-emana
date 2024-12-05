@@ -59,3 +59,9 @@
 .imageElement--menu-image-02 {
   height: 40vh;
 }
+
+@media screen and (max-width: 375px) {
+  .logoImage--header__logo {
+    width: 140px;
+  }
+}
