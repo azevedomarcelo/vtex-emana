@@ -41,8 +41,8 @@
 		"children": [
 			"card-para-voce#exercicios",
 			"card-para-voce#nutricao",
-			"card-para-voce#energia",
-			"card-para-voce#nutricao"
+			"card-para-voce#energia"
+			// "card-para-voce#nutricao"
 		]
 	},
 	"card-para-voce#exercicios": {

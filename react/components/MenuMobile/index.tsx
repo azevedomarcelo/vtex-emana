@@ -12,10 +12,10 @@ export function MenuMobile() {
           {menu.subitems.length > 1 ? (
             <details className={style.details}>
               <summary className={style.summary}>
-                <strong style={{ flex: '1' }}>{menu.name}</strong>
+                <strong className="c-on-base" style={{ flex: '1' }}>{menu.name}</strong>
               </summary>
                 <Link to={menu.href}>
-                  <small style={{ padding: '0 1rem'}}>Ver tudo</small>
+                  <small style={{ display:'block', padding: '1rem 1rem 0'}}>Ver tudo</small>
                 </Link>
                 {menu.subitems.map(subItem => (
                   <Link to={subItem.href} className={style.answer}>
