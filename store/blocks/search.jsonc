@@ -271,7 +271,7 @@
 	"rich-text#404-erro": {
 		"title": "Texto - 404-erro",
 		"props": {
-			"text": "# 404",
+			"text": "# Produto não encontrado",
 			"blockClass": "404"
 		}
 	},
