@@ -1,5 +1,9 @@
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <style>
+    .render-route-store-search-department>div>div.vtex-store__template.bg-base>div>div:nth-child(3)>div>div>section>div.relative.justify-center.flex>div>div:nth-child(1)>div>div>img:nth-child(1) {
+        display: none;
+    }
+
     h3.vtex-product-summary-2-x-productNameContainer.mv0.vtex-product-summary-2-x-nameWrapper.overflow-hidden.c-on-base.f5 {
         display: -webkit-box;
         -webkit-line-clamp: 2;
@@ -430,13 +434,36 @@
         .y-whatsapp {
             right: 10px;
         }
+
+        .vtex-slider-layout-0-x-sliderTrack--home-slider {
+            gap: 60px!important;
+        }
+    }
+
+    @media (min-width: 360px) and (max-width: 411px) {
+        .vtex-slider-layout-0-x-slide.vtex-slider-layout-0-x-slide--home-slider.vtex-slider-layout-0-x-slide--home-em-alta-slider.vtex-slider-layout-0-x-slide--firstVisible.vtex-slider-layout-0-x-slide--home-slider--firstVisible.vtex-slider-layout-0-x-slide--home-em-alta-slider--firstVisible.vtex-slider-layout-0-x-slide--visible.vtex-slider-layout-0-x-slide--home-slider--visible.vtex-slider-layout-0-x-slide--home-em-alta-slider--visible.flex.relative button {
+            width: 48px !important;
+            height: 48px !important;
+            position: relative;
+            right: 25px;
+        }
+
+        a.vtex-store-components-3-x-logoLink.vtex-store-components-3-x-logoLink--header__logo img {
+            max-width: 75%;
+        }
+
+
+        .vtex-menu-2-x-styledLinkContent--header-wishlist.flex.justify-between.nowrap {
+            position: relative;
+            bottom: 8px;
+        }
     }
 </style>
 
 <script>
     setTimeout(() => {
         const targetElement = document.querySelector(
-            '.vtex-flex-layout-0-x-flexRow.vtex-flex-layout-0-x-flexRow--apaixonados-por-emana-container');
+            '.vtex-store-footer-2-x-footerLayout');
 
         if (targetElement) {
             const whatsappDiv = document.createElement('div');
@@ -463,14 +490,170 @@
             console.error('Elemento alvo não encontrado.');
         }
 
-    }, 1000);
+    }, 2000);
 
+    setTimeout(() => {
+        // Verificar se a URL contém '/Nutrição-e-Bem-Estar'
+        if (window.location.pathname.includes('-e-Bem-Estar')) {
+            var imgElement = document.createElement('img');
+            imgElement.classList.add('banner-nutricao', 'vtex-store-components-3-x-imageElement');
+            imgElement.title = '';
+            imgElement.sizes = '';
+            imgElement.srcset = '';
+            imgElement.src =
+                'https://emana.vtexassets.com/arquivos/DESKTOP_BF_OFERTA_NUTRI%C3%87%C3%83O%20E%20BEM_ESTAR.png';
+            imgElement.alt = '';
+            imgElement.style.maxWidth = '1340px';
+            imgElement.style.maxHeight = '430px';
+            imgElement.loading = 'eager';
+            imgElement.fetchpriority = 'auto';
+            imgElement.crossOrigin = 'anonymous';
+
+            if (window.innerWidth > 768) {
+                var targetElement = document.querySelector(
+                    '.render-route-store-search-department > div > div.vtex-store__template.bg-base > div > div:nth-child(3) > div > div > section > div.relative.justify-center.flex > div > div:nth-child(1) > div > div > img'
+                );
+
+                if (targetElement) {
+                    targetElement.parentNode.insertBefore(imgElement, targetElement.nextSibling);
+                } else {
+                    console.error('Elemento alvo não encontrado');
+                }
+            }
+        }
+    }, 1500);
+
+
+    setTimeout(() => {
+        // Verificar se a URL contém 'Performance-e-Energia'
+        if (window.location.pathname.includes('Performance-e-Energia')) {
+            var imgElement = document.createElement('img');
+            imgElement.classList.add('banner-nutricao', 'vtex-store-components-3-x-imageElement');
+            imgElement.title = '';
+            imgElement.sizes = '';
+            imgElement.srcset = '';
+            imgElement.src =
+                'https://emana.vtexassets.com/arquivos/DESKTOP_BF_OFERTA_PRA%20CADA%20UM.png';
+            imgElement.alt = '';
+            imgElement.style.maxWidth = '1340px';
+            imgElement.style.maxHeight = '430px';
+            imgElement.loading = 'eager';
+            imgElement.fetchpriority = 'auto';
+            imgElement.crossOrigin = 'anonymous';
+
+            if (window.innerWidth > 768) {
+                var targetElement = document.querySelector(
+                    '.render-route-store-search-department > div > div.vtex-store__template.bg-base > div > div:nth-child(3) > div > div > section > div.relative.justify-center.flex > div > div:nth-child(1) > div > div > img'
+                );
+
+                if (targetElement) {
+                    targetElement.parentNode.insertBefore(imgElement, targetElement.nextSibling);
+                } else {
+                    console.error('Elemento alvo não encontrado');
+                }
+            }
+        }
+    }, 1500);
+
+    setTimeout(() => {
+        // Verificar se a URL contém 'Performance-e-Energia'
+        if (window.location.pathname.includes('Performance-e-Energia')) {
+            var imgElement = document.createElement('img');
+            imgElement.classList.add('banner-nutricao', 'vtex-store-components-3-x-imageElement');
+            imgElement.title = '';
+            imgElement.sizes = '';
+            imgElement.srcset = '';
+            imgElement.src =
+                'https://emana.vtexassets.com/arquivos/DESKTOP_BF_OFERTA_PRA%20CADA%20UM.png';
+            imgElement.alt = '';
+            imgElement.style.maxWidth = '1340px';
+            imgElement.style.maxHeight = '430px';
+            imgElement.loading = 'eager';
+            imgElement.fetchpriority = 'auto';
+            imgElement.crossOrigin = 'anonymous';
+
+            if (window.innerWidth > 768) {
+                var targetElement = document.querySelector(
+                    '.render-route-store-search-department > div > div.vtex-store__template.bg-base > div > div:nth-child(3) > div > div > section > div.relative.justify-center.flex > div > div:nth-child(1) > div > div > img'
+                );
+
+                if (targetElement) {
+                    targetElement.parentNode.insertBefore(imgElement, targetElement.nextSibling);
+                } else {
+                    console.error('Elemento alvo não encontrado');
+                }
+            }
+        }
+    }, 1500);
+
+    setTimeout(() => {
+        // Verificar se a URL contém 'Relaxamento-e-Mente'
+        if (window.location.pathname.includes('Relaxamento-e-Mente')) {
+            var imgElement = document.createElement('img');
+            imgElement.classList.add('banner-nutricao', 'vtex-store-components-3-x-imageElement');
+            imgElement.title = '';
+            imgElement.sizes = '';
+            imgElement.srcset = '';
+            imgElement.src =
+                'https://emana.vtexassets.com/arquivos/DESKTOP_BF_OFERTA_RELAXAMENTO%20E%20MENTE.png';
+            imgElement.alt = '';
+            imgElement.style.maxWidth = '1340px';
+            imgElement.style.maxHeight = '430px';
+            imgElement.loading = 'eager';
+            imgElement.fetchpriority = 'auto';
+            imgElement.crossOrigin = 'anonymous';
+
+            if (window.innerWidth > 768) {
+                var targetElement = document.querySelector(
+                    '.render-route-store-search-department > div > div.vtex-store__template.bg-base > div > div:nth-child(3) > div > div > section > div.relative.justify-center.flex > div > div:nth-child(1) > div > div > img'
+                );
+
+                if (targetElement) {
+                    targetElement.parentNode.insertBefore(imgElement, targetElement.nextSibling);
+                } else {
+                    console.error('Elemento alvo não encontrado');
+                }
+            }
+        }
+    }, 1500);
+
+    setTimeout(() => {
+        // Verificar se a URL contém 'Para-Cada-Um'
+        if (window.location.pathname.includes('Para-Cada-Um')) {
+            var imgElement = document.createElement('img');
+            imgElement.classList.add('banner-nutricao', 'vtex-store-components-3-x-imageElement');
+            imgElement.title = '';
+            imgElement.sizes = '';
+            imgElement.srcset = '';
+            imgElement.src =
+                'https://emana.vtexassets.com/arquivos/DESKTOP_BF_OFERTA_PRA%20CADA%20UM.png';
+            imgElement.alt = '';
+            imgElement.style.maxWidth = '1340px';
+            imgElement.style.maxHeight = '430px';
+            imgElement.loading = 'eager';
+            imgElement.fetchpriority = 'auto';
+            imgElement.crossOrigin = 'anonymous';
+
+            if (window.innerWidth > 768) {
+                var targetElement = document.querySelector(
+                    '.render-route-store-search-department > div > div.vtex-store__template.bg-base > div > div:nth-child(3) > div > div > section > div.relative.justify-center.flex > div > div:nth-child(1) > div > div > img'
+                );
+
+                if (targetElement) {
+                    targetElement.parentNode.insertBefore(imgElement, targetElement.nextSibling);
+                } else {
+                    console.error('Elemento alvo não encontrado');
+                }
+            }
+        }
+    }, 1500);
 </script>
 
 <!-- Início do aviso de consentimento de cookies OneTrust para www.souemana.com.br -->
 
-<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="018e3d59-a76f-7517-9b4c-415b0cd3afa2-test" ></script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8"
+    data-domain-script="018e3d59-a76f-7517-9b4c-415b0cd3afa2-test"></script>
 <script type="text/javascript">
-function OptanonWrapper() { }
+    function OptanonWrapper() {}
 </script>
 <!-- Final do aviso de consentimento de cookies OneTrust para www.souemana.com.br -->
