@@ -23,9 +23,13 @@
     "path": "/institucionais/politica-de-cookies",
     "title": "Política de Cookies | Emana"
   },
+  "store.custom#politica-de-cookies": {
+    "path": "/institucionais/politica-de-seguranca-da-informacao",
+    "title": "Política de Segurança | Emana"
+  },
   "store.custom#politica-seguranca-informacao": {
     "path": "/institucionais/politica-seguranca-informacao",
-    "title": "Política de Segurança da Informação | Emana"
+    "title": "Política de Seguranca da Informação | Emana"
   },
   "store.custom#collection-respiracao": {
     "path": "/respiracao",

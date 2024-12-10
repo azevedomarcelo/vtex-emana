@@ -31,6 +31,9 @@
   "politica-de-cookies": {
     "component": "PoliticaCookies"
   },
+  "politica-de-cookies": {
+    "component": "PoliticaDeSegurancaDaInformacao"
+  },
   "custom-menu": {
     "component": "Menu"
   },

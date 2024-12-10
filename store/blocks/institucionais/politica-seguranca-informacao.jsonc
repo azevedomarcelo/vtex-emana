@@ -1,5 +1,5 @@
 {
 	"store.custom#politica-seguranca-informacao": {
-		"blocks": ["rich-text#em-desenvolvimento"]
+		"blocks": ["politica-de-seguranca-da-informacao"]
 	}
 }
