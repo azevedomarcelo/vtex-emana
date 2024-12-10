@@ -53,7 +53,7 @@
 
 @media screen and (max-width: 768px) {
   .sliderTrack--home-slider {
-    
+    gap: 0;
   }
 }
 

@@ -25,6 +25,9 @@
         "noShoutyConstants": "warn",
         "useNamingConvention": "error",
         "useImportType": "off"
+      },
+      "a11y": {
+        "noSvgWithoutTitle": "off"
       }
     }
   }
