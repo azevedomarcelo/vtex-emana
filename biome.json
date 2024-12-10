@@ -19,8 +19,7 @@
       },
       "correctness": {
         "useExhaustiveDependencies": "off",
-        "noChildrenProp": "off",
-        ""
+        "noChildrenProp": "off"
       },
       "style": {
         "noShoutyConstants": "warn",
