@@ -4,10 +4,7 @@
 		"children": ["flex-layout.col#em-alta"]
 	},
 	"flex-layout.col#em-alta": {
-		"children": [
-			"rich-text#em-alta-title",
-			"slider-layout#home-em-alta-slider"
-		],
+		"children": ["rich-text#em-alta-title", "slider-layout#home-em-alta-slider"],
 		"props": {
 			"blockClass": ["em-alta-col"]
 		}
@@ -24,6 +21,7 @@
 		"title": "Slider - Em alta",
 		"props": {
 			"itemsPerPage": {
+				"(min-width: 1280px)": 3,
 				"desktop": 3,
 				"tablet": 1,
 				"phone": 1

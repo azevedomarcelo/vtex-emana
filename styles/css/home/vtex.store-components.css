@@ -11,8 +11,6 @@
 .infoCardContainer--info-card-apaixonado-por-emana {
   width: 316px;
   height: 410px;
-  background-size: contain !important;
-  object-fit: contain;
 }
 
 .infoCardTextContainer--info-card-1, 
@@ -121,6 +119,25 @@
 .imageElement--movimento-imagem-hover {
   width: 282.96px;
   height: 292px;
+}
+
+.infoCardImageLinkWrapper--info-card-apaixonado-por-emana {
+  width: 100%;
+}
+
+.imageElementLink--home-main-banner-slider {
+  width: 100%
+}
+
+@media screen and (max-width: 560px) {
+  .infoCardImageLinkWrapper--info-card-apaixonado-por-emana {
+    width: 100%;
+  }
+
+  .infoCardContainer--info-card-apaixonado-por-emana {
+    width: unset;
+    background-size: cover !important;
+  }
 }
 
 @media screen and (max-width: 1280px) {
