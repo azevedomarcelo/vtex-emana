@@ -19,13 +19,15 @@
       },
       "correctness": {
         "useExhaustiveDependencies": "off",
-        "noChildrenProp": "off",
-        ""
+        "noChildrenProp": "off"
       },
       "style": {
         "noShoutyConstants": "warn",
         "useNamingConvention": "error",
         "useImportType": "off"
+      },
+      "a11y": {
+        "noSvgWithoutTitle": "off"
       }
     }
   }

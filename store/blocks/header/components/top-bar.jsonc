@@ -12,7 +12,7 @@
 		"children": [
 			"rich-text#frete-gratis",
 			"rich-text#entrega-todo-brasil",
-			"rich-text#assine-recorrencia",
+			// "rich-text#assine-recorrencia",
 			"rich-text#parcele"
 		],
 		"props": {
@@ -25,7 +25,7 @@
 			"infinite": true,
 			"fullWidth": true,
 			"autoplay": {
-				"timeout": 1000
+				"timeout": 5000
 			},
 			"showNavigationArrows": "never",
 			"showPaginationDots": "never"
