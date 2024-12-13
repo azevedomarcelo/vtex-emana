@@ -24,7 +24,8 @@
 		"title": "Slider - Apaixonados por emana",
 		"props": {
 			"itemsPerPage": {
-				"desktop": 4,
+				"(min-width: 1560px)": 4,
+				"desktop": 3,
 				"tablet": 2,
 				"phone": 1
 			},
@@ -35,11 +36,7 @@
 			"showNavigationArrows": "never",
 			"showPaginationDots": "always",
 			"fullWidth": true,
-			"blockClass": [
-				"home-slider",
-				"home-apaixonados-por-emana-slider",
-				"home-slider-no-gap"
-			]
+			"blockClass": ["home-slider", "home-apaixonados-por-emana-slider"]
 		},
 		"children": [
 			"info-card#card1",

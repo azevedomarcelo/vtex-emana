@@ -60,10 +60,6 @@
         min-height: 102px;
     }
 
-    li.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--footer-menu.list.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--footer-menu.vtex-menu-2-x-menuItem--isClosed.vtex-menu-2-x-menuItem--footer-menu--isClosed:last-child {
-        display: none;
-    }
-
     .pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex .vtex-rich-text-0-x-wrapper.vtex-rich-text-0-x-wrapper--prescritores {
         display: none;
     }
@@ -1200,3 +1196,28 @@
     function OptanonWrapper() {}
 </script>
 <!-- Final do aviso de consentimento de cookies OneTrust para www.souemana.com.br -->
+
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'pt_BR';
+			window.addEventListener("onEmbeddedMessagingReady", () => {
+			console.log("Received the onEmbeddedMessagingReady event…");
+                embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
+                    "Marca_para_Atendimento": "Emana"
+                });
+            });
+			embeddedservice_bootstrap.init(
+				'00D1I000000n3RL',
+				'Emana',
+				'https://piracanjubabr.my.site.com/ESWEmana1730755606616',
+				{
+					scrt2URL: 'https://piracanjubabr.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://piracanjubabr.my.site.com/ESWEmana1730755606616/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>

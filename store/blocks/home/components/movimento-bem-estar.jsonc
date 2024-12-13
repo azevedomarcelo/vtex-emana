@@ -23,7 +23,7 @@
   "image#info-banner-esquerda": {
     "title": "Imagem - banner esquerdo",
     "props": {
-      "src": "arquivos/info-banner-esquerda.png"
+      "src": "arquivos/emana_protein _lateral_esquerda_desktop.png"
     }
   },
 
@@ -65,7 +65,7 @@
   "image#info-banner-direita": {
     "title": "Imagem - banner direito",
     "props": {
-      "src": "arquivos/info-banner-direita.png"
+      "src": "arquivos/emana_protein _lateral_direita_desktop.png"
     }
   }
 }

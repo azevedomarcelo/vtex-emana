@@ -36,7 +36,7 @@
 			"showNavigationArrows": "never",
 			"showPaginationDots": "always",
 			"fullWidth": true,
-			"blockClass": ["home-slider", "home-para-voce-slider"]
+			"blockClass": ["home-para-voce-slider", "home-slider"]
 		},
 		"children": [
 			"card-para-voce#exercicios",

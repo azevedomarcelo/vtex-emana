@@ -47,14 +47,21 @@
   padding: 6px 15px;
 }
 
-.slide--home-apaixonados-por-emana-slider {
-  padding: 6px 15px;
+.sliderTrack--home-para-voce-slider {
+  gap: 1rem;
 }
 
 @media screen and (max-width: 768px) {
+  .slide--home-apaixonados-por-emana-slider {
+    padding: 0px 0px;
+  }
   .sliderTrack--home-slider {
     gap: 0;
   }
+  .sliderTrack--home-para-voce-slider {
+    gap: 1rem;
+  }
+  
 }
 
 @media screen and (max-width: 1366px) {
