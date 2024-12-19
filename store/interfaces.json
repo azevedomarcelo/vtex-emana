@@ -45,5 +45,11 @@
   },
   "menu-mobile": {
     "component": "MenuMobile"
+  },
+  "newsletter-form-custom": {
+    "component": "NewsletterForm"
+  },
+  "custom-search-bar": {
+    "component": "CustomSearchBar"
   }
 }

@@ -18,7 +18,8 @@
 	"newsletter-form": {
 		"title": "Formulário da Newsletter",
 		"children": [
-			"newsletter-input-email"
+			"newsletter-form-custom"
+			// "newsletter-input-email"
 			// "newsletter-input-name",
 			// "newsletter-input-phone",
 			// "newsletter-checkbox-confirmation",

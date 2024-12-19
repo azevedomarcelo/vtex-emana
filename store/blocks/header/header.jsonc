@@ -50,7 +50,7 @@
 	"flex-layout.row#right-side-header": {
 		"title": "Row - Header lado direito",
 		"children": [
-			"rich-text#prescritores",
+			// "rich-text#prescritores",
 			"flex-layout.col#header-wishlist",
 			"login",
 			"minicart.v2"
@@ -148,6 +148,8 @@
 		"children": [
 			"logo",
 			"flex-layout.col#spacer",
+			"custom-search-bar",
+			"search-bar",
 			"menu-item#menu-header-wishlist",
 			"minicart.v2",
 			"drawer"
@@ -163,8 +165,6 @@
 		"props": {
 			"slideDirection": "rightToLeft"
 		},
-		"children": [
-			"menu-mobile"
-		]
+		"children": ["menu-mobile"]
 	}
 }

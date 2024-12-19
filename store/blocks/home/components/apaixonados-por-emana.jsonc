@@ -16,7 +16,8 @@
 	"flex-layout.row#apaixonados-por-emana-content": {
 		"title": "Conteudo - Apaixonados por emana",
 		"props": {
-			"blockClass": "info-card-container"
+			"blockClass": "info-card-container",
+			"fullWidth": false
 		},
 		"children": ["slider-layout#home-apaixonados-por-emana-slider"]
 	},
@@ -24,8 +25,7 @@
 		"title": "Slider - Apaixonados por emana",
 		"props": {
 			"itemsPerPage": {
-				"(min-width: 1560px)": 4,
-				"desktop": 3,
+				"desktop": 4,
 				"tablet": 2,
 				"phone": 1
 			},

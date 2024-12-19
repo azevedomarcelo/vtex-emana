@@ -60,10 +60,6 @@
         min-height: 102px;
     }
 
-    .pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex .vtex-rich-text-0-x-wrapper.vtex-rich-text-0-x-wrapper--prescritores {
-        display: none;
-    }
-
     .page-quem-somos .page-quem-somos body {
         background: #f6f6f6;
     }
@@ -315,10 +311,6 @@
         font-size: 18px;
     }
 
-    p.lh-copy.vtex-rich-text-0-x-paragraph.vtex-rich-text-0-x-paragraph--nossos-selos-de-qualidade-title {
-        margin-left: 25px;
-    }
-
     .vtex-flex-layout-0-x-flexColChild.vtex-flex-layout-0-x-flexColChild--titleWishlist.pb0 h2.vtex-rich-text-0-x-heading.t-heading-2.vtex-rich-text-0-x-headingLevel2.vtex-rich-text-0-x-heading-level-2 {
         font-size: 0px;
     }
@@ -345,7 +337,7 @@
         bottom: 50px;
         right: 30px;
         background-color: #ffff5a;
-        z-index: 99999;
+        z-index: 999;
         border-radius: 50%;
         width: 60px;
         height: 60px;
@@ -360,21 +352,14 @@
     @media(min-width:768px) {
 
         .vtex-flex-layout-0-x-flexRowContent--endereco-loja {
-            width: 100%;
         }
 
         .vtex-store-components-3-x-imageElement--grupo-piracanjuba-imagem {
-            position: relative;
-            left: 170px;
-        }
-
-        .vtex-rich-text-0-x-paragraph--endereco-loja {
-            width: 755px;
+           
         }
 
         .vtex-store-components-3-x-imageElement--grupo-piracanjuba-imagem {
-            position: relative;
-            left: 175px;
+
         }
     }
 
@@ -428,19 +413,9 @@
         .y-whatsapp {
             right: 10px;
         }
-
-        .vtex-slider-layout-0-x-sliderTrack--home-slider {
-
-        }
     }
 
     @media (min-width: 360px) and (max-width: 411px) {
-        .vtex-slider-layout-0-x-slide.vtex-slider-layout-0-x-slide--home-slider.vtex-slider-layout-0-x-slide--home-em-alta-slider.vtex-slider-layout-0-x-slide--firstVisible.vtex-slider-layout-0-x-slide--home-slider--firstVisible.vtex-slider-layout-0-x-slide--home-em-alta-slider--firstVisible.vtex-slider-layout-0-x-slide--visible.vtex-slider-layout-0-x-slide--home-slider--visible.vtex-slider-layout-0-x-slide--home-em-alta-slider--visible.flex.relative button {
-
-        }
-
-        a.vtex-store-components-3-x-logoLink.vtex-store-components-3-x-logoLink--header__logo img {}
-
 
         .vtex-menu-2-x-styledLinkContent--header-wishlist.flex.justify-between.nowrap {
             position: relative;
@@ -1186,6 +1161,13 @@
             }
         };
     }, 1000);
+
+    setTimeout(() => {
+        document.querySelector('body').innerHTML += `<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5KFBSW"
+  height="0" width="1" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->`
+    }, 500)
 </script>
 
 <!-- Início do aviso de consentimento de cookies OneTrust para www.souemana.com.br -->
@@ -1221,3 +1203,11 @@
 	};
 </script>
 <script type='text/javascript' src='https://piracanjubabr.my.site.com/ESWEmana1730755606616/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N5KFBSW');</script>
+<!-- End Google Tag Manager -->

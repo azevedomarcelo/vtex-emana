@@ -34,15 +34,14 @@
 	"slider-layout#cards": {
 		"props": {
 			"itemsPerPage": {
-				"(min-width: 1300px)": 4,
-				"desktop": 3,
+				"desktop": 4,
 				"tablet": 2,
 				"phone": 1
 			},
 			"infinite": true,
 			"showNavigationArrows": "never",
-			"showPaginationDots": "mobileOnly",
-			"blockClass": ["home-slider"]
+			"showPaginationDots": "always",
+			"blockClass": ["home-slider", "home-navegue-por-categoria-slider"]
 		},
 		"children": ["info-card#1", "info-card#2", "info-card#3", "info-card#4"]
 	},

@@ -52,6 +52,14 @@
     background-color: #FFFFAA;
     width: 100%;
   }
+
+  .flexRowContent--main-header-mobile {
+    position: relative;
+
+    :global(.vtex-store-components-3-x-searchBarContainer) {
+      display: none;
+    }
+  }
 }
 
 @media screen and (max-width: 1366px) {
