@@ -8,10 +8,7 @@ interface SecondSubmenuProps {
 	imageUrl?: string;
 }
 
-export function SecondSubmenu({
-	items,
-	imageUrl
-}: SecondSubmenuProps) {
+export function SecondSubmenu({ items, imageUrl }: SecondSubmenuProps) {
 	return (
 		<div className={styles["second-submenu-wrapper"]}>
 			<ul
@@ -22,14 +19,14 @@ export function SecondSubmenu({
 				{items.map((item) => {
 					return (
 						<>
-							<li className={styles["second-submenu__item"]}>
+							<li key={item.name} className={styles["second-submenu__item"]}>
 								<a className={styles["second-submenu__link"]} href={item.href}>
 									{item.name}
 								</a>
 								<ul className={styles["second-submenu__list"]}>
 									{item.subitems.map((subitem: any) => {
 										return (
-											<li>
+											<li key={subitem.name}>
 												<a
 													className={styles["second-submenu__list__link"]}
 													href={subitem.href}
@@ -50,7 +47,6 @@ export function SecondSubmenu({
 					alt=""
 				/>
 			</ul>
-
 		</div>
 	);
 }

@@ -118,10 +118,7 @@ export function EmAltaCard(props: EmAltaCardProps) {
 			</Link>
 			<footer className={styles["em-alta-card-footer"]}>
 				{props.tagFooter.map((tag) => (
-					<div
-						key={tag.nameTag}
-						className={styles["em-alta-card-footer-content"]}
-					>
+					<div key={tag.iconTag} className={styles["em-alta-card-footer-content"]}>
 						<img
 							className={styles["em-alta-card-footer-icon"]}
 							src={tag.iconTag}

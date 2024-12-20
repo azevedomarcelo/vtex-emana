@@ -1105,6 +1105,8 @@
 
             setTimeout(setupScrollEvents, 600);
         } else {
+            const location = window.location.href.includes('institucionais');
+            if(!location) return;
 
             document.querySelector('.opt1').addEventListener('click', function () {
                 delayedScroll('.container-objetivo-desk');
@@ -1142,6 +1144,8 @@
     }, 600);
 
     setTimeout(() => {
+        const location = window.location.href.includes('institucionais');
+        if(!location) return;
         // Seleciona os elementos do menu segurança mobile
         const toggleButton = document.querySelector('.otnotice-menu-display');
         const mobileMenu = document.querySelector('.otnotice-menu-mobile .otnotice-menu-mobile-container');

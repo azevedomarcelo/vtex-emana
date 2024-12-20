@@ -105,7 +105,7 @@ export function NewsletterForm() {
 	};
 
 	return (
-		<form className={styles.form}>
+		<div className={styles.form}>
 			<div className="flex flex-column">
 				<input
 					type="text"
@@ -235,6 +235,6 @@ export function NewsletterForm() {
 					{isLoading ? <Spinner color="currentColor" size={20} /> : "Enviar"}
 				</button>
 			</div>
-		</form>
+		</div>
 	);
 }

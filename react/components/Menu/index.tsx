@@ -28,7 +28,7 @@ export function Menu() {
 			<ul className={styles["menu__list"]}>
 				{data.map((item) => {
 					return (
-						<li className={styles["menu__item"]}>
+						<li key={item.name} className={styles["menu__item"]}>
 							<a className={styles["menu__link"]} href={item.href}>
 								{item.name}
 								{item.subitems.length ? (
@@ -42,17 +42,14 @@ export function Menu() {
 										<path
 											d="M1.5 1L4.35858 3.85858C4.43668 3.93668 4.56332 3.93668 4.64142 3.85858L7.5 1"
 											stroke="black"
-											stroke-width="1.5"
-											stroke-linecap="round"
+											strokeWidth="1.5"
+											strokeLinecap="round"
 										/>
 									</svg>
 								) : null}
 							</a>
 							{item.subitems.length ? (
-								<FirstSubmenu
-									items={item.subitems}
-									imageUrl={item.imageUrl}
-								/>
+								<FirstSubmenu items={item.subitems} imageUrl={item.imageUrl} />
 							) : null}
 						</li>
 					);
