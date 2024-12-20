@@ -925,30 +925,7 @@
 </style>
 
 <script>
-    /*
-    setInterval(() => {
-        const existingElement = document.querySelector('.y-whatsapp');
-        if (!existingElement) {
-            const targetElement = document.querySelector('.vtex-store-footer-2-x-footerLayout');
-            if (targetElement) {
-                const whatsappDiv = document.createElement('div');
-                whatsappDiv.className = 'y-whatsapp';
-
-                whatsappDiv.innerHTML = `
-                <a aria-label="WhatsApp" class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=5562999526336" target="_blank">
-                  <img 
-                    title="" 
-                    src="https://emana.vtexassets.com/assets/vtex/assets-builder/emana.store-theme/0.1.2/img/icons/whatsapp___dcf9dd1eb38359470e951651823aa326.svg" 
-                    alt="WhatsApp"
-                  >
-                </a>
-            `;
-                targetElement.insertAdjacentElement('afterend', whatsappDiv);
-            }
-        }
-    }, 3000); // Verifica a cada 3 segundos*/
-
-
+console.log("---inicio---")
     setTimeout(() => {
         // Verificar se a URL contém '/Nutrição-e-Bem-Estar'
         if (window.location.pathname.includes('-e-Bem-Estar')) {
@@ -1072,98 +1049,7 @@
             }
         }
     }, 1500);
-/*
-    function scrollToElement(targetSelector) {
-        const targetElement = document.querySelector(targetSelector);
-
-        if (targetElement) {
-            targetElement.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
-        }
-    }
-
-    function delayedScroll(targetSelector) {
-        setTimeout(function () {
-            scrollToElement(targetSelector);
-        }, 600);
-    }
-    // Seleciona as opções do menu segurança desktop
-    function setupScrollEvents() {
-        if (document.readyState === 'loading') {
-
-            setTimeout(setupScrollEvents, 600);
-        } 
-        else {
-            const location = window.location.href.includes('institucionais');
-            if(!location) return;
-
-            document.querySelector('.opt1').addEventListener('click', function () {
-                delayedScroll('.container-objetivo-desk');
-            });
-
-            document.querySelector('.opt2').addEventListener('click', function () {
-                delayedScroll('.container-abrangencia-desk');
-            });
-
-            document.querySelector('.opt3').addEventListener('click', function () {
-                delayedScroll('.container-definicoes-e-terminologias-desk');
-            });
-
-            document.querySelector('.opt4').addEventListener('click', function () {
-                delayedScroll('.container-principios-desk');
-            });
-
-            document.querySelector('.opt5').addEventListener('click', function () {
-                delayedScroll('.container-diretrizes-desk');
-            });
-
-            document.querySelector('.opt6').addEventListener('click', function () {
-                delayedScroll('.container-disposicoes-finais-desk');
-            });
-
-            document.querySelector('.opt7').addEventListener('click', function () {
-                delayedScroll('.container-vigencia-desk');
-            });
-        }
-    }
-
-
-    setTimeout(function () {
-        setupScrollEvents();
-    }, 600);
-*/
-/*
-    setTimeout(() => {
-        const location = window.location.href.includes('institucionais');
-        if(!location) return;
-        // Seleciona os elementos do menu segurança mobile
-        const toggleButton = document.querySelector('.otnotice-menu-display');
-        const mobileMenu = document.querySelector('.otnotice-menu-mobile .otnotice-menu-mobile-container');
-
-        // Adiciona o evento de clique
-        toggleButton.onclick = function () {
-            if (toggleButton.classList.contains('otnotice-menu-display__expand')) {
-                // Troca a classe para 'collapse' e exibe o menu
-                toggleButton.classList.remove('otnotice-menu-display__expand');
-                toggleButton.classList.add('otnotice-menu-display__collapse');
-                mobileMenu.style.display = 'inline-block';
-            } else {
-                // Troca a classe para 'expand' e esconde o menu
-                toggleButton.classList.remove('otnotice-menu-display__collapse');
-                toggleButton.classList.add('otnotice-menu-display__expand');
-                mobileMenu.style.display = 'none';
-            }
-        };
-    }, 1000);*/
-
-    setTimeout(() => {
-       // document.querySelector('body').innerHTML += `<!-- Google Tag Manager (noscript) -->
-//<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5KFBSW"
-  //height="0" width="1" style="display:none;visibility:hidden"></iframe></noscript>
- // <!-- End Google Tag Manager (noscript) -->`
-    }, 500)
+    console.log("---fim---")
 </script>
 
 <!-- Início do aviso de consentimento de cookies OneTrust para www.souemana.com.br -->
