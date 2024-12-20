@@ -61,13 +61,13 @@
 		}
 	},
 
-	"rich-text#prescritores": {
-		"title": "Prescritores",
-		"props": {
-			"text": "[Prescritores](/institucionais/prescritores)",
-			"blockClass": ["prescritores"]
-		}
-	},
+	// "rich-text#prescritores": {
+	// 	"title": "Prescritores",
+	// 	"props": {
+	// 		"text": "[Prescritores](/institucionais/prescritores)",
+	// 		"blockClass": ["prescritores"]
+	// 	}
+	// },
 
 	"flex-layout.col#header-wishlist": {
 		"props": {
@@ -81,7 +81,6 @@
 		"props": {
 			"id": "menu-header-wishlist",
 			"type": "custom",
-			"iconId": null,
 			"highlight": false,
 			"blockClass": "header-wishlist",
 			"itemProps": {

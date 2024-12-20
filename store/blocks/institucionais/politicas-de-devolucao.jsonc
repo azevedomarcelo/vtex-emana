@@ -14,7 +14,6 @@
 	},
 
 	"rich-text#politicas-de-devolucao-texto": {
-		"title": "Texto",
 		"props": {
 			"text": "A EMANA estabeleceu sua política de troca e devolução, conforme o Código de Defesa do Consumidor (CDC) somente para compras realizadas em nossa loja virtual (www.souemana.com.br). Produtos comprados em revendas não serão trocados pela loja online, devendo o consumidor dirigir-se ao local onde o produto foi adquirido.\n O prazo para cancelamento, troca ou devolução (que inclui o direito de arrependimento) do pedido é de 7 dias corridos após o recebimento do pedido. Após este prazo, não serão aceitos cancelamentos, trocas nem devolução. \n\n\n Solicitamos que entre em contato com a nossa Central de Atendimento (ou via Whats-app) através do número: (11) 3813-0500 ou pelo email: contato@souemana.com.br \n Uma vez feito o contato, nossa equipe irá fornecer um código de postagem via correios com validade de 14 dias, (o custo do envio ficará a cargo da Emana). O cliente deve devolver o produto em perfeito estado de conservação e em sua embalagem original, sem indícios de uso, sem violação ou modificação e acompanhado da DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) e embalado conforme recomendações dos correios. \n\n\n Após o recebimento, que deve se dar em até 10 dias da postagem, o produto estará sujeito à análise da Equipe de Qualidade da Emana. A restituição do valor pago somente será liberada após aprovação dessa Equipe. Caso seja identificada qualquer divergência ou violação do produto, não será aceita a devolução e o produto será devolvido ao cliente. \n\n\n Uma vez aprovado o produto, nossa equipe de atendimento entrará em contato com o cliente para alinhar a forma de ressarcimento do valor pago. \n O cliente poderá acompanhar a devolução através do rastreio dos correios desde a postagem até a chegada ao nosso Centro de Distribuição. \n Na devolução dos produtos, a restituição do valor pago não incluirá o valor pago pelo frete e será realizada por meio da mesma modalidade de pagamento utilizado no fechamento do pedido. \n O valor correspondente à restituição do valor pago poderá ser convertido em crédito para a utilização exclusivamente no site da EMANA (www.souemana.com.br) no prazo de 30 dias, contados a partir de sua emissão.",
 			"font": "t-body",
@@ -22,19 +21,10 @@
 		}
 	},
 	"rich-text#politicas-de-devolucao-texto-2": {
-		"title": "Texto 2",
 		"props": {
 			"text": "__TROCA EM CASO DE DEFEITO, INCONFORMIDADE OU AVARIA__ \n\n Caso o cliente constate qualquer defeito de fabricação, inconformidade ou avaria em um produto adquirido, deverá entrar em contato com nossa Central de Atendimento (ou via Whats-app) através do número: (11) 3813-0500 ou pelo email: contato@souemana.com.br no prazo de até 30 (trinta) dias após o recebimento do produto (Art. 26, I do CDC) e, seguindo as instruções que lhe forem passadas, enviar o produto à Emana em sua embalagem original. \n Os produtos devolvidos serão analisados e, caso seja confirmado qualquer defeito de fabricação ou avaria (desde que comprovado que a mesma ocorreu em algum momento antes da entrega do produto ao consumidor), a Emana fará a troca do produto ou restituição do valor pago no prazo de até 90 (noventa) dias corridos contados da solicitação feita pelo cliente. A respectiva troca não será efetuada caso sejam constatados quaisquer indícios de uso ou má manipulação do produto.\n\n\n Caso não sejam constatados defeitos de fabricação ou caso sejam constatados que os defeitos no produto decorrem de má manipulação ou mau uso pelo cliente, a Emana enviará o produto de volta ao cliente sem o correspondente reembolso dos valores pagos.",
 			"font": "t-body",
 			"textColor": "c-on-body"
-		}
-	},
-	"rich-text#em-desenvolvimento": {
-		"props": {
-			"blockClass": "em-desenvolvimento",
-			"text": "### Em desenvolvimento",
-			"textAlignment": "CENTER",
-			"textPosition": "CENTER"
 		}
 	}
 }

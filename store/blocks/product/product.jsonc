@@ -66,7 +66,6 @@
 		]
 	},
 	"rich-text#product-description": {
-		"title": "Product Description",
 		"props": {
 			"text": "Com colágeno hidrolisado Verisol® associado ao famoso ácido hialurônico e silício orgânico, contém ainda biotina, vitaminas antioxidantes, zinco e selênio que contribuem para a manutenção da sua pele, cabelo e unhas. E tudo isso com um delicioso sabor de laranja com acerola feito com polpa de fruta!",
 			"font": "t-body"
@@ -142,11 +141,6 @@
 		}
 	},
 
-	"image#banner-assinatura": {
-		"props": {
-			"src": "/arquivos/banner-principal.png"
-		}
-	},
 	"flex-layout.row#qty-sku": {
 		"children": ["sku-selector"]
 	},

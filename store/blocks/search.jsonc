@@ -146,29 +146,13 @@
 			"blockClass": "gallery-wrapper"
 		}
 	},
-	"flex-layout.col#productCount": {
-		"children": ["total-products.v2"],
-		"props": {
-			"blockClass": "productCountCol"
-		}
-	},
-	"flex-layout.row#fetchprevious": {
-		"props": {
-			"marginBottom": 3
-		},
-		"children": ["search-fetch-previous"]
-	},
+
 	"flex-layout.row#fetchmore": {
 		"props": {
 			"marginTop": 3,
 			"blockClass": "fetchMore"
 		},
 		"children": ["search-fetch-more"]
-	},
-	"search-fetch-previous": {
-		"props": {
-			"htmlElementForButton": "a"
-		}
 	},
 	"search-fetch-more": {
 		"props": {
@@ -223,22 +207,10 @@
 			"blockClass": "orderByMobileCol"
 		}
 	},
-	"flex-layout.row#productCountMobile": {
-		"children": ["total-products.v2"],
-		"props": {
-			"blockClass": "productCountMobileRow"
-		}
-	},
 	"flex-layout.col#filterMobile": {
 		"children": ["filter-navigator.v3"],
 		"props": {
 			"blockClass": "filterMobileCol"
-		}
-	},
-	"flex-layout.col#switcherMobile": {
-		"children": ["gallery-layout-switcher"],
-		"props": {
-			"verticalAlign": "middle"
 		}
 	},
 	"search-not-found-layout": {
@@ -266,7 +238,6 @@
 		]
 	},
 	"rich-text#404-erro": {
-		"title": "Texto - 404-erro",
 		"props": {
 			"text": "# Produto não encontrado",
 			"blockClass": "404"
@@ -274,7 +245,6 @@
 	},
 
 	"rich-text#ops-nao-encontrada": {
-		"title": "Texto - ops-nao-encontrada",
 		"props": {
 			"text": "## Ops! Esta página não foi encontrada.",
 			"blockClass": "ops-not-found"
@@ -282,7 +252,6 @@
 	},
 
 	"rich-text#search-suggestion": {
-		"title": "Texto - search-suggestion",
 		"props": {
 			"text": "Não conseguimos encontrar o que você está procurando. Tente novamente.",
 			"blockClass": "search-suggestion"
