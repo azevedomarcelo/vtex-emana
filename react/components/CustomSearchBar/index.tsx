@@ -19,7 +19,7 @@ export function CustomSearchBar() {
 			<button
 				type="button"
 				className={styles.buttonSearch}
-				onClick={handleShowSearchBar}
+				onTouchEnd={handleShowSearchBar}
 			>
 				<SearchIcon />
 			</button>
