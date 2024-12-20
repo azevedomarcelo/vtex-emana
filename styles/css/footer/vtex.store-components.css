@@ -2,4 +2,5 @@
   width: 166px;
   height: 45px;
   place-self: center;
+  object-fit: contain;
 }

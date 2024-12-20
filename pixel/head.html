@@ -6,7 +6,7 @@
 
     h3.vtex-product-summary-2-x-productNameContainer.mv0.vtex-product-summary-2-x-nameWrapper.overflow-hidden.c-on-base.f5 {
         display: -webkit-box;
-        -webkit-line-clamp: 2;
+        line-clamp: 2;
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -58,14 +58,6 @@
 
     .flex.flex-column.justify-end.items-center.vtex-product-summary-2-x-priceContainer.pv5 {
         min-height: 102px;
-    }
-
-    li.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--footer-menu.list.vtex-menu-2-x-menuItem.vtex-menu-2-x-menuItem--footer-menu.vtex-menu-2-x-menuItem--isClosed.vtex-menu-2-x-menuItem--footer-menu--isClosed:last-child {
-        display: none;
-    }
-
-    .pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex .vtex-rich-text-0-x-wrapper.vtex-rich-text-0-x-wrapper--prescritores {
-        display: none;
     }
 
     .page-quem-somos .page-quem-somos body {
@@ -319,10 +311,6 @@
         font-size: 18px;
     }
 
-    p.lh-copy.vtex-rich-text-0-x-paragraph.vtex-rich-text-0-x-paragraph--nossos-selos-de-qualidade-title {
-        margin-left: 25px;
-    }
-
     .vtex-flex-layout-0-x-flexColChild.vtex-flex-layout-0-x-flexColChild--titleWishlist.pb0 h2.vtex-rich-text-0-x-heading.t-heading-2.vtex-rich-text-0-x-headingLevel2.vtex-rich-text-0-x-heading-level-2 {
         font-size: 0px;
     }
@@ -349,7 +337,7 @@
         bottom: 50px;
         right: 30px;
         background-color: #ffff5a;
-        z-index: 99999;
+        z-index: 999;
         border-radius: 50%;
         width: 60px;
         height: 60px;
@@ -362,24 +350,6 @@
     }
 
     @media(min-width:768px) {
-
-        .vtex-flex-layout-0-x-flexRowContent--endereco-loja {
-            width: 100%;
-        }
-
-        .vtex-store-components-3-x-imageElement--grupo-piracanjuba-imagem {
-            position: relative;
-            left: 170px;
-        }
-
-        .vtex-rich-text-0-x-paragraph--endereco-loja {
-            width: 755px;
-        }
-
-        .vtex-store-components-3-x-imageElement--grupo-piracanjuba-imagem {
-            position: relative;
-            left: 175px;
-        }
     }
 
     @media(max-width:768px) {
@@ -432,19 +402,9 @@
         .y-whatsapp {
             right: 10px;
         }
-
-        .vtex-slider-layout-0-x-sliderTrack--home-slider {
-
-        }
     }
 
     @media (min-width: 360px) and (max-width: 411px) {
-        .vtex-slider-layout-0-x-slide.vtex-slider-layout-0-x-slide--home-slider.vtex-slider-layout-0-x-slide--home-em-alta-slider.vtex-slider-layout-0-x-slide--firstVisible.vtex-slider-layout-0-x-slide--home-slider--firstVisible.vtex-slider-layout-0-x-slide--home-em-alta-slider--firstVisible.vtex-slider-layout-0-x-slide--visible.vtex-slider-layout-0-x-slide--home-slider--visible.vtex-slider-layout-0-x-slide--home-em-alta-slider--visible.flex.relative button {
-
-        }
-
-        a.vtex-store-components-3-x-logoLink.vtex-store-components-3-x-logoLink--header__logo img {}
-
 
         .vtex-menu-2-x-styledLinkContent--header-wishlist.flex.justify-between.nowrap {
             position: relative;
@@ -965,29 +925,7 @@
 </style>
 
 <script>
-    setInterval(() => {
-        const existingElement = document.querySelector('.y-whatsapp');
-        if (!existingElement) {
-            const targetElement = document.querySelector('.vtex-store-footer-2-x-footerLayout');
-            if (targetElement) {
-                const whatsappDiv = document.createElement('div');
-                whatsappDiv.className = 'y-whatsapp';
-
-                whatsappDiv.innerHTML = `
-                <a aria-label="WhatsApp" class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=5562999526336" target="_blank">
-                  <img 
-                    title="" 
-                    src="https://emana.vtexassets.com/assets/vtex/assets-builder/emana.store-theme/0.1.2/img/icons/whatsapp___dcf9dd1eb38359470e951651823aa326.svg" 
-                    alt="WhatsApp"
-                  >
-                </a>
-            `;
-                targetElement.insertAdjacentElement('afterend', whatsappDiv);
-            }
-        }
-    }, 3000); // Verifica a cada 3 segundos
-
-
+console.log("---inicio---")
     setTimeout(() => {
         // Verificar se a URL contém '/Nutrição-e-Bem-Estar'
         if (window.location.pathname.includes('-e-Bem-Estar')) {
@@ -1013,7 +951,7 @@
                 if (targetElement) {
                     targetElement.parentNode.insertBefore(imgElement, targetElement.nextSibling);
                 } else {
-                    console.error('Elemento alvo não encontrado');
+                    console.log('Elemento alvo não encontrado');
                 }
             }
         }
@@ -1044,7 +982,7 @@
                 if (targetElement) {
                     targetElement.parentNode.insertBefore(imgElement, targetElement.nextSibling);
                 } else {
-                    console.error('Elemento alvo não encontrado');
+                    console.log('Elemento alvo não encontrado');
                 }
             }
         }
@@ -1075,7 +1013,7 @@
                 if (targetElement) {
                     targetElement.parentNode.insertBefore(imgElement, targetElement.nextSibling);
                 } else {
-                    console.error('Elemento alvo não encontrado');
+                    console.log('Elemento alvo não encontrado');
                 }
             }
         }
@@ -1106,90 +1044,12 @@
                 if (targetElement) {
                     targetElement.parentNode.insertBefore(imgElement, targetElement.nextSibling);
                 } else {
-                    console.error('Elemento alvo não encontrado');
+                    console.log('Elemento alvo não encontrado');
                 }
             }
         }
     }, 1500);
-
-    function scrollToElement(targetSelector) {
-        const targetElement = document.querySelector(targetSelector);
-
-        if (targetElement) {
-            targetElement.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
-        }
-    }
-
-    function delayedScroll(targetSelector) {
-        setTimeout(function () {
-            scrollToElement(targetSelector);
-        }, 600);
-    }
-    // Seleciona as opções do menu segurança desktop
-    function setupScrollEvents() {
-        if (document.readyState === 'loading') {
-
-            setTimeout(setupScrollEvents, 600);
-        } else {
-
-            document.querySelector('.opt1').addEventListener('click', function () {
-                delayedScroll('.container-objetivo-desk');
-            });
-
-            document.querySelector('.opt2').addEventListener('click', function () {
-                delayedScroll('.container-abrangencia-desk');
-            });
-
-            document.querySelector('.opt3').addEventListener('click', function () {
-                delayedScroll('.container-definicoes-e-terminologias-desk');
-            });
-
-            document.querySelector('.opt4').addEventListener('click', function () {
-                delayedScroll('.container-principios-desk');
-            });
-
-            document.querySelector('.opt5').addEventListener('click', function () {
-                delayedScroll('.container-diretrizes-desk');
-            });
-
-            document.querySelector('.opt6').addEventListener('click', function () {
-                delayedScroll('.container-disposicoes-finais-desk');
-            });
-
-            document.querySelector('.opt7').addEventListener('click', function () {
-                delayedScroll('.container-vigencia-desk');
-            });
-        }
-    }
-
-
-    setTimeout(function () {
-        setupScrollEvents();
-    }, 600);
-
-    setTimeout(() => {
-        // Seleciona os elementos do menu segurança mobile
-        const toggleButton = document.querySelector('.otnotice-menu-display');
-        const mobileMenu = document.querySelector('.otnotice-menu-mobile .otnotice-menu-mobile-container');
-
-        // Adiciona o evento de clique
-        toggleButton.onclick = function () {
-            if (toggleButton.classList.contains('otnotice-menu-display__expand')) {
-                // Troca a classe para 'collapse' e exibe o menu
-                toggleButton.classList.remove('otnotice-menu-display__expand');
-                toggleButton.classList.add('otnotice-menu-display__collapse');
-                mobileMenu.style.display = 'inline-block';
-            } else {
-                // Troca a classe para 'expand' e esconde o menu
-                toggleButton.classList.remove('otnotice-menu-display__collapse');
-                toggleButton.classList.add('otnotice-menu-display__expand');
-                mobileMenu.style.display = 'none';
-            }
-        };
-    }, 1000);
+    console.log("---fim---")
 </script>
 
 <!-- Início do aviso de consentimento de cookies OneTrust para www.souemana.com.br -->
@@ -1200,3 +1060,36 @@
     function OptanonWrapper() {}
 </script>
 <!-- Final do aviso de consentimento de cookies OneTrust para www.souemana.com.br -->
+
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'pt_BR';
+			window.addEventListener("onEmbeddedMessagingReady", () => {
+			console.log("Received the onEmbeddedMessagingReady event…");
+                embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
+                    "Marca_para_Atendimento": "Emana"
+                });
+            });
+			embeddedservice_bootstrap.init(
+				'00D1I000000n3RL',
+				'Emana',
+				'https://piracanjubabr.my.site.com/ESWEmana1730755606616',
+				{
+					scrt2URL: 'https://piracanjubabr.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.log('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://piracanjubabr.my.site.com/ESWEmana1730755606616/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N5KFBSW');</script>
+<!-- End Google Tag Manager -->

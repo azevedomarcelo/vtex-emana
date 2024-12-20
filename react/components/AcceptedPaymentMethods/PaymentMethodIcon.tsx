@@ -66,7 +66,7 @@ function PaymentMethodIcon({ paymentMethod }: Props) {
 	const formattedMessage = formatIOMessage({ id: paymentMethod, intl });
 
 	return (
-		<div className={`w-9 h-9 mh2 pl5 flex items-center`}>
+		<div className={`w-9 h-9 mh2 pl5 flex items-center mv2`}>
 			<img
 				className={` w-100`}
 				src={imageSrc}

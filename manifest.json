@@ -1,7 +1,7 @@
 {
   "vendor": "emana",
   "name": "store-theme",
-  "version": "0.1.10",
+  "version": "0.1.19",
   "builders": {
     "messages": "1.x",
     "styles": "2.x",

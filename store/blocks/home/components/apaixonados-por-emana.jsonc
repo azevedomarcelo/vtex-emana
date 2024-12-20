@@ -16,7 +16,8 @@
 	"flex-layout.row#apaixonados-por-emana-content": {
 		"title": "Conteudo - Apaixonados por emana",
 		"props": {
-			"blockClass": "info-card-container"
+			"blockClass": "info-card-container",
+			"fullWidth": false
 		},
 		"children": ["slider-layout#home-apaixonados-por-emana-slider"]
 	},
@@ -35,11 +36,7 @@
 			"showNavigationArrows": "never",
 			"showPaginationDots": "always",
 			"fullWidth": true,
-			"blockClass": [
-				"home-slider",
-				"home-apaixonados-por-emana-slider",
-				"home-slider-no-gap"
-			]
+			"blockClass": ["home-slider", "home-apaixonados-por-emana-slider"]
 		},
 		"children": [
 			"info-card#card1",

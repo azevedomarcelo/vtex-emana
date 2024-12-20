@@ -9,11 +9,7 @@ interface FirstSubmenuProps {
 	imageUrl?: string;
 }
 
-export const FirstSubmenu = ({
-	items,
-	imageUrl
-}: FirstSubmenuProps) => {
-
+export const FirstSubmenu = ({ items, imageUrl }: FirstSubmenuProps) => {
 	return (
 		<nav
 			className={clsx({
@@ -28,7 +24,7 @@ export const FirstSubmenu = ({
 			<ul className={styles["first-submenu__list"]}>
 				{items.map((item: any) => {
 					return (
-						<li className={styles["first-submenu__item"]}>
+						<li key={item.name} className={styles["first-submenu__item"]}>
 							<a className={styles["first-submenu__link"]} href={item.href}>
 								{item.name}
 								<svg
@@ -42,21 +38,18 @@ export const FirstSubmenu = ({
 									<path
 										d="M1 8L5.29703 4.65787C5.39998 4.5778 5.39998 4.4222 5.29703 4.34213L1 0.999997"
 										stroke="#5A5555"
-										stroke-width="1.5"
-										stroke-linecap="round"
+										strokeWidth="1.5"
+										strokeLinecap="round"
 									/>
 								</svg>
 							</a>
 							{item.subitems ? (
-								<SecondSubmenu
-									items={item.subitems}
-									imageUrl={item.imageUrl}
-								/>
+								<SecondSubmenu items={item.subitems} imageUrl={item.imageUrl} />
 							) : null}
 						</li>
 					);
 				})}
 			</ul>
 		</nav>
-	)
+	);
 };

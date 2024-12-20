@@ -30,6 +30,12 @@
   }
 }
 
+.flexRow--nossos-selos-de-qualidade,
+.flexRow--navegue-por-categoria-row {
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
 .flexColChild--content-seu-objetivo4, 
 .flexColChild--content-seu-objetivo3, 
 .flexColChild--content-seu-objetivo2, 
@@ -173,6 +179,8 @@
   }
 
   .flexRowContent--newsletter {
+    flex-direction: column;
+    align-items: center;
     padding-bottom: 40px;
   }
 }

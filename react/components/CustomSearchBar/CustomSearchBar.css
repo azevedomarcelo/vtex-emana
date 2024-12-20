@@ -1,0 +1,133 @@
+.wrapper {
+  margin: 0rem 0.25rem;
+}
+
+.buttonSearch {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.showSearchBar {
+  display: block !important;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 345px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .showSearchBar {
+    width: 90%;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    :global(.vtex-input-prefix__group) {
+      width: 100% !important;
+    }
+
+    :global(.vtex-store-components-3-x-resultsList) {
+      position: absolute;
+      transform: translate(-50%, -15%);
+      left: -20%;
+      width: max-content;
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .showSearchBar {
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    :global(.vtex-input-prefix__group) {
+      width: 100% !important;
+    }
+
+    :global(.vtex-store-components-3-x-resultsList) {
+      position: absolute;
+      transform: translate(-50%, -15%);
+      left: 5%;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .showSearchBar {
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    :global(.vtex-input-prefix__group) {
+      width: 100% !important;
+    }
+
+    :global(.vtex-store-components-3-x-resultsList) {
+      position: absolute;
+      transform: translate(-50%, -15%);
+      left: 30%;
+      width: 100%;
+    }
+  }
+}
+
+/* @media screen and (max-width: 425px) {
+  .showSearchBar {
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    :global(.vtex-input-prefix__group) {
+      width: 100% !important;
+    }
+
+    :global(.vtex-store-components-3-x-resultsList) {
+      position: absolute;
+      left: 50%;
+      transform: translate(-65%, -15%);
+      width: 100%;
+    }
+  }
+} */
+
+@media screen and (max-width: 428px) {
+  .showSearchBar {
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    :global(.vtex-input-prefix__group) {
+      width: 100% !important;
+    }
+
+    :global(.vtex-store-components-3-x-resultsList) {
+      position: absolute;
+      transform: translate(-50%, -15%);
+      left: 50%;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .showSearchBar {
+    top: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    :global(.vtex-input-prefix__group) {
+      width: 100% !important;
+    }
+
+    :global(.vtex-store-components-3-x-resultsList) {
+      position: absolute;
+      transform: translate(-50%, -15%);
+      left: 50%;
+      width: 100%;
+    }
+  }
+}

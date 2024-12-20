@@ -3,7 +3,7 @@
 		"title": "Seção de Links 3",
 		"children": [
 			"rich-text#footer-col-3-title",
-			"vtex.menu@2.x:menu#footer-menu3",
+			"vtex.menu@2.x:menu#footer-menu-col-3",
 			"rich-text#footer-col-3-contact",
 			"flex-layout.row#footer-col-3-social-media"
 		],
@@ -21,7 +21,7 @@
 		}
 	},
 
-	"vtex.menu@2.x:menu#footer-menu3": {
+	"vtex.menu@2.x:menu#footer-menu-col-3": {
 		"props": {
 			"items": [
 				{
@@ -37,15 +37,33 @@
 					}
 				},
 				{
-					"id": "telefone",
+					"id": "telefone-0800",
 					"type": "custom",
 					"highlight": false,
 					"itemProps": {
 						"type": "external",
 						"href": "#",
 						"noFollow": false,
-						"tagTitle": "(11) 3813-0500",
-						"text": "(11) 3813-0500"
+						"tagTitle": "0800 722 1231",
+						"text": "0800 722 1231"
+					},
+					"iconProps": {
+						"id": "icon-phone"
+					}
+				},
+				{
+					"id": "telefone-whatsapp",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "external",
+						"href": "https://api.whatsapp.com/send?phone=5562999526336",
+						"noFollow": false,
+						"tagTitle": "(62) 99952 6336",
+						"text": "(62) 99952 6336"
+					},
+					"iconProps": {
+						"id": "icon-whatsapp"
 					}
 				}
 			],
@@ -66,8 +84,8 @@
 		"children": [
 			"image#youtube",
 			"image#tiktok",
-			"image#facebook",
-			"image#whatsapp"
+			"image#facebook"
+			// "image#whatsapp"
 		]
 	},
 
@@ -86,7 +104,11 @@
 	"image#whatsapp": {
 		"title": "Icone - Whatsapp",
 		"props": {
-			"src": "assets/img/icons/whatsapp.svg"
+			"src": "assets/img/icons/whatsapp.svg",
+			"link": {
+				"url": "https://api.whatsapp.com/send?phone=5562999526336",
+				"openNewTab": true
+			}
 		}
 	},
 	"image#youtube": {

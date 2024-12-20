@@ -53,6 +53,21 @@
   .logoContainer--logo-footer {
     padding: 0;
   }
+  
+  .logoContainer--header__logo {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+
+    max-height: unset;
+    max-width: unset;
+    min-width: unset;
+    padding: 0;
+  }
+
+  .autoCompleteOuterContainer {
+    width: unset;
+  }
 }
 
 .imageElement--menu-image-01,

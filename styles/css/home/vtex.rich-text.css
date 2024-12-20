@@ -25,7 +25,6 @@
 }
 
 .headingLevel3--shelf-title {
-  margin-left: 100px;
   text-align: left;
 }
 
@@ -87,17 +86,6 @@
     height: 67px;
     letter-spacing: 3px;
   } */
-}
-
-
-@media (min-width: 960px) {
-  .container--seu-objetivo {
-    justify-content: left;
-  }
-
-  .container--navegue-por-categoria-title {
-    padding-left: 8vw;
-  } 
 }
 
 @media screen and (max-width: 768px) {
@@ -229,6 +217,16 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .paragraph--info-title {
+    font-size: 50px;
+    text-align: center;
+    line-height: 59px;
+    width: unset;
+    margin: 30px auto 24px;
+    color: #000;
+  }
+}
 @media screen and (max-width: 1280px) {
   
 }

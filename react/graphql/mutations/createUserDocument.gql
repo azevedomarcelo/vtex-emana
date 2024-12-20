@@ -1,0 +1,9 @@
+mutation patchDocument($document: DocumentInput) {
+  patchDocument(entity: "CL", document: $document){
+    id
+    href
+    documentId
+    result
+  }
+}
+
