@@ -127,21 +127,7 @@
 			// "flex-layout.row#buyNowButton"
 		]
 	},
-	"flex-layout.row#buyNowButton": {
-		"props": {
-			"blockClass": "buyNowButton"
-		},
-		"children": ["add-to-cart-button#buyNow"]
-	},
 
-	"add-to-cart-button#buyNow": {
-		"props": {
-			"text": "BUY NOW",
-			"isOneClickBuy": true,
-			"onClickEventPropagation": "enabled",
-			"blockClass": "buyNow"
-		}
-	},
 	"flex-layout.col#priceSummaryListDesktop": {
 		"children": ["product-selling-price#summary", "product-list-price#summary"]
 	},

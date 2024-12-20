@@ -2,6 +2,7 @@
 	"store.custom#prescritores": {
 		"title": "Prescritores",
 		"blocks": [
+			"whatsapp-floating-button",
 			"responsive-layout.desktop#prescritores",
 			"responsive-layout.mobile#prescritores",
 			"flex-layout.row#newsletter"

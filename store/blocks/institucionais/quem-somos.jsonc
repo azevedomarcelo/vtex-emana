@@ -1,6 +1,7 @@
 {
 	"store.custom#quem-somos": {
 		"blocks": [
+			"whatsapp-floating-button",
 			"flex-layout.row#video-container",
 			"rich-text#quem-somos-title",
 			"rich-text#quem-somos-box",

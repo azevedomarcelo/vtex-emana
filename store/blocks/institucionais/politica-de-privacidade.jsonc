@@ -1,5 +1,5 @@
 {
 	"store.custom#politica-de-privacidade": {
-		"blocks": ["politica-de-privacidade"]
+		"blocks": ["whatsapp-floating-button", "politica-de-privacidade"]
 	}
 }
