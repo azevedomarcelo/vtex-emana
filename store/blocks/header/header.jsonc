@@ -148,7 +148,7 @@
 		"children": [
 			"logo",
 			"flex-layout.col#spacer",
-			"custom-search-bar",
+			// "custom-search-bar",
 			"search-bar",
 			"menu-item#menu-header-wishlist",
 			"minicart.v2",
