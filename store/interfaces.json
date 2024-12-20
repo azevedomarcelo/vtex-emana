@@ -51,5 +51,8 @@
   },
   "custom-search-bar": {
     "component": "CustomSearchBar"
+  },
+  "whatsapp-floating-button": {
+    "component": "WhatsappFloatingButton"
   }
 }

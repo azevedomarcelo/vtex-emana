@@ -1,6 +1,7 @@
 {
 	"store.home": {
 		"blocks": [
+			"whatsapp-floating-button",
 			"responsive-layout.mobile#home",
 			"responsive-layout.desktop#home"
 		]

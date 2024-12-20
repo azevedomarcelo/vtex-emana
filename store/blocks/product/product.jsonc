@@ -1,6 +1,7 @@
 {
 	"store.product": {
 		"children": [
+			"whatsapp-floating-button",
 			"breadcrumb#pdp",
 			"flex-layout.row#main",
 			"flex-layout.row#shelf-buy-together",
@@ -15,9 +16,7 @@
 			"fullWidth": false,
 			"horizontalAlign": "center"
 		},
-		"children": [
-			"product-description"
-		]
+		"children": ["product-description"]
 	},
 
 	"product-description": {

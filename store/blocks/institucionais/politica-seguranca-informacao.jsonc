@@ -1,5 +1,5 @@
 {
 	"store.custom#politica-de-seguranca-da-informacao": {
-		"blocks": ["politica-de-seguranca-da-informacao"]
+		"blocks": ["whatsapp-floating-button", "politica-de-seguranca-da-informacao"]
 	}
 }

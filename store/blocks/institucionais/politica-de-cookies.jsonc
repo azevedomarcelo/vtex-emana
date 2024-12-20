@@ -1,5 +1,5 @@
 {
 	"store.custom#politica-de-cookies": {
-		"blocks": ["politica-de-cookies"]
+		"blocks": ["whatsapp-floating-button", "politica-de-cookies"]
 	}
 }

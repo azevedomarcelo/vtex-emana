@@ -1,6 +1,7 @@
 {
 	"store.custom#perguntas-frequentes": {
 		"blocks": [
+			"whatsapp-floating-button",
 			"rich-text#perguntas-frequentes-title",
 			"accordion-institucional"
 		]

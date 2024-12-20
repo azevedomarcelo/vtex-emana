@@ -925,7 +925,8 @@
 </style>
 
 <script>
-console.log("---inicio---")
+    console.log("---i0.1.20---")
+
     setTimeout(() => {
         // Verificar se a URL contém '/Nutrição-e-Bem-Estar'
         if (window.location.pathname.includes('-e-Bem-Estar')) {
@@ -1049,7 +1050,101 @@ console.log("---inicio---")
             }
         }
     }, 1500);
-    console.log("---fim---")
+    
+    function scrollToElement(targetSelector) {
+        const locationPage = window.location.href.includes('institucionais');
+        if(!locationPage) return;
+
+        const targetElement = document.querySelector(targetSelector);
+
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    }
+
+    function delayedScroll(targetSelector) {
+        const locationPage = window.location.href.includes('institucionais');
+        if(!locationPage) return;
+
+        setTimeout(function () {
+            scrollToElement(targetSelector);
+        }, 600);
+    }
+    // Seleciona as opções do menu segurança desktop
+    function setupScrollEvents() {
+        const locationPage = window.location.href.includes('institucionais');
+        if(!locationPage) return;
+
+        if (document.readyState === 'loading') {
+
+            setTimeout(setupScrollEvents, 600);
+        } else {
+
+            document.querySelector('.opt1').addEventListener('click', function () {
+                delayedScroll('.container-objetivo-desk');
+            });
+
+            document.querySelector('.opt2').addEventListener('click', function () {
+                delayedScroll('.container-abrangencia-desk');
+            });
+
+            document.querySelector('.opt3').addEventListener('click', function () {
+                delayedScroll('.container-definicoes-e-terminologias-desk');
+            });
+
+            document.querySelector('.opt4').addEventListener('click', function () {
+                delayedScroll('.container-principios-desk');
+            });
+
+            document.querySelector('.opt5').addEventListener('click', function () {
+                delayedScroll('.container-diretrizes-desk');
+            });
+
+            document.querySelector('.opt6').addEventListener('click', function () {
+                delayedScroll('.container-disposicoes-finais-desk');
+            });
+
+            document.querySelector('.opt7').addEventListener('click', function () {
+                delayedScroll('.container-vigencia-desk');
+            });
+        }
+    }
+
+    setTimeout(function () {
+        const locationPage = window.location.href.includes('institucionais');
+        if(!locationPage) return;
+        
+        setupScrollEvents();
+    }, 600);
+
+    setTimeout(() => {
+        const locationPage = window.location.href.includes('institucionais');
+        if(!locationPage) return;
+
+        // Seleciona os elementos do menu segurança mobile
+        const toggleButton = document.querySelector('.otnotice-menu-display');
+        const mobileMenu = document.querySelector('.otnotice-menu-mobile .otnotice-menu-mobile-container');
+
+        // Adiciona o evento de clique
+        toggleButton.onclick = function () {
+            if (toggleButton.classList.contains('otnotice-menu-display__expand')) {
+                // Troca a classe para 'collapse' e exibe o menu
+                toggleButton.classList.remove('otnotice-menu-display__expand');
+                toggleButton.classList.add('otnotice-menu-display__collapse');
+                mobileMenu.style.display = 'inline-block';
+            } else {
+                // Troca a classe para 'expand' e esconde o menu
+                toggleButton.classList.remove('otnotice-menu-display__collapse');
+                toggleButton.classList.add('otnotice-menu-display__expand');
+                mobileMenu.style.display = 'none';
+            }
+        };
+    }, 1000);
+    
+    console.log("---f0.1.20---")
 </script>
 
 <!-- Início do aviso de consentimento de cookies OneTrust para www.souemana.com.br -->

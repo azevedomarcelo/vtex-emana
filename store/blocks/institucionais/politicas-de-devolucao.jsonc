@@ -1,6 +1,7 @@
 {
 	"store.custom#politicas-de-devolucao": {
 		"blocks": [
+			"whatsapp-floating-button",
 			"rich-text#politicas-de-devolucao-title",
 			"rich-text#politicas-de-devolucao-texto",
 			"rich-text#politicas-de-devolucao-texto-2"
