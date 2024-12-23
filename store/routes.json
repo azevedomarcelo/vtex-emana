@@ -27,6 +27,10 @@
     "path": "/institucionais/politica-de-seguranca-da-informacao",
     "title": "Política de Segurança | Emana"
   },
+  "store.custom#onde-encontrar": {
+    "path": "/institucionais/onde-encontrar",
+    "title": "Onde Encontrar | Emana"
+  },
   "store.custom#collection-respiracao": {
     "path": "/respiracao",
     "title": "Respiração | Emana"

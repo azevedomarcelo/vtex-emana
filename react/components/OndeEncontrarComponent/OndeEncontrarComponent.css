@@ -1,0 +1,32 @@
+.wrapperOndeEncontrar {
+  width: 100%;
+}
+
+.iframeContainer {
+  background: url("/arquivos/imgbackgroundprodutosemanablack.png") no-repeat center;
+  background-size: cover;
+}
+
+.content {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.iframeContent {
+  border: 0; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .content {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 30px;
+  }
+
+  .titleProdutosEmana {
+    font-size: xx-large;
+  }
+  
+}

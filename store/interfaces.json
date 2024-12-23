@@ -54,5 +54,8 @@
   },
   "whatsapp-floating-button": {
     "component": "WhatsappFloatingButton"
+  },
+  "onde-encontrar": {
+    "component": "OndeEncontrarComponent"
   }
 }
