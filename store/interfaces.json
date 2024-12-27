@@ -44,7 +44,10 @@
     "component": "AcceptedPaymentMethods"
   },
   "menu-mobile": {
-    "component": "MenuMobile"
+    "component": "MenuMobile",
+    "required": [
+      "login"
+    ]
   },
   "newsletter-form-custom": {
     "component": "NewsletterForm"

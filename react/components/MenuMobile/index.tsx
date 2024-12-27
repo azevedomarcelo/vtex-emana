@@ -1,9 +1,17 @@
 import React from "react";
 import { Link } from "vtex.render-runtime";
+import { useRenderSession } from "vtex.session-client";
+
 import { data } from "../Menu/data";
 import style from "./styles.css";
 
 export function MenuMobile() {
+	const { session } = useRenderSession();
+	const isAuthenticated = session?.namespaces?.profile?.isAuthenticated?.value;
+	console.log(
+		"session?.namespaces?.profile?.isAuthenticated",
+		session?.namespaces?.profile?.isAuthenticated,
+	);
 	return (
 		<div className="w-100 flex flex-column ph4 pv4">
 			{data.map((menu) => (
@@ -35,6 +43,16 @@ export function MenuMobile() {
 					)}
 				</div>
 			))}
+
+			<footer className="pt9 mt9">
+				{isAuthenticated !== "false" ? (
+					<Link to={"/account"}>
+						<span>Olá, {session?.namespaces?.profile?.email?.value}</span>
+					</Link>
+				) : (
+					<Link to={"/login"}>Fazer login</Link>
+				)}
+			</footer>
 		</div>
 	);
 }
