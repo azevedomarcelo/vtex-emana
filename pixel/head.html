@@ -316,8 +316,7 @@
         font-size: 36px;
     }
 
-    @media(min-width:768px) {
-    }
+    @media(min-width:768px) {}
 
     @media(max-width:768px) {
         .page-quem-somos .descricao.sobre .logo-brand {
@@ -864,6 +863,154 @@
         line-height: 19px;
     }
 
+    .container-etica-main {
+        padding-bottom: 7rem;
+        padding-top: 7rem;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .container-etica-main-bnt {
+        display: flex;
+        gap: 1.25rem;
+        margin-top: 60px;
+    }
+
+    .text-etica-sub {
+        color: rgb(118 118 118);
+        font-size: 15px;
+    }
+
+    .container-info-etica p {
+        color: rgb(118 118 118);
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .text-etica {
+        font-size: 56px;
+        color: rgb(237 28 36);
+        font-weight: 300;
+        margin-top: 10px !important;
+    }
+
+
+    .bnt-container-etica01 {
+        background-color: rgb(253 185 19);
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        border-radius: 1rem;
+    }
+
+    .bnt-container-etica01 .container-etica-main-bnt {
+        gap: 1.25rem;
+        display: flex;
+    }
+
+    .bnt-container-etica01 .text-etica-main {
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .bnt-container-etica01 .text-etica-sub {
+        color: #fff;
+        font-size: 17px;
+        min-height: 100px;
+
+    }
+
+    .bnt-container-etica01 .container-etica-link a {
+        border: solid 1px rgb(253 185 19);
+        background: #fff;
+        color: rgb(253 185 19);
+        border-radius: 22px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .bnt-container-etica02 {
+        background-color: rgb(245 130 32);
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        border-radius: 1rem;
+    }
+
+    .bnt-container-etica02 .container-etica-main-bnt {
+        gap: 1.25rem;
+        display: flex;
+    }
+
+    .bnt-container-etica02 .text-etica-main {
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .bnt-container-etica02 .text-etica-sub {
+        color: #fff;
+        font-size: 17px;
+        min-height: 100px;
+    }
+
+    .bnt-container-etica02 .container-etica-link a {
+        border: solid 1px rgb(245 130 32);
+        background: #fff;
+        color: rgb(245 130 32);
+        border-radius: 22px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .bnt-container-etica03 {
+        background-color: rgb(255 213 0);
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        border-radius: 1rem;
+    }
+
+    .bnt-container-etica03 .container-etica-main-bnt {
+        gap: 1.25rem;
+        display: flex;
+    }
+
+    .bnt-container-etica03 .text-etica-main {
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .bnt-container-etica03 .text-etica-sub {
+        color: #fff;
+        font-size: 17px;
+        min-height: 100px;
+    }
+
+    .bnt-container-etica03 .container-etica-link a {
+        border: solid 1px rgb(255 213 0);
+        background: #fff;
+        color: rgb(255 213 0);
+        border-radius: 22px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     @media only screen and (max-width: 767px) {
         .cookie-politicas .otnotice-sections {
             margin-right: 0.25rem;
@@ -888,14 +1035,33 @@
         .cookie-politicas .otnotice-sections {
             max-width: 100%;
         }
+
+        .bnt-container-etica01,
+        .bnt-container-etica02,
+        .bnt-container-etica03 {
+            margin-bottom: 20px;
+        }
+
+        .text-etica {
+            font-size: 31px;
+        }
+
+        .container-info-etica p {
+            font-size: 14px;
+        }
+
+        .container-etica-main-bnt {
+            display: block;
+        }
     }
 </style>
 
 <script>
     console.log("---i0.1.20---")
+
     function scrollToElement(targetSelector) {
         const locationPage = window.location.href.includes('institucionais');
-        if(!locationPage) return;
+        if (!locationPage) return;
 
         const targetElement = document.querySelector(targetSelector);
 
@@ -909,7 +1075,7 @@
 
     function delayedScroll(targetSelector) {
         const locationPage = window.location.href.includes('institucionais');
-        if(!locationPage) return;
+        if (!locationPage) return;
 
         setTimeout(function () {
             scrollToElement(targetSelector);
@@ -918,7 +1084,7 @@
     // Seleciona as opções do menu segurança desktop
     function setupScrollEvents() {
         const locationPage = window.location.href.includes('institucionais');
-        if(!locationPage) return;
+        if (!locationPage) return;
 
         if (document.readyState === 'loading') {
 
@@ -957,14 +1123,14 @@
 
     setTimeout(function () {
         const locationPage = window.location.href.includes('institucionais');
-        if(!locationPage) return;
-        
+        if (!locationPage) return;
+
         setupScrollEvents();
     }, 600);
 
     setTimeout(() => {
         const locationPage = window.location.href.includes('institucionais');
-        if(!locationPage) return;
+        if (!locationPage) return;
 
         // Seleciona os elementos do menu segurança mobile
         const toggleButton = document.querySelector('.otnotice-menu-display');
@@ -985,7 +1151,7 @@
             }
         };
     }, 1000);
-    
+
     console.log("---f0.1.20---")
 </script>
 
@@ -999,34 +1165,45 @@
 <!-- Final do aviso de consentimento de cookies OneTrust para www.souemana.com.br -->
 
 <script type='text/javascript'>
-	function initEmbeddedMessaging() {
-		try {
-			embeddedservice_bootstrap.settings.language = 'pt_BR';
-			window.addEventListener("onEmbeddedMessagingReady", () => {
-			console.log("Received the onEmbeddedMessagingReady event…");
+    function initEmbeddedMessaging() {
+        try {
+            embeddedservice_bootstrap.settings.language = 'pt_BR';
+            window.addEventListener("onEmbeddedMessagingReady", () => {
+                console.log("Received the onEmbeddedMessagingReady event…");
                 embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
                     "Marca_para_Atendimento": "Emana"
                 });
             });
-			embeddedservice_bootstrap.init(
-				'00D1I000000n3RL',
-				'Emana',
-				'https://piracanjubabr.my.site.com/ESWEmana1730755606616',
-				{
-					scrt2URL: 'https://piracanjubabr.my.salesforce-scrt.com'
-				}
-			);
-		} catch (err) {
-			console.log('Error loading Embedded Messaging: ', err);
-		}
-	};
+            embeddedservice_bootstrap.init(
+                '00D1I000000n3RL',
+                'Emana',
+                'https://piracanjubabr.my.site.com/ESWEmana1730755606616', {
+                    scrt2URL: 'https://piracanjubabr.my.salesforce-scrt.com'
+                }
+            );
+        } catch (err) {
+            console.log('Error loading Embedded Messaging: ', err);
+        }
+    };
 </script>
-<script type='text/javascript' src='https://piracanjubabr.my.site.com/ESWEmana1730755606616/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://piracanjubabr.my.site.com/ESWEmana1730755606616/assets/js/bootstrap.min.js'
+    onload='initEmbeddedMessaging()'></script>
 
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-N5KFBSW');</script>
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N5KFBSW');
+</script>
 <!-- End Google Tag Manager -->

@@ -23,6 +23,10 @@
     "path": "/institucionais/politica-de-cookies",
     "title": "Política de Cookies | Emana"
   },
+  "store.custom#etica-integridade": {
+    "path": "/institucionais/etica-integridade",
+    "title": "Ética e Integridade | Emana"
+  },
   "store.custom#politica-de-seguranca-da-informacao": {
     "path": "/institucionais/politica-de-seguranca-da-informacao",
     "title": "Política de Segurança | Emana"
