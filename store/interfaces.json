@@ -31,6 +31,9 @@
   "politica-de-cookies": {
     "component": "PoliticaCookies"
   },
+  "etica-integridade": {
+    "component": "EticaIntegridade"
+  },
   "politica-de-seguranca-da-informacao": {
     "component": "PoliticaDeSegurancaDaInformacao"
   },
