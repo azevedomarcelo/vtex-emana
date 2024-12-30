@@ -81,6 +81,18 @@
 						"tagTitle": "Gerencie seus Dados",
 						"text": "Gerencie seus Dados"
 					}
+				},
+				{
+					"id": "etica-integridade",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/institucionais/etica-integridade",
+						"noFollow": false,
+						"tagTitle": "Ética e Integridade",
+						"text": "Ética e Integridade"
+					}
 				}
 			],
 			"blockClass": ["footer-menu"],

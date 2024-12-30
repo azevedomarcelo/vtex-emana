@@ -106,6 +106,18 @@
 						"text": "Prescritores"
 					}
 				}
+				// {
+				// 	"id": "etica-integridade",
+				// 	"type": "custom",
+				// 	"highlight": false,
+				// 	"itemProps": {
+				// 		"type": "external",
+				// 		"href": "https://www.piracanjuba.com.br/sobre-nos/etica-e-integridade",
+				// 		"noFollow": false,
+				// 		"tagTitle": "Ética e Integridade",
+				// 		"text": "Ética e Integridade"
+				// 	}
+				// }
 			],
 			"blockClass": ["footer-menu"],
 			"orientation": "vertical"

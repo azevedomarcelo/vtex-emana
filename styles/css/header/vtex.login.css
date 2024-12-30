@@ -18,7 +18,6 @@
   }
 }
 
-
 .container :global(.vtex-button) { 
   width: 130px;
   &:hover {
@@ -26,6 +25,16 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .container :global(.vtex-button) { 
+    width: 15%;
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+  
+}
 @media screen and (max-width: 1366px) {
   .label {
     display: flex;

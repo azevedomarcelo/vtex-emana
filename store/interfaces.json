@@ -31,6 +31,9 @@
   "politica-de-cookies": {
     "component": "PoliticaCookies"
   },
+  "etica-integridade": {
+    "component": "EticaIntegridade"
+  },
   "politica-de-seguranca-da-informacao": {
     "component": "PoliticaDeSegurancaDaInformacao"
   },
@@ -44,7 +47,10 @@
     "component": "AcceptedPaymentMethods"
   },
   "menu-mobile": {
-    "component": "MenuMobile"
+    "component": "MenuMobile",
+    "required": [
+      "login"
+    ]
   },
   "newsletter-form-custom": {
     "component": "NewsletterForm"
@@ -54,5 +60,8 @@
   },
   "whatsapp-floating-button": {
     "component": "WhatsappFloatingButton"
+  },
+  "onde-encontrar": {
+    "component": "OndeEncontrarComponent"
   }
 }
