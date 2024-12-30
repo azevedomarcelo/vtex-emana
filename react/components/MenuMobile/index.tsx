@@ -8,10 +8,6 @@ import style from "./styles.css";
 export function MenuMobile() {
 	const { session } = useRenderSession();
 	const isAuthenticated = session?.namespaces?.profile?.isAuthenticated?.value;
-	console.log(
-		"session?.namespaces?.profile?.isAuthenticated",
-		session?.namespaces?.profile?.isAuthenticated,
-	);
 	return (
 		<div className="w-100 flex flex-column ph4 pv4">
 			{data.map((menu) => (
