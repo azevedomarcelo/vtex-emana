@@ -87,7 +87,7 @@
 					"type": "custom",
 					"highlight": false,
 					"itemProps": {
-						"type": "external",
+						"type": "internal",
 						"href": "/institucionais/etica-integridade",
 						"noFollow": false,
 						"tagTitle": "Ética e Integridade",
