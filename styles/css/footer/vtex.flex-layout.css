@@ -78,6 +78,7 @@
   .flexRowContent--social-media-content {
     display: flex;
     flex-direction: row;
+    place-items: flex-start;
     gap: 18px;
   }
 }

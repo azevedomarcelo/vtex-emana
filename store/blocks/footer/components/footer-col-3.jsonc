@@ -14,7 +14,6 @@
 	},
 
 	"rich-text#footer-col-3-title": {
-		"title": "Título da Seção",
 		"props": {
 			"blockClass": "footer-col-title",
 			"text": "##### Contato"
@@ -84,37 +83,45 @@
 		"children": [
 			"image#youtube",
 			"image#tiktok",
-			"image#facebook"
-			// "image#whatsapp"
+			"image#facebook",
+			"image#instagram"
 		]
 	},
 
 	"image#facebook": {
 		"title": "Icone - Facebook",
 		"props": {
-			"src": "assets/img/icons/facebook.svg"
+			"src": "assets/img/icons/facebook.svg",
+			"maxWidth": "25px",
+			"maxHeight": "25px"
 		}
 	},
 	"image#tiktok": {
 		"title": "Icone - Tiktok",
 		"props": {
-			"src": "assets/img/icons/tiktok.svg"
-		}
-	},
-	"image#whatsapp": {
-		"title": "Icone - Whatsapp",
-		"props": {
-			"src": "assets/img/icons/whatsapp.svg",
-			"link": {
-				"url": "https://api.whatsapp.com/send?phone=5562999526336",
-				"openNewTab": true
-			}
+			"src": "assets/img/icons/tiktok.svg",
+			"maxWidth": "25px",
+			"maxHeight": "25px"
 		}
 	},
 	"image#youtube": {
 		"title": "Icone - Youtube",
 		"props": {
-			"src": "assets/img/icons/youtube.svg"
+			"src": "assets/img/icons/youtube.svg",
+			"maxWidth": "25px",
+			"maxHeight": "25px"
+		}
+	},
+	"image#instagram": {
+		"title": "Icone - Instagram",
+		"props": {
+			"src": "assets/img/icons/instagram.svg",
+			"maxWidth": "25px",
+			"maxHeight": "25px",
+			"link": {
+				"url": "https://www.instagram.com/souemana/",
+				"openNewTab": true
+			}
 		}
 	}
 }
