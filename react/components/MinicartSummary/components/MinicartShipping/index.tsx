@@ -1,14 +1,15 @@
-import React, { useEffect, useRef, useState } from "react";
-
-import { useContextSummaryData } from "../../context/SummaryData";
+import React, { FormEvent, useEffect, useRef, useState } from "react";
 
 import axios from "axios";
 import { ThreeDots } from "react-loader-spinner";
 
+import { useContextSummaryData } from "../../context/SummaryData";
+
+import { OrderFormProps } from "../../../../typings/orderForm";
 import { cepMask } from "../../../../utils/masks";
 import styles from "./styles.module.css";
 
-export function MinicartShipping({ orderForm }: any) {
+export function MinicartShipping({ orderForm }: OrderFormProps) {
 	const formRef = useRef(null);
 	const { setFreightPrice } = useContextSummaryData();
 
@@ -16,25 +17,22 @@ export function MinicartShipping({ orderForm }: any) {
 	const [orderFormId, setOrderFormId] = useState("");
 	const [isLoading, setIsLoading] = useState(false);
 	const [fail, setFail] = useState(false);
-
 	useEffect(() => {
-		// console.log("Order form to list", orderForm);
 		if (orderForm?.items?.length > 0) {
 			setOrderFormId(orderForm.id);
 		}
 	}, [orderForm]);
 
-	function _handleResponse(response: any, error?: any) {
+	function _handleResponse(response: any, error?: string) {
 		if (response?.status == 200) {
 			setIsLoading(false);
-			//setCep('');
 			setFail(false);
-			// Atualiza o falor do Frete no contexto do Summary para o ca'lculo final
-			setFreightPrice(
-				response.data.totalizers.find((item: any) => item.id === "Shipping")
-					?.value ?? 0,
-			);
-			// console.log('shipping', response.data, response)
+			const freightPrice =
+				response.data.totalizers.find(
+					(item: { id: string }) => item.id === "Shipping",
+				)?.value ?? 0;
+
+			setFreightPrice(freightPrice);
 		} else {
 			console.error("Error", error);
 			setIsLoading(false);
@@ -42,14 +40,13 @@ export function MinicartShipping({ orderForm }: any) {
 		}
 	}
 
-	async function handleSubmit(ev: any) {
+	async function handleSubmit(ev: FormEvent) {
 		ev.preventDefault();
 		if (cep.length == 9) {
 			setFail(false);
 			setIsLoading(true);
 			const url = `/api/checkout/pub/orderForm/${orderFormId}/attachments/shippingData`;
 			const dataToSend = {
-				clearAddressIfPostalCodeNotFound: false,
 				selectedAddresses: [
 					{
 						postalCode: cep,
@@ -72,10 +69,6 @@ export function MinicartShipping({ orderForm }: any) {
 					},
 				})
 				.then((response) => {
-					// const price = response.data.totalizers.find(
-					//   item => item.id === 'Shipping'
-					// )?.value
-
 					_handleResponse(response);
 				})
 				.catch((error) => {
@@ -85,13 +78,6 @@ export function MinicartShipping({ orderForm }: any) {
 			setFail(true);
 		}
 	}
-
-	// function formatPrice(price) {
-	//   return new Intl.NumberFormat('pt-BR', {
-	//     style: 'currency',
-	//     currency: 'BRL',
-	//   }).format(price)
-	// }
 
 	return (
 		<div className={styles["t-minicart-shipping"]}>
@@ -121,7 +107,7 @@ export function MinicartShipping({ orderForm }: any) {
 						/>
 						<button
 							type="submit"
-							className={styles["minicart_submitBtn"]}
+							className={styles.minicart_submitBtn}
 							onClick={(ev) => handleSubmit(ev)}
 						>
 							{isLoading ? (
