@@ -1057,8 +1057,6 @@
 </style>
 
 <script>
-    console.log("---i0.1.20---")
-
     function scrollToElement(targetSelector) {
         const locationPage = window.location.href.includes('institucionais');
         if (!locationPage) return;
@@ -1151,8 +1149,6 @@
             }
         };
     }, 1000);
-
-    console.log("---f0.1.20---")
 </script>
 
 <!-- Início do aviso de consentimento de cookies OneTrust para www.souemana.com.br -->
@@ -1163,31 +1159,6 @@
     function OptanonWrapper() {}
 </script>
 <!-- Final do aviso de consentimento de cookies OneTrust para www.souemana.com.br -->
-
-<script type='text/javascript'>
-    function initEmbeddedMessaging() {
-        try {
-            embeddedservice_bootstrap.settings.language = 'pt_BR';
-            window.addEventListener("onEmbeddedMessagingReady", () => {
-                console.log("Received the onEmbeddedMessagingReady event…");
-                embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
-                    "Marca_para_Atendimento": "Emana"
-                });
-            });
-            embeddedservice_bootstrap.init(
-                '00D1I000000n3RL',
-                'Emana',
-                'https://piracanjubabr.my.site.com/ESWEmana1730755606616', {
-                    scrt2URL: 'https://piracanjubabr.my.salesforce-scrt.com'
-                }
-            );
-        } catch (err) {
-            console.log('Error loading Embedded Messaging: ', err);
-        }
-    };
-</script>
-<script type='text/javascript' src='https://piracanjubabr.my.site.com/ESWEmana1730755606616/assets/js/bootstrap.min.js'
-    onload='initEmbeddedMessaging()'></script>
 
 <!-- Google Tag Manager -->
 <script>
