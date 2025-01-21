@@ -63,5 +63,8 @@
   },
   "onde-encontrar": {
     "component": "OndeEncontrarComponent"
+  },
+  "custom-title-pages": {
+    "component": "CustomTitlePages"
   }
 }

@@ -13,7 +13,7 @@
 		"props": {
 			"blockClass": "sticky-header"
 		},
-		"children": ["flex-layout.row#desktop"]
+		"children": ["custom-title-pages", "flex-layout.row#desktop"]
 	},
 	"flex-layout.row#desktop": {
 		"props": {
